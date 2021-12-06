@@ -18,6 +18,7 @@ class Shop extends Migration
             $table->id();
             $table->string('url', 512);
             $table->string('token', 512); 
+            $table->string('theme_id', 255)->nullable();
             $table->timestamps();
         });
     }

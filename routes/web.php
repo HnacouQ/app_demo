@@ -16,17 +16,12 @@ use Illuminate\Support\Facades\Log;
 
 Route::get('/', function (Request $req) {
 });
-
 Route::get('/authorize','AuthController@index');
 
  Route::group(['prefix' => 'admin'], function(){
     Route::any('/{path}', 'AdminController@index')->where('path', '.*');
 });
-
 Route::get('/get-all-Product','AdminController@getAllProduct');
-
-
-Route::any('/test', function (Request $req) {
-    echo '!Q';
-    Log::info('HnacouQ2');
-});
+Route::get('/get-themes','AdminController@getThemes');
+Route::post('/install','AdminController@install');
+Route::post('/uninstall','AdminController@uninstall');
