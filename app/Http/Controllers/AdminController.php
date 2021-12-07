@@ -76,8 +76,12 @@ class AdminController extends Controller
         if(strpos($theme_liquid, "{% include 'HQA_script' %}") == false){
             $theme_liquid = str_replace('</body>', "{% include 'HQA_script' %}</body>", $theme_liquid);
             $restAPI->Theme($theme_id)->Asset()->put(['key' => 'layout/theme.liquid', 'value' => $theme_liquid]);
-            $restAPI->Theme($theme_id)->Asset()->put(['key' => 'snippets/HQA_script.liquid', 'value' => '<script>'.File::get(base_path('public/js/test.js')).'</script>']);
+            $restAPI->Theme($theme_id)->Asset()->put(['key' => 'snippets/HQA_script.liquid', 'value' => File::get(base_path('public/js/HQA_App.js'))]);
+            
         }
+
+        $restAPI->Theme($theme_id)->Asset()->put(['key' => 'assets/QA_App.js', 'value' => File::get(base_path('public/js/main.js'))]);
+        $restAPI->Theme($theme_id)->Asset()->put(['key' => 'assets/QA_App.css', 'value' => File::get(base_path('public/css/main.css'))]);
 
         
         $shop->theme_id = $theme_id;
@@ -91,5 +95,17 @@ class AdminController extends Controller
 
     public function uninstall(Request $request){
         dd($request->all());
+    }
+
+    public function addWhishList(Request $request){
+        dd($request->all());
+    }
+
+    public function removeWhishList(Request $request){
+        dd($request->all());
+    }
+
+    public function test(Request $request){
+        dd('test');
     }
 }
