@@ -14,5 +14,7 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         //
         'add-whishlist',
+        '/hooks/products/update',
+        '/hooks/cart/update'
     ];
 }

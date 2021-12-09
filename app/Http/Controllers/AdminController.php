@@ -88,8 +88,8 @@ class AdminController extends Controller
         $shop->theme_id = $theme_id;
         $shop->save();
         return response()->json([
-			'success' => true,
-		]);
+        'success' => true,
+      ]);
        
 
     }
@@ -99,7 +99,14 @@ class AdminController extends Controller
     }
 
     public function addWhishList(Request $request){
-        dd($request->all());
+      
+      $shop = Shop::where('url', $request->shop)->first();
+      $shopify = $shop->ShopifyApi();
+      $product = $shopify->Product($request->id)->get(['fields' => 'id,title,handle,image,variants']);
+      return response()->json([
+        'success' => true,
+        'product' => $product,
+      ]);
     }
 
     public function removeWhishList(Request $request){
@@ -112,13 +119,13 @@ class AdminController extends Controller
         
         // dd($shopify);
 
-        // $shopify->Webhook(1115024687344)->delete();
-
-        $webhooks = [
-            'products/update'   => secure_url('hooks/products/update')
-        ];
         
-        $this->registerWebhooks($shopify,$webhooks);
+
+        // $webhooks = [
+        //     'products/update'   => secure_url('hooks/products/update')
+        // ];
+        
+        // $this->registerWebhooks($shopify,$webhooks);
 
         $hooks = $shopify->Webhook()->get();
 
