@@ -93,8 +93,8 @@ function Settings(props) {
     };
 
     return (
-        <Layout>
-            <Layout.AnnotatedSection id="storeDetails" title="Intergrate Theme">
+        <>
+            
                 {pageLoaded ? (
                     <FormLayout>
                         <Select
@@ -124,8 +124,8 @@ function Settings(props) {
                 ) : (
                     <SkeletonBodyText />
                 )}
-            </Layout.AnnotatedSection>
-        </Layout>
+            
+        </>
     );
 }
 

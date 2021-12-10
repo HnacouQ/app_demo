@@ -27,12 +27,12 @@ function Top(props) {
     },
     {
       id: "repeat-customers-1",
-      content: "Settings",
+      content: "Intergrate",
       panelID: "repeat-customers-content-1",
     },
     {
       id: "prospects-1",
-      content: "Plan",
+      content: "Settings",
       panelID: "prospects-content-1",
     },
   ];

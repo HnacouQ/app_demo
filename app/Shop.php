@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Shop extends Model
 {
-    protected $fillable = ['url','token'];
+    protected $fillable = ['url','token','theme_id','settings'];
 
     public function ShopifyApi(){
          return new \PHPShopify\ShopifySDK(['ShopUrl' => $this->url, 'AccessToken' => $this->token, 'ApiVersion' => env('SHOPIFY_API_VERSION')]);

@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class Shop extends Migration
+class CreateWhishListsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,13 +13,11 @@ class Shop extends Migration
      */
     public function up()
     {
-        //
-        Schema::create('shops', function (Blueprint $table) {
+        Schema::create('whish_lists', function (Blueprint $table) {
             $table->id();
-            $table->string('url', 512);
-            $table->string('token', 512); 
-            $table->string('theme_id', 255)->nullable();
-            $table->json('settings')->nullable();
+            $table->string('shop_url', 512);
+            $table->string('customer_id', 255)->nullable();
+            $table->string('product_id', 255);
             $table->timestamps();
         });
     }
@@ -31,7 +29,6 @@ class Shop extends Migration
      */
     public function down()
     {
-        //
-        Schema::dropIfExists('shops');
+        Schema::dropIfExists('whish_lists');
     }
 }

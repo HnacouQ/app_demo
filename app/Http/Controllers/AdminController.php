@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Session;
 use App\Shop;
+use App\WhishList;
 use File;
 use Log;
 
@@ -103,6 +104,14 @@ class AdminController extends Controller
       $shop = Shop::where('url', $request->shop)->first();
       $shopify = $shop->ShopifyApi();
       $product = $shopify->Product($request->id)->get(['fields' => 'id,title,handle,image,variants']);
+
+      $Whishlist = new WhishList;
+      $Whishlist->shop_url = $request->shop;
+      $Whishlist->customer_id = $request->customer;
+      $Whishlist->product_id = $request->id;
+      $Whishlist->save();
+
+
       return response()->json([
         'success' => true,
         'product' => $product,
@@ -110,7 +119,14 @@ class AdminController extends Controller
     }
 
     public function removeWhishList(Request $request){
-        dd($request->all());
+      $WhishList = WhishList::where('shop_url', $request->shop)->where('customer_id', $request->customer)->where('product_id', $request->id)->first();
+
+      if($WhishList){
+        $WhishList->delete();
+      }
+    
+      return response()->json(['success' => true]);
+       
     }
 
     public function test(Request $request){

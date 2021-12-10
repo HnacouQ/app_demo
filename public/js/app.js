@@ -45309,7 +45309,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".Polaris-PageActions{\r\n    padding: 0 !important;\r\n    border: none !important;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".Polaris-PageActions{\r\n    padding: 0 !important;\r\n    border: none !important;\r\n}\r\n\r\n.block-dashboard{\r\n    border: 1px solid #ccc;\r\n    height: 150px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 1em #ccc;\r\n    flex: 0 0 49%;\r\n}\r\n\r\n.block-dashboard-main{\r\n    flex: 1;\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.block-dashboard-footer{\r\n    border-top: 1px solid #ccc;\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: center;\r\n    padding:10px;\r\n    cursor: pointer;\r\n}\r\n\r\n.block-dashboard-footer .block-dashboard__action{\r\n    color: #084e8a;\r\n    font-weight:600;\r\n}\r\n\r\n.block-dashboard-footer .block-dashboard__action:hover{\r\n    text-decoration: underline;\r\n}\r\n\r\n.block-dashboard__title{\r\n    font-size: 15px;\r\n    font-weight: 600;\r\n    margin-top: 10px;\r\n}\r\n\r\n.block-dashboard__number{\r\n    font-size: 15px;\r\n    font-weight: 600;\r\n}\r\n\r\n", ""]);
 
 // exports
 
@@ -82317,6 +82317,44 @@ function App(props) {
 
 /***/ }),
 
+/***/ "./resources/js/components/BlockDashBoard.js":
+/*!***************************************************!*\
+  !*** ./resources/js/components/BlockDashBoard.js ***!
+  \***************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @shopify/polaris */ "./node_modules/@shopify/polaris/build/esm/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+
+
+
+function BlockDashBoard(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-dashboard",
+    style: {}
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-dashboard-header"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-dashboard__title"
+  }, props.title)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-dashboard-main"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-dashboard__number"
+  }, props.number)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-dashboard-footer"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "block-dashboard__action"
+  }, "View")));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (BlockDashBoard);
+
+/***/ }),
+
 /***/ "./resources/js/components/Dashboard.js":
 /*!**********************************************!*\
   !*** ./resources/js/components/Dashboard.js ***!
@@ -82326,12 +82364,39 @@ function App(props) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @shopify/polaris */ "./node_modules/@shopify/polaris/build/esm/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _BlockDashBoard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./BlockDashBoard */ "./resources/js/components/BlockDashBoard.js");
+
+
 
 
 function Dashboard(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Dashboard");
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Banner"], {
+    title: "USPS has updated their rates",
+    action: {
+      content: 'Update rates',
+      url: ''
+    },
+    secondaryAction: {
+      content: 'Learn more'
+    },
+    status: "info",
+    onDismiss: function onDismiss() {}
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", null, "Make sure you know how these changes affect your store.")), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    style: {
+      display: 'flex',
+      justifyContent: 'space-between',
+      marginTop: '20px'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_BlockDashBoard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Customer",
+    number: 0
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_BlockDashBoard__WEBPACK_IMPORTED_MODULE_2__["default"], {
+    title: "Products",
+    number: 0
+  })));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Dashboard);
@@ -82568,10 +82633,7 @@ function Settings(props) {
     }
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Layout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Layout"].AnnotatedSection, {
-    id: "storeDetails",
-    title: "Intergrate Theme"
-  }, pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["FormLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Select"], {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["FormLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Select"], {
     options: themeOptions,
     value: themeSelected,
     onChange: handleSelectChange
@@ -82592,7 +82654,7 @@ function Settings(props) {
       },
       loading: toast.isUnInstall
     }]
-  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["SkeletonBodyText"], null)));
+  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["SkeletonBodyText"], null));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Settings);
@@ -82654,11 +82716,11 @@ function Top(props) {
     panelID: "accepts-marketing-content-1"
   }, {
     id: "repeat-customers-1",
-    content: "Settings",
+    content: "Intergrate",
     panelID: "repeat-customers-content-1"
   }, {
     id: "prospects-1",
-    content: "Plan",
+    content: "Settings",
     panelID: "prospects-content-1"
   }];
   console.log(selected);
