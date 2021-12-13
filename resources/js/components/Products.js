@@ -1,5 +1,6 @@
-import { Button, SkeletonThumbnail, Spinner, Thumbnail } from '@shopify/polaris';
+import { Button, Icon, SkeletonThumbnail, Spinner, Thumbnail } from '@shopify/polaris';
 import React, { useEffect, useState } from 'react';
+import {ViewMajor} from '@shopify/polaris-icons';
 import axios from '../axios';
 function Products(props) {
 
@@ -35,7 +36,7 @@ function Products(props) {
                                 </h3>
                             </div>
                             <div className="Polaris-ResourceItem__Action">
-                                <Button>Test</Button>
+                                <Button onClick={()=>{window.open(`https://${window.App.shopOrigin}/products/${product.handle}`)}}><Icon source={ViewMajor} color="base" /></Button>
                             </div>
                         </div>
                     </div>

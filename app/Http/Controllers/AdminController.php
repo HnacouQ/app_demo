@@ -73,8 +73,33 @@ class AdminController extends Controller
         $shopify = $shop->ShopifyApi();  
         $theme_file = $shopify->Theme($theme_id)->Asset->get(['asset' => ['key' => 'layout/theme.liquid'], 'fields' => 'value']);
         $theme_liquid = $theme_file['asset']['value'];
-        
-
+        $all_files = $shopify->Theme($theme_id)->Asset()->get(["fields" => "key,content_type"]);
+        $all_files = array_column($all_files, 'key');
+        $btn_wl = '<a class="QA_btn" data-customer="{{ customer.id }}" data-id="{{ product.id }}">Add To Whislist</a>';
+        $product_page = [
+          'sections/main-product.liquid',
+          'sections/product-template.liquid',
+        ];
+        $find_positon = [
+          '<div class="product-form__buttons">',
+          '{% if section.settings.quantity_enabled %}',
+        ];
+        $matches_template = array_intersect($all_files, $product_page);
+        //Add button into productPage
+        foreach($matches_template as $asset_url) {
+          $template_file = $shopify->Theme($theme_id)->Asset->get(['asset' => ['key' => $asset_url], 'fields' => 'value']);
+          $template_file = $template_file['asset']['value'];
+          if(strpos($template_file, $btn_wl) === false){
+            foreach ($find_positon as $for) {
+              if(strpos($template_file, $for) !== false){
+                $product_template = str_replace($for,$for.$btn_wl,$template_file);
+                $shopify->Theme($theme_id)->Asset()->put(['key' => $asset_url, 'value' => $product_template]);
+                  break;
+              }
+            }
+          }
+      }
+      //Add script App
         if(strpos($theme_liquid, "{% include 'HQA_script' %}") == false){
             $theme_liquid = str_replace('</body>', "{% include 'HQA_script' %}</body>", $theme_liquid);
             $shopify->Theme($theme_id)->Asset()->put(['key' => 'layout/theme.liquid', 'value' => $theme_liquid]);
@@ -89,14 +114,58 @@ class AdminController extends Controller
         $shop->theme_id = $theme_id;
         $shop->save();
         return response()->json([
-        'success' => true,
-      ]);
+          'success' => true,
+        ]);
        
 
     }
 
     public function uninstall(Request $request){
-        dd($request->all());
+      $shop = Shop::where('url', $request->shop)->first();
+      $theme_id = $request->theme_id;
+      $shopify = $shop->ShopifyApi();  
+      $all_files = $shopify->Theme($theme_id)->Asset()->get(["fields" => "key,content_type"]);
+      $all_files = array_column($all_files, 'key');
+      $btn_wl = '<a class="QA_btn" data-customer="{{ customer.id }}" data-id="{{ product.id }}">Add To Whislist</a>';
+      $product_page = [
+        'sections/main-product.liquid',
+        'sections/product-template.liquid',
+      ];
+      $delete_files = [
+        'snippets/HQA_script.liquid',
+        'assets/QA_App.css',
+        'assets/QA_App.js',
+      ];
+
+      $theme_file = $shopify->Theme($theme_id)->Asset->get(['asset' => ['key' => 'layout/theme.liquid'], 'fields' => 'value']);
+      $theme_liquid = $theme_file['asset']['value'];
+      $matches_template = array_intersect($all_files, $product_page);
+      if(strpos($theme_liquid, "{% include 'HQA_script' %}") !== false){
+        $theme_liquid = str_replace("{% include 'HQA_script' %}", "", $theme_liquid);
+        $shopify->Theme($theme_id)->Asset()->put(['key' => 'layout/theme.liquid', 'value' => $theme_liquid]);
+      }
+
+      foreach($matches_template as $asset_url) {
+        $template_file = $shopify->Theme($theme_id)->Asset->get(['asset' => ['key' => $asset_url], 'fields' => 'value']);
+        $template_file = $template_file['asset']['value'];
+        if(strpos($template_file, $btn_wl) !== false){
+          $product_template = str_replace($btn_wl,'',$template_file);
+          $shopify->Theme($theme_id)->Asset()->put(['key' => $asset_url, 'value' => $product_template]);
+        }
+      }
+
+
+      foreach ($delete_files as $delete_file) {
+          $shopify->Theme($theme_id)->Asset->delete(["asset" => ["key" => $delete_file]]);
+      }
+
+      $shop->theme_id = null;
+      $shop->save();
+
+      return response()->json([
+        'success' => true,
+      ]);
+
     }
 
     public function addWhishList(Request $request){

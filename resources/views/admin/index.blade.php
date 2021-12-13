@@ -10,10 +10,7 @@
         href="https://unpkg.com/@shopify/polaris@7.4.1/build/esm/styles.css"
     />
     <style>
-        body{
-            background-image: url(https://wallpaperaccess.com/full/21534.jpg);
-            background-size: cover;
-        }
+        
 
         .Polaris-Header-Title__TitleAndSubtitleWrapper > h1.Polaris-Header-Title{
             color: #fff !important;

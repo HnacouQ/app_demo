@@ -45309,7 +45309,7 @@ exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader
 
 
 // module
-exports.push([module.i, ".Polaris-PageActions{\r\n    padding: 0 !important;\r\n    border: none !important;\r\n}\r\n\r\n.block-dashboard{\r\n    border: 1px solid #ccc;\r\n    height: 150px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 1em #ccc;\r\n    flex: 0 0 49%;\r\n}\r\n\r\n.block-dashboard-main{\r\n    flex: 1;\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.block-dashboard-footer{\r\n    border-top: 1px solid #ccc;\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: center;\r\n    padding:10px;\r\n    cursor: pointer;\r\n}\r\n\r\n.block-dashboard-footer .block-dashboard__action{\r\n    color: #084e8a;\r\n    font-weight:600;\r\n}\r\n\r\n.block-dashboard-footer .block-dashboard__action:hover{\r\n    text-decoration: underline;\r\n}\r\n\r\n.block-dashboard__title{\r\n    font-size: 15px;\r\n    font-weight: 600;\r\n    margin-top: 10px;\r\n}\r\n\r\n.block-dashboard__number{\r\n    font-size: 15px;\r\n    font-weight: 600;\r\n}\r\n\r\n", ""]);
+exports.push([module.i, ".Polaris-PageActions{\r\n    padding: 0 !important;\r\n    border: none !important;\r\n}\r\n\r\n.block-dashboard{\r\n    border: 1px solid #ccc;\r\n    height: 150px;\r\n    display: flex;\r\n    flex-direction: column;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 1em #ccc;\r\n    flex: 0 0 49%;\r\n}\r\n\r\n.block-dashboard-main{\r\n    flex: 1;\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.block-dashboard-footer{\r\n    border-top: 1px solid #ccc;\r\n    width: 100%;\r\n    display: flex;\r\n    justify-content: center;\r\n    padding:10px;\r\n    cursor: pointer;\r\n}\r\n\r\n.block-dashboard-footer .block-dashboard__action{\r\n    color: #084e8a;\r\n    font-weight:600;\r\n}\r\n\r\n.block-dashboard-footer .block-dashboard__action:hover{\r\n    text-decoration: underline;\r\n}\r\n\r\n.block-dashboard__title{\r\n    font-size: 15px;\r\n    font-weight: 600;\r\n    margin-top: 10px;\r\n}\r\n\r\n.block-dashboard__number{\r\n    font-size: 15px;\r\n    font-weight: 600;\r\n}\r\n\r\n.Intergrate-action button{\r\n    min-width: 90px;\r\n    margin-left: 20px;\r\n}\r\n\r\n.Polaris-Frame__Content{\r\n    background-image: url(https://wallpaperaccess.com/full/21534.jpg);\r\n    background-size: cover;\r\n}\r\n", ""]);
 
 // exports
 
@@ -82253,7 +82253,7 @@ var _shopify_polaris_locales_en_json__WEBPACK_IMPORTED_MODULE_3___namespace = /*
 
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_4__["AppProvider"], {
   i18n: _shopify_polaris_locales_en_json__WEBPACK_IMPORTED_MODULE_3__
-}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById("app"));
+}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_4__["Frame"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_App__WEBPACK_IMPORTED_MODULE_2__["default"], null))), document.getElementById("app"));
 
 /***/ }),
 
@@ -82355,6 +82355,27 @@ function BlockDashBoard(props) {
 
 /***/ }),
 
+/***/ "./resources/js/components/Customers.js":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Customers.js ***!
+  \**********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function Customers(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Customers);
+
+/***/ }),
+
 /***/ "./resources/js/components/Dashboard.js":
 /*!**********************************************!*\
   !*** ./resources/js/components/Dashboard.js ***!
@@ -82403,119 +82424,10 @@ function Dashboard(props) {
 
 /***/ }),
 
-/***/ "./resources/js/components/Plan.js":
-/*!*****************************************!*\
-  !*** ./resources/js/components/Plan.js ***!
-  \*****************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-function Plan(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, "Plan");
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Plan);
-
-/***/ }),
-
-/***/ "./resources/js/components/Products.js":
-/*!*********************************************!*\
-  !*** ./resources/js/components/Products.js ***!
-  \*********************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @shopify/polaris */ "./node_modules/@shopify/polaris/build/esm/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../axios */ "./resources/js/axios.js");
-function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
-
-function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
-
-function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
-
-function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
-
-function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
-
-function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
-
-
-
-
-
-function Products(props) {
-  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
-      _useState2 = _slicedToArray(_useState, 2),
-      listProducts = _useState2[0],
-      setListProducts = _useState2[1];
-
-  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
-    _axios__WEBPACK_IMPORTED_MODULE_2__["default"].get(window.App.url + '/get-all-Product').then(function (res) {
-      console.log(res.data.products);
-      setListProducts(res.data.products);
-    })["catch"](function (error) {
-      return console.log(error);
-    });
-  }, []);
-  console.log(listProducts);
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, listProducts.length ? listProducts.map(function (product, index) {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      key: 'product-' + index,
-      className: "Polaris-ResourceList__ItemWrapper"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "Polaris-ResourceItem"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "Polaris-ResourceItem__Container",
-      style: {
-        alignItems: 'center'
-      }
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "Polaris-ResourceItem__Owned"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "Polaris-ResourceItem__Media"
-    }, product.image ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Thumbnail"], {
-      source: product.image.src,
-      size: "small",
-      alt: product.title
-    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["SkeletonThumbnail"], {
-      size: "small"
-    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "Polaris-ResourceItem__Content"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-      className: "Polaris-TextStyle--variationStrong"
-    }, product.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-      className: "Polaris-ResourceItem__Action"
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Button"], null, "Test")))));
-  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    style: {
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center'
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Spinner"], {
-    accessibilityLabel: "Spinner example",
-    size: "large"
-  })));
-}
-
-/* harmony default export */ __webpack_exports__["default"] = (Products);
-
-/***/ }),
-
-/***/ "./resources/js/components/Settings.js":
-/*!*********************************************!*\
-  !*** ./resources/js/components/Settings.js ***!
-  \*********************************************/
+/***/ "./resources/js/components/Intergrate.js":
+/*!***********************************************!*\
+  !*** ./resources/js/components/Intergrate.js ***!
+  \***********************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -82547,7 +82459,7 @@ function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
 
 
 
-function Settings(props) {
+function Intergrate(props) {
   var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
       _useState2 = _slicedToArray(_useState, 2),
       themes = _useState2[0],
@@ -82565,7 +82477,9 @@ function Settings(props) {
 
   var _useState7 = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])({
     isInstall: false,
-    isUnInstall: false
+    isUnInstall: false,
+    active: false,
+    message: ''
   }),
       _useState8 = _slicedToArray(_useState7, 2),
       toast = _useState8[0],
@@ -82613,7 +82527,9 @@ function Settings(props) {
       _axios__WEBPACK_IMPORTED_MODULE_2__["default"].post(window.App.url + "/install", data).then(function (response) {
         console.log(response);
         setToast(_objectSpread(_objectSpread({}, toast), {}, {
-          isInstall: false
+          isInstall: false,
+          active: true,
+          message: 'App installed'
         }));
       })["catch"](function (error) {
         console.log(error);
@@ -82625,7 +82541,9 @@ function Settings(props) {
       _axios__WEBPACK_IMPORTED_MODULE_2__["default"].post(window.App.url + "/uninstall", data).then(function (response) {
         console.log(response);
         setToast(_objectSpread(_objectSpread({}, toast), {}, {
-          isUnInstall: false
+          isUnInstall: false,
+          active: true,
+          message: 'App Uninstalled'
         }));
       })["catch"](function (error) {
         console.log(error);
@@ -82633,28 +82551,165 @@ function Settings(props) {
     }
   };
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["FormLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Select"], {
+  var toastMarkup = toast.active ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Toast"], {
+    onDismiss: function onDismiss() {
+      setToast({
+        active: false,
+        message: ""
+      });
+    },
+    content: toast.message,
+    duration: 3000
+  }) : null;
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, pageLoaded ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["FormLayout"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "Intergrate",
+    style: {
+      display: 'flex'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "Intergrate-select",
+    style: {
+      flex: '1'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Select"], {
     options: themeOptions,
     value: themeSelected,
     onChange: handleSelectChange
-  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["PageActions"], {
-    primaryAction: {
-      content: "Install",
-      disabled: toast.isInstall || toast.isUnInstall,
-      onAction: function onAction() {
-        return handleThemeSetup("install");
-      },
-      loading: toast.isInstall
+  })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "Intergrate-action"
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Button"], {
+    destructive: true,
+    onClick: function onClick() {
+      handleThemeSetup("uninstall");
     },
-    secondaryActions: [{
-      content: "Uninstall",
-      disabled: toast.isInstall || toast.isUnInstall,
-      onAction: function onAction() {
-        return handleThemeSetup("uninstall");
-      },
-      loading: toast.isUnInstall
-    }]
-  })) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["SkeletonBodyText"], null));
+    disabled: toast.isInstall || toast.isUnInstall,
+    loading: toast.isUnInstall
+  }, "Uninstall"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Button"], {
+    primary: true,
+    onClick: function onClick() {
+      handleThemeSetup("install");
+    },
+    disabled: toast.isInstall || toast.isUnInstall,
+    loading: toast.isInstall
+  }, "Install")))) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["SkeletonBodyText"], null), toastMarkup);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Intergrate);
+
+/***/ }),
+
+/***/ "./resources/js/components/Products.js":
+/*!*********************************************!*\
+  !*** ./resources/js/components/Products.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _shopify_polaris__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @shopify/polaris */ "./node_modules/@shopify/polaris/build/esm/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @shopify/polaris-icons */ "./node_modules/@shopify/polaris-icons/dist/index.mjs");
+/* harmony import */ var _axios__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../axios */ "./resources/js/axios.js");
+function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
+
+function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
+
+function _unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return _arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return _arrayLikeToArray(o, minLen); }
+
+function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len = arr.length; for (var i = 0, arr2 = new Array(len); i < len; i++) { arr2[i] = arr[i]; } return arr2; }
+
+function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
+
+function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
+
+
+
+
+
+function Products(props) {
+  var _useState = Object(react__WEBPACK_IMPORTED_MODULE_1__["useState"])([]),
+      _useState2 = _slicedToArray(_useState, 2),
+      listProducts = _useState2[0],
+      setListProducts = _useState2[1];
+
+  Object(react__WEBPACK_IMPORTED_MODULE_1__["useEffect"])(function () {
+    _axios__WEBPACK_IMPORTED_MODULE_3__["default"].get(window.App.url + '/get-all-Product').then(function (res) {
+      console.log(res.data.products);
+      setListProducts(res.data.products);
+    })["catch"](function (error) {
+      return console.log(error);
+    });
+  }, []);
+  console.log(listProducts);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, listProducts.length ? listProducts.map(function (product, index) {
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      key: 'product-' + index,
+      className: "Polaris-ResourceList__ItemWrapper"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "Polaris-ResourceItem"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "Polaris-ResourceItem__Container",
+      style: {
+        alignItems: 'center'
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "Polaris-ResourceItem__Owned"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "Polaris-ResourceItem__Media"
+    }, product.image ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Thumbnail"], {
+      source: product.image.src,
+      size: "small",
+      alt: product.title
+    }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["SkeletonThumbnail"], {
+      size: "small"
+    }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "Polaris-ResourceItem__Content"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h3", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+      className: "Polaris-TextStyle--variationStrong"
+    }, product.title))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+      className: "Polaris-ResourceItem__Action"
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Button"], {
+      onClick: function onClick() {
+        window.open("https://".concat(window.App.shopOrigin, "/products/").concat(product.handle));
+      }
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Icon"], {
+      source: _shopify_polaris_icons__WEBPACK_IMPORTED_MODULE_2__["ViewMajor"],
+      color: "base"
+    }))))));
+  }) : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    style: {
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center'
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Spinner"], {
+    accessibilityLabel: "Spinner example",
+    size: "large"
+  })));
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (Products);
+
+/***/ }),
+
+/***/ "./resources/js/components/Settings.js":
+/*!*********************************************!*\
+  !*** ./resources/js/components/Settings.js ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function Settings(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null);
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Settings);
@@ -82674,9 +82729,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _Dashboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Dashboard */ "./resources/js/components/Dashboard.js");
-/* harmony import */ var _Plan__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Plan */ "./resources/js/components/Plan.js");
+/* harmony import */ var _Settings__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Settings */ "./resources/js/components/Settings.js");
 /* harmony import */ var _Products__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Products */ "./resources/js/components/Products.js");
-/* harmony import */ var _Settings__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Settings */ "./resources/js/components/Settings.js");
+/* harmony import */ var _Intergrate__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Intergrate */ "./resources/js/components/Intergrate.js");
+/* harmony import */ var _Customers__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Customers */ "./resources/js/components/Customers.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -82688,6 +82744,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -82722,6 +82779,10 @@ function Top(props) {
     id: "prospects-1",
     content: "Settings",
     panelID: "prospects-content-1"
+  }, {
+    id: "customers",
+    content: "Customers",
+    panelID: "customers"
   }];
   console.log(selected);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Page"], {
@@ -82732,7 +82793,7 @@ function Top(props) {
     onSelect: handleTabChange,
     disclosureText: "More views",
     fitted: true
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Card"].Section, null, selected == 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Dashboard__WEBPACK_IMPORTED_MODULE_2__["default"], null) : selected == 1 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Products__WEBPACK_IMPORTED_MODULE_4__["default"], null) : selected == 2 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Settings__WEBPACK_IMPORTED_MODULE_5__["default"], null) : selected == 3 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Plan__WEBPACK_IMPORTED_MODULE_3__["default"], null) : null))));
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_shopify_polaris__WEBPACK_IMPORTED_MODULE_0__["Card"].Section, null, selected == 0 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Dashboard__WEBPACK_IMPORTED_MODULE_2__["default"], null) : selected == 1 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Products__WEBPACK_IMPORTED_MODULE_4__["default"], null) : selected == 2 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Intergrate__WEBPACK_IMPORTED_MODULE_5__["default"], null) : selected == 3 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Settings__WEBPACK_IMPORTED_MODULE_3__["default"], null) : selected == 4 ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Customers__WEBPACK_IMPORTED_MODULE_6__["default"], null) : null))));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (Top);

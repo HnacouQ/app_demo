@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Plan(props) {
+function Customers(props) {
     return (
         <div>
-            Plan
+            
         </div>
     );
 }
 
-export default Plan;
+export default Customers;
