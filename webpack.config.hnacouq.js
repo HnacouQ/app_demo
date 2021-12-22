@@ -1,4 +1,6 @@
 const path = require('path');
+const mode = process.env.NODE_ENV
+
 
 let configs = {
     entry: './resources/views/js/main.js',
@@ -12,19 +14,28 @@ let configs = {
         rules: [
             {
               test: /\.m?js$/,
-              exclude: /node_modules/,
+              exclude: /(node_modules|bower_components)/,
               use: {
                 loader: 'babel-loader',
                 options: {
-                  presets: [
-                    ['@babel/preset-env', { targets: "defaults" }]
-                  ]
+                  presets: ['@babel/preset-env']
                 }
               }
             }
           ]
     },
+
     
 }
+// if(chart){
+//     configs.plugins.push(new BundleAnalyzerPlugin())
+// }
+// if(mode == 'development'){
+//     configs.output.chunkFilename = prefixOutput+'bundle.[name].js'
+// }
+// if(mode == 'production'){
+//     configs.mode = 'production'
+//     configs.watch = false
+// }
 
 module.exports = configs

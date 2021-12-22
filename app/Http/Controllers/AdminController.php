@@ -103,7 +103,7 @@ class AdminController extends Controller
         if(strpos($theme_liquid, "{% include 'HQA_script' %}") == false){
             $theme_liquid = str_replace('</body>', "{% include 'HQA_script' %}</body>", $theme_liquid);
             $shopify->Theme($theme_id)->Asset()->put(['key' => 'layout/theme.liquid', 'value' => $theme_liquid]);
-            $shopify->Theme($theme_id)->Asset()->put(['key' => 'snippets/HQA_script.liquid', 'value' => File::get(base_path('public/js/HQA_App.js'))]);
+            $shopify->Theme($theme_id)->Asset()->put(['key' => 'snippets/HQA_script.liquid', 'value' => File::get(base_path('public/js/HQA_App.html'))]);
             
         }
 
