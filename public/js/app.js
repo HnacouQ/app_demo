@@ -2875,6 +2875,35 @@ var SvgCircleTickMajor = function SvgCircleTickMajor(props) {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/CircleTickMinor.svg.mjs":
+/*!********************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/CircleTickMinor.svg.mjs ***!
+  \********************************************************************************/
+/*! exports provided: S */
+/***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return SvgCircleTickMinor; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _path;
+
+var SvgCircleTickMinor = function SvgCircleTickMinor(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fillRule: "evenodd",
+    d: "M2 10a8 8 0 1 0 16 0 8 8 0 0 0-16 0zm12.16-1.44a.8.8 0 0 0-1.12-1.12L9.2 11.28 7.36 9.44a.8.8 0 0 0-1.12 1.12l2.4 2.4c.32.32.8.32 1.12 0l4.4-4.4z"
+  })));
+};
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris-icons/dist/icons/CircleTickOutlineMinor.svg.mjs":
 /*!***************************************************************************************!*\
   !*** ./node_modules/@shopify/polaris-icons/dist/icons/CircleTickOutlineMinor.svg.mjs ***!
@@ -4658,6 +4687,38 @@ var SvgFilterMajor = function SvgFilterMajor(props) {
     viewBox: "0 0 20 20"
   }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
     d: "M0 5a1 1 0 0 1 1-1h18a1 1 0 1 1 0 2H1a1 1 0 0 1-1-1zm3 5a1 1 0 0 1 1-1h12a1 1 0 1 1 0 2H4a1 1 0 0 1-1-1zm5 4a1 1 0 1 0 0 2h4a1 1 0 1 0 0-2H8z"
+  })));
+};
+
+
+
+
+/***/ }),
+
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/FinancesMajor.svg.mjs":
+/*!******************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/FinancesMajor.svg.mjs ***!
+  \******************************************************************************/
+/*! exports provided: S */
+/***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return SvgFinancesMajor; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _path, _path2;
+
+var SvgFinancesMajor = function SvgFinancesMajor(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fillRule: "evenodd",
+    d: "M5 3a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1H5zm7 6.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"
+  })), _path2 || (_path2 = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    fillRule: "evenodd",
+    d: "M16 15v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1v7a1 1 0 0 0 1 1h13z"
   })));
 };
 
@@ -11340,6 +11401,34 @@ var SvgWandMajor = function SvgWandMajor(props) {
 
 /***/ }),
 
+/***/ "./node_modules/@shopify/polaris-icons/dist/icons/WandMinor.svg.mjs":
+/*!**************************************************************************!*\
+  !*** ./node_modules/@shopify/polaris-icons/dist/icons/WandMinor.svg.mjs ***!
+  \**************************************************************************/
+/*! exports provided: S */
+/***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "S", function() { return SvgWandMinor; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+var _path;
+
+var SvgWandMinor = function SvgWandMinor(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("svg", Object.assign({
+    viewBox: "0 0 20 20"
+  }, props), _path || (_path = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("path", {
+    d: "M3.44 15.56a1.5 1.5 0 0 1 0-2.12l6.792-6.793 3.121 3.12-6.792 6.794a1.5 1.5 0 0 1-2.122 0l-1-1zm11.328-7.206L16.56 6.56a1.5 1.5 0 0 0 0-2.122l-1-1a1.5 1.5 0 0 0-2.122 0l-1.793 1.793 3.122 3.122zM13 12c1 0 2-1 2-2 0 1 1 2 2 2-1 0-2 1-2 2 0-1-1-2-2-2zM6 5c1 0 2-1 2-2 0 1 1 2 2 2-1 0-2 1-2 2 0-1-1-2-2-2z"
+  })));
+};
+
+
+
+
+/***/ }),
+
 /***/ "./node_modules/@shopify/polaris-icons/dist/icons/WearableMajor.svg.mjs":
 /*!******************************************************************************!*\
   !*** ./node_modules/@shopify/polaris-icons/dist/icons/WearableMajor.svg.mjs ***!
@@ -11430,7 +11519,7 @@ var SvgWifiMajor = function SvgWifiMajor(props) {
 /*!************************************************************!*\
   !*** ./node_modules/@shopify/polaris-icons/dist/index.mjs ***!
   \************************************************************/
-/*! exports provided: AbandonedCartMajor, AccessibilityMajor, ActivitiesMajor, AddCodeMajor, AddImageMajor, AddMajor, AddNoteMajor, AddProductMajor, AffiliateMajor, AlertMinor, AnalyticsMajor, AppExtensionMinor, AppsMajor, ArchiveMajor, ArchiveMinor, ArrowDownMinor, ArrowLeftMinor, ArrowRightMinor, ArrowUpMinor, AttachmentMajor, AutomationMajor, BackspaceMajor, BalanceMajor, BankMajor, BarcodeMajor, BehaviorMajor, BillingStatementDollarMajor, BillingStatementEuroMajor, BillingStatementPoundMajor, BillingStatementRupeeMajor, BillingStatementYenMajor, BlockMinor, BlockquoteMajor, BlogMajor, BugMajor, ButtonCornerPillMajor, ButtonCornerRoundedMajor, ButtonCornerSquareMajor, ButtonMinor, BuyButtonButtonLayoutMajor, BuyButtonHorizontalLayoutMajor, BuyButtonMajor, BuyButtonVerticalLayoutMajor, CalendarMajor, CalendarMinor, CalendarTickMajor, CameraMajor, CancelSmallMinor, CapitalMajor, CapturePaymentMinor, CardReaderChipMajor, CardReaderMajor, CardReaderTapMajor, CaretDownMinor, CaretUpMinor, CartDownMajor, CartMajor, CartUpMajor, CashDollarMajor, CashEuroMajor, CashPoundMajor, CashRupeeMajor, CashYenMajor, CategoriesMajor, ChannelsMajor, ChatMajor, ChecklistAlternateMajor, ChecklistMajor, CheckoutMajor, ChevronDownMinor, ChevronLeftMinor, ChevronRightMinor, ChevronUpMinor, CircleAlertMajor, CircleCancelMajor, CircleCancelMinor, CircleChevronDownMinor, CircleChevronLeftMinor, CircleChevronRightMinor, CircleChevronUpMinor, CircleDisabledMajor, CircleDisableMinor, CircleDotsMajor, CircleDownMajor, CircleInformationMajor, CircleLeftMajor, CircleMinusMajor, CircleMinusMinor, CircleMinusOutlineMinor, CirclePlusMajor, CirclePlusMinor, CirclePlusOutlineMinor, CircleRightMajor, CircleTickMajor, CircleTickOutlineMinor, CircleUpMajor, ClipboardMinor, ClockMajor, ClockMinor, CodeMajor, CollectionsMajor, ColorNoneMinor, ColorsMajor, Column1Major, Columns2Major, Columns3Major, ColumnWithTextMajor, ComposeMajor, ConfettiMajor, ConnectMinor, ConversationMinor, CreditCardMajor, CreditCardPercentMajor, CreditCardSecureMajor, CurrencyConvertMinor, CustomerMinusMajor, CustomerPlusMajor, CustomersMajor, CustomersMinor, DataVisualizationMajor, DeleteMajor, DeleteMinor, DesktopMajor, DetailedPopUpMajor, DiamondAlertMajor, DigitalMediaReceiverMajor, DiscountAutomaticMajor, DiscountCodeMajor, DiscountsMajor, DisputeMinor, DnsSettingsMajor, DomainNewMajor, DomainsMajor, DraftOrdersMajor, DragDropMajor, DragHandleMinor, DropdownMinor, DuplicateMinor, EditMajor, EditMinor, EmailMajor, EmailNewsletterMajor, EmbedMinor, EnableSelectionMinor, EnvelopeMajor, ExchangeMajor, ExistingInventoryMajor, ExitMajor, ExportMinor, ExternalMinor, ExternalSmallMinor, FaviconMajor, FavoriteMajor, FeaturedCollectionMajor, FeaturedContentMajor, FilterMajor, FirstOrderMajor, FirstVisitMajor, FlagMajor, FlipCameraMajor, FolderDownMajor, FolderMajor, FolderMinusMajor, FolderPlusMajor, FolderUpMajor, FollowUpEmailMajor, FoodMajor, FooterMajor, FormsMajor, FraudProtectMajor, FraudProtectMinor, FraudProtectPendingMajor, FraudProtectPendingMinor, FraudProtectUnprotectedMajor, FraudProtectUnprotectedMinor, GamesConsoleMajor, GiftCardMajor, GiftCardMinor, GlobeMajor, GlobeMinor, GrammarMajor, HashtagMajor, HeaderMajor, HeartMajor, HideKeyboardMajor, HideMinor, HintMajor, HomeMajor, HorizontalDotsMinor, IconsMajor, IllustrationMajor, ImageAltMajor, ImageAltMinor, ImageMajor, ImagesMajor, ImageWithTextMajor, ImageWithTextOverlayMajor, ImportMinor, ImportStoreMajor, IncomingMajor, InfoMinor, InstallMinor, InventoryMajor, InviteMinor, IqMajor, JobsMajor, KeyMajor, LabelPrinterMajor, LandingPageMajor, LanguageMinor, LegalMajor, LinkMinor, ListMajor, LiveViewMajor, LocationMajor, LocationsMinor, LockMajor, LockMinor, LogoBlockMajor, LogOutMinor, ManagedStoreMajor, MarketingMajor, MarkFulfilledMinor, MarkPaidMinor, MaximizeMajor, MaximizeMinor, MentionMajor, MicrophoneMajor, MinimizeMajor, MinimizeMinor, MinusMinor, MobileAcceptMajor, MobileBackArrowMajor, MobileCancelMajor, MobileChevronMajor, MobileHamburgerMajor, MobileHorizontalDotsMajor, MobileMajor, MobilePlusMajor, MobileVerticalDotsMajor, MonerisMajor, NatureMajor, NavigationMajor, NoteMajor, NoteMinor, NotificationMajor, OnlineStoreMajor, OrdersMajor, OrderStatusMinor, OutgoingMajor, PackageMajor, PageDownMajor, PageMajor, PageMinusMajor, PagePlusMajor, PageUpMajor, PaginationEndMinor, PaginationStartMinor, PaintBrushMajor, PauseCircleMajor, PauseMajor, PauseMinor, PaymentsMajor, PhoneInMajor, PhoneMajor, PhoneOutMajor, PinMajor, PinMinor, PlayCircleMajor, PlayMajor, PlayMinor, PlusMinor, PointOfSaleMajor, PopularMajor, PriceLookupMinor, PrintMajor, PrintMinor, ProductReturnsMinor, ProductsMajor, ProfileMajor, ProfileMinor, PromoteMinor, QuestionMarkInverseMajor, QuestionMarkInverseMinor, QuestionMarkMajor, QuestionMarkMinor, QuickSaleMajor, ReadTimeMinor, ReceiptMajor, RecentSearchesMajor, RedoMajor, ReferralCodeMajor, ReferralMajor, RefreshMajor, RefreshMinor, RefundMajor, RefundMinor, RemoveProductMajor, RepeatOrderMajor, ReplaceMajor, ReplayMinor, ReportMinor, ReportsMajor, ResetMinor, ResourcesMajor, ReturnMinor, RiskMajor, RiskMinor, SandboxMajor, SaveMinor, SearchMajor, SearchMinor, SectionMajor, SecureMajor, SelectMinor, SendMajor, SettingsMajor, SettingsMinor, ShareIosMinor, ShareMinor, ShipmentMajor, ShopcodesMajor, SidebarLeftMajor, SidebarRightMajor, SlideshowMajor, SmileyHappyMajor, SmileyJoyMajor, SmileyNeutralMajor, SmileySadMajor, SocialAdMajor, SocialPostMajor, SoftPackMajor, SortAscendingMajor, SortDescendingMajor, SortMinor, SoundMajor, StarFilledMinor, StarOutlineMinor, StoreMajor, StoreMinor, StoreStatusMajor, TabletMajor, TapChipMajor, TaxMajor, TeamMajor, TemplateMajor, TextAlignmentCenterMajor, TextAlignmentLeftMajor, TextAlignmentRightMajor, TextBlockMajor, TextMajor, ThemeEditMajor, ThemesMajor, ThemeStoreMajor, ThumbsDownMajor, ThumbsDownMinor, ThumbsUpMajor, ThumbsUpMinor, TickMinor, TickSmallMinor, TimelineAttachmentMajor, TipsMajor, TitleMinor, ToolsMajor, TransactionFeeDollarMajor, TransactionFeeEuroMajor, TransactionFeePoundMajor, TransactionFeeRupeeMajor, TransactionFeeYenMajor, TransactionMajor, TransferInMajor, TransferMajor, TransferOutMajor, TransferWithinShopifyMajor, TransportMajor, TroubleshootMajor, TypeMajor, UndoMajor, UnfulfilledMajor, UnknownDeviceMajor, UpdateInventoryMajor, UploadMajor, VariantMajor, ViewMajor, ViewMinor, ViewportNarrowMajor, ViewportWideMajor, VocabularyMajor, WandMajor, WearableMajor, WholesaleMajor, WifiMajor */
+/*! exports provided: AbandonedCartMajor, AccessibilityMajor, ActivitiesMajor, AddCodeMajor, AddImageMajor, AddMajor, AddNoteMajor, AddProductMajor, AffiliateMajor, AlertMinor, AnalyticsMajor, AppExtensionMinor, AppsMajor, ArchiveMajor, ArchiveMinor, ArrowDownMinor, ArrowLeftMinor, ArrowRightMinor, ArrowUpMinor, AttachmentMajor, AutomationMajor, BackspaceMajor, BalanceMajor, BankMajor, BarcodeMajor, BehaviorMajor, BillingStatementDollarMajor, BillingStatementEuroMajor, BillingStatementPoundMajor, BillingStatementRupeeMajor, BillingStatementYenMajor, BlockMinor, BlockquoteMajor, BlogMajor, BugMajor, ButtonCornerPillMajor, ButtonCornerRoundedMajor, ButtonCornerSquareMajor, ButtonMinor, BuyButtonButtonLayoutMajor, BuyButtonHorizontalLayoutMajor, BuyButtonMajor, BuyButtonVerticalLayoutMajor, CalendarMajor, CalendarMinor, CalendarTickMajor, CameraMajor, CancelSmallMinor, CapitalMajor, CapturePaymentMinor, CardReaderChipMajor, CardReaderMajor, CardReaderTapMajor, CaretDownMinor, CaretUpMinor, CartDownMajor, CartMajor, CartUpMajor, CashDollarMajor, CashEuroMajor, CashPoundMajor, CashRupeeMajor, CashYenMajor, CategoriesMajor, ChannelsMajor, ChatMajor, ChecklistAlternateMajor, ChecklistMajor, CheckoutMajor, ChevronDownMinor, ChevronLeftMinor, ChevronRightMinor, ChevronUpMinor, CircleAlertMajor, CircleCancelMajor, CircleCancelMinor, CircleChevronDownMinor, CircleChevronLeftMinor, CircleChevronRightMinor, CircleChevronUpMinor, CircleDisabledMajor, CircleDisableMinor, CircleDotsMajor, CircleDownMajor, CircleInformationMajor, CircleLeftMajor, CircleMinusMajor, CircleMinusMinor, CircleMinusOutlineMinor, CirclePlusMajor, CirclePlusMinor, CirclePlusOutlineMinor, CircleRightMajor, CircleTickMajor, CircleTickMinor, CircleTickOutlineMinor, CircleUpMajor, ClipboardMinor, ClockMajor, ClockMinor, CodeMajor, CollectionsMajor, ColorNoneMinor, ColorsMajor, Column1Major, Columns2Major, Columns3Major, ColumnWithTextMajor, ComposeMajor, ConfettiMajor, ConnectMinor, ConversationMinor, CreditCardMajor, CreditCardPercentMajor, CreditCardSecureMajor, CurrencyConvertMinor, CustomerMinusMajor, CustomerPlusMajor, CustomersMajor, CustomersMinor, DataVisualizationMajor, DeleteMajor, DeleteMinor, DesktopMajor, DetailedPopUpMajor, DiamondAlertMajor, DigitalMediaReceiverMajor, DiscountAutomaticMajor, DiscountCodeMajor, DiscountsMajor, DisputeMinor, DnsSettingsMajor, DomainNewMajor, DomainsMajor, DraftOrdersMajor, DragDropMajor, DragHandleMinor, DropdownMinor, DuplicateMinor, EditMajor, EditMinor, EmailMajor, EmailNewsletterMajor, EmbedMinor, EnableSelectionMinor, EnvelopeMajor, ExchangeMajor, ExistingInventoryMajor, ExitMajor, ExportMinor, ExternalMinor, ExternalSmallMinor, FaviconMajor, FavoriteMajor, FeaturedCollectionMajor, FeaturedContentMajor, FilterMajor, FinancesMajor, FirstOrderMajor, FirstVisitMajor, FlagMajor, FlipCameraMajor, FolderDownMajor, FolderMajor, FolderMinusMajor, FolderPlusMajor, FolderUpMajor, FollowUpEmailMajor, FoodMajor, FooterMajor, FormsMajor, FraudProtectMajor, FraudProtectMinor, FraudProtectPendingMajor, FraudProtectPendingMinor, FraudProtectUnprotectedMajor, FraudProtectUnprotectedMinor, GamesConsoleMajor, GiftCardMajor, GiftCardMinor, GlobeMajor, GlobeMinor, GrammarMajor, HashtagMajor, HeaderMajor, HeartMajor, HideKeyboardMajor, HideMinor, HintMajor, HomeMajor, HorizontalDotsMinor, IconsMajor, IllustrationMajor, ImageAltMajor, ImageAltMinor, ImageMajor, ImagesMajor, ImageWithTextMajor, ImageWithTextOverlayMajor, ImportMinor, ImportStoreMajor, IncomingMajor, InfoMinor, InstallMinor, InventoryMajor, InviteMinor, IqMajor, JobsMajor, KeyMajor, LabelPrinterMajor, LandingPageMajor, LanguageMinor, LegalMajor, LinkMinor, ListMajor, LiveViewMajor, LocationMajor, LocationsMinor, LockMajor, LockMinor, LogoBlockMajor, LogOutMinor, ManagedStoreMajor, MarketingMajor, MarkFulfilledMinor, MarkPaidMinor, MaximizeMajor, MaximizeMinor, MentionMajor, MicrophoneMajor, MinimizeMajor, MinimizeMinor, MinusMinor, MobileAcceptMajor, MobileBackArrowMajor, MobileCancelMajor, MobileChevronMajor, MobileHamburgerMajor, MobileHorizontalDotsMajor, MobileMajor, MobilePlusMajor, MobileVerticalDotsMajor, MonerisMajor, NatureMajor, NavigationMajor, NoteMajor, NoteMinor, NotificationMajor, OnlineStoreMajor, OrdersMajor, OrderStatusMinor, OutgoingMajor, PackageMajor, PageDownMajor, PageMajor, PageMinusMajor, PagePlusMajor, PageUpMajor, PaginationEndMinor, PaginationStartMinor, PaintBrushMajor, PauseCircleMajor, PauseMajor, PauseMinor, PaymentsMajor, PhoneInMajor, PhoneMajor, PhoneOutMajor, PinMajor, PinMinor, PlayCircleMajor, PlayMajor, PlayMinor, PlusMinor, PointOfSaleMajor, PopularMajor, PriceLookupMinor, PrintMajor, PrintMinor, ProductReturnsMinor, ProductsMajor, ProfileMajor, ProfileMinor, PromoteMinor, QuestionMarkInverseMajor, QuestionMarkInverseMinor, QuestionMarkMajor, QuestionMarkMinor, QuickSaleMajor, ReadTimeMinor, ReceiptMajor, RecentSearchesMajor, RedoMajor, ReferralCodeMajor, ReferralMajor, RefreshMajor, RefreshMinor, RefundMajor, RefundMinor, RemoveProductMajor, RepeatOrderMajor, ReplaceMajor, ReplayMinor, ReportMinor, ReportsMajor, ResetMinor, ResourcesMajor, ReturnMinor, RiskMajor, RiskMinor, SandboxMajor, SaveMinor, SearchMajor, SearchMinor, SectionMajor, SecureMajor, SelectMinor, SendMajor, SettingsMajor, SettingsMinor, ShareIosMinor, ShareMinor, ShipmentMajor, ShopcodesMajor, SidebarLeftMajor, SidebarRightMajor, SlideshowMajor, SmileyHappyMajor, SmileyJoyMajor, SmileyNeutralMajor, SmileySadMajor, SocialAdMajor, SocialPostMajor, SoftPackMajor, SortAscendingMajor, SortDescendingMajor, SortMinor, SoundMajor, StarFilledMinor, StarOutlineMinor, StoreMajor, StoreMinor, StoreStatusMajor, TabletMajor, TapChipMajor, TaxMajor, TeamMajor, TemplateMajor, TextAlignmentCenterMajor, TextAlignmentLeftMajor, TextAlignmentRightMajor, TextBlockMajor, TextMajor, ThemeEditMajor, ThemesMajor, ThemeStoreMajor, ThumbsDownMajor, ThumbsDownMinor, ThumbsUpMajor, ThumbsUpMinor, TickMinor, TickSmallMinor, TimelineAttachmentMajor, TipsMajor, TitleMinor, ToolsMajor, TransactionFeeDollarMajor, TransactionFeeEuroMajor, TransactionFeePoundMajor, TransactionFeeRupeeMajor, TransactionFeeYenMajor, TransactionMajor, TransferInMajor, TransferMajor, TransferOutMajor, TransferWithinShopifyMajor, TransportMajor, TroubleshootMajor, TypeMajor, UndoMajor, UnfulfilledMajor, UnknownDeviceMajor, UpdateInventoryMajor, UploadMajor, VariantMajor, ViewMajor, ViewMinor, ViewportNarrowMajor, ViewportWideMajor, VocabularyMajor, WandMajor, WandMinor, WearableMajor, WholesaleMajor, WifiMajor */
 /***/ (function(__webpack_module__, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11717,901 +11806,913 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _icons_CircleTickMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ./icons/CircleTickMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CircleTickMajor.svg.mjs");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CircleTickMajor", function() { return _icons_CircleTickMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_93__["S"]; });
 
-/* harmony import */ var _icons_CircleTickOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ./icons/CircleTickOutlineMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CircleTickOutlineMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CircleTickOutlineMinor", function() { return _icons_CircleTickOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_94__["S"]; });
+/* harmony import */ var _icons_CircleTickMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ./icons/CircleTickMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CircleTickMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CircleTickMinor", function() { return _icons_CircleTickMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_94__["S"]; });
 
-/* harmony import */ var _icons_CircleUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ./icons/CircleUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CircleUpMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CircleUpMajor", function() { return _icons_CircleUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_95__["S"]; });
+/* harmony import */ var _icons_CircleTickOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ./icons/CircleTickOutlineMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CircleTickOutlineMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CircleTickOutlineMinor", function() { return _icons_CircleTickOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_95__["S"]; });
 
-/* harmony import */ var _icons_ClipboardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ./icons/ClipboardMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ClipboardMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ClipboardMinor", function() { return _icons_ClipboardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_96__["S"]; });
+/* harmony import */ var _icons_CircleUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ./icons/CircleUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CircleUpMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CircleUpMajor", function() { return _icons_CircleUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_96__["S"]; });
 
-/* harmony import */ var _icons_ClockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ./icons/ClockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ClockMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ClockMajor", function() { return _icons_ClockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_97__["S"]; });
+/* harmony import */ var _icons_ClipboardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ./icons/ClipboardMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ClipboardMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ClipboardMinor", function() { return _icons_ClipboardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_97__["S"]; });
 
-/* harmony import */ var _icons_ClockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ./icons/ClockMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ClockMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ClockMinor", function() { return _icons_ClockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_98__["S"]; });
+/* harmony import */ var _icons_ClockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ./icons/ClockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ClockMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ClockMajor", function() { return _icons_ClockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_98__["S"]; });
 
-/* harmony import */ var _icons_CodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ./icons/CodeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CodeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CodeMajor", function() { return _icons_CodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_99__["S"]; });
+/* harmony import */ var _icons_ClockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ./icons/ClockMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ClockMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ClockMinor", function() { return _icons_ClockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_99__["S"]; });
 
-/* harmony import */ var _icons_CollectionsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ./icons/CollectionsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CollectionsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CollectionsMajor", function() { return _icons_CollectionsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_100__["S"]; });
+/* harmony import */ var _icons_CodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ./icons/CodeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CodeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CodeMajor", function() { return _icons_CodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_100__["S"]; });
 
-/* harmony import */ var _icons_ColorNoneMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ./icons/ColorNoneMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ColorNoneMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColorNoneMinor", function() { return _icons_ColorNoneMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_101__["S"]; });
+/* harmony import */ var _icons_CollectionsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ./icons/CollectionsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CollectionsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CollectionsMajor", function() { return _icons_CollectionsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_101__["S"]; });
 
-/* harmony import */ var _icons_ColorsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ./icons/ColorsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ColorsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColorsMajor", function() { return _icons_ColorsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_102__["S"]; });
+/* harmony import */ var _icons_ColorNoneMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ./icons/ColorNoneMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ColorNoneMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColorNoneMinor", function() { return _icons_ColorNoneMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_102__["S"]; });
 
-/* harmony import */ var _icons_Column1Major_svg_mjs__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ./icons/Column1Major.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/Column1Major.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Column1Major", function() { return _icons_Column1Major_svg_mjs__WEBPACK_IMPORTED_MODULE_103__["S"]; });
+/* harmony import */ var _icons_ColorsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ./icons/ColorsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ColorsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColorsMajor", function() { return _icons_ColorsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_103__["S"]; });
 
-/* harmony import */ var _icons_Columns2Major_svg_mjs__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ./icons/Columns2Major.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/Columns2Major.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Columns2Major", function() { return _icons_Columns2Major_svg_mjs__WEBPACK_IMPORTED_MODULE_104__["S"]; });
+/* harmony import */ var _icons_Column1Major_svg_mjs__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ./icons/Column1Major.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/Column1Major.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Column1Major", function() { return _icons_Column1Major_svg_mjs__WEBPACK_IMPORTED_MODULE_104__["S"]; });
 
-/* harmony import */ var _icons_Columns3Major_svg_mjs__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ./icons/Columns3Major.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/Columns3Major.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Columns3Major", function() { return _icons_Columns3Major_svg_mjs__WEBPACK_IMPORTED_MODULE_105__["S"]; });
+/* harmony import */ var _icons_Columns2Major_svg_mjs__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ./icons/Columns2Major.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/Columns2Major.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Columns2Major", function() { return _icons_Columns2Major_svg_mjs__WEBPACK_IMPORTED_MODULE_105__["S"]; });
 
-/* harmony import */ var _icons_ColumnWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ./icons/ColumnWithTextMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ColumnWithTextMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColumnWithTextMajor", function() { return _icons_ColumnWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_106__["S"]; });
+/* harmony import */ var _icons_Columns3Major_svg_mjs__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ./icons/Columns3Major.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/Columns3Major.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Columns3Major", function() { return _icons_Columns3Major_svg_mjs__WEBPACK_IMPORTED_MODULE_106__["S"]; });
 
-/* harmony import */ var _icons_ComposeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ./icons/ComposeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ComposeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ComposeMajor", function() { return _icons_ComposeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_107__["S"]; });
+/* harmony import */ var _icons_ColumnWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ./icons/ColumnWithTextMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ColumnWithTextMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColumnWithTextMajor", function() { return _icons_ColumnWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_107__["S"]; });
 
-/* harmony import */ var _icons_ConfettiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ./icons/ConfettiMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ConfettiMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ConfettiMajor", function() { return _icons_ConfettiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_108__["S"]; });
+/* harmony import */ var _icons_ComposeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ./icons/ComposeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ComposeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ComposeMajor", function() { return _icons_ComposeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_108__["S"]; });
 
-/* harmony import */ var _icons_ConnectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ./icons/ConnectMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ConnectMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ConnectMinor", function() { return _icons_ConnectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_109__["S"]; });
+/* harmony import */ var _icons_ConfettiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ./icons/ConfettiMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ConfettiMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ConfettiMajor", function() { return _icons_ConfettiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_109__["S"]; });
 
-/* harmony import */ var _icons_ConversationMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ./icons/ConversationMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ConversationMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ConversationMinor", function() { return _icons_ConversationMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_110__["S"]; });
+/* harmony import */ var _icons_ConnectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ./icons/ConnectMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ConnectMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ConnectMinor", function() { return _icons_ConnectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_110__["S"]; });
 
-/* harmony import */ var _icons_CreditCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ./icons/CreditCardMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CreditCardMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CreditCardMajor", function() { return _icons_CreditCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_111__["S"]; });
+/* harmony import */ var _icons_ConversationMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ./icons/ConversationMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ConversationMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ConversationMinor", function() { return _icons_ConversationMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_111__["S"]; });
 
-/* harmony import */ var _icons_CreditCardPercentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ./icons/CreditCardPercentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CreditCardPercentMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CreditCardPercentMajor", function() { return _icons_CreditCardPercentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_112__["S"]; });
+/* harmony import */ var _icons_CreditCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ./icons/CreditCardMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CreditCardMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CreditCardMajor", function() { return _icons_CreditCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_112__["S"]; });
 
-/* harmony import */ var _icons_CreditCardSecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ./icons/CreditCardSecureMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CreditCardSecureMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CreditCardSecureMajor", function() { return _icons_CreditCardSecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_113__["S"]; });
+/* harmony import */ var _icons_CreditCardPercentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ./icons/CreditCardPercentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CreditCardPercentMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CreditCardPercentMajor", function() { return _icons_CreditCardPercentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_113__["S"]; });
 
-/* harmony import */ var _icons_CurrencyConvertMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ./icons/CurrencyConvertMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CurrencyConvertMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CurrencyConvertMinor", function() { return _icons_CurrencyConvertMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_114__["S"]; });
+/* harmony import */ var _icons_CreditCardSecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ./icons/CreditCardSecureMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CreditCardSecureMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CreditCardSecureMajor", function() { return _icons_CreditCardSecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_114__["S"]; });
 
-/* harmony import */ var _icons_CustomerMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ./icons/CustomerMinusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomerMinusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomerMinusMajor", function() { return _icons_CustomerMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_115__["S"]; });
+/* harmony import */ var _icons_CurrencyConvertMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ./icons/CurrencyConvertMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CurrencyConvertMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CurrencyConvertMinor", function() { return _icons_CurrencyConvertMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_115__["S"]; });
 
-/* harmony import */ var _icons_CustomerPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ./icons/CustomerPlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomerPlusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomerPlusMajor", function() { return _icons_CustomerPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_116__["S"]; });
+/* harmony import */ var _icons_CustomerMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_116__ = __webpack_require__(/*! ./icons/CustomerMinusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomerMinusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomerMinusMajor", function() { return _icons_CustomerMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_116__["S"]; });
 
-/* harmony import */ var _icons_CustomersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ./icons/CustomersMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomersMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomersMajor", function() { return _icons_CustomersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_117__["S"]; });
+/* harmony import */ var _icons_CustomerPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_117__ = __webpack_require__(/*! ./icons/CustomerPlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomerPlusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomerPlusMajor", function() { return _icons_CustomerPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_117__["S"]; });
 
-/* harmony import */ var _icons_CustomersMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ./icons/CustomersMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomersMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomersMinor", function() { return _icons_CustomersMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_118__["S"]; });
+/* harmony import */ var _icons_CustomersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_118__ = __webpack_require__(/*! ./icons/CustomersMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomersMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomersMajor", function() { return _icons_CustomersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_118__["S"]; });
 
-/* harmony import */ var _icons_DataVisualizationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ./icons/DataVisualizationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DataVisualizationMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DataVisualizationMajor", function() { return _icons_DataVisualizationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_119__["S"]; });
+/* harmony import */ var _icons_CustomersMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_119__ = __webpack_require__(/*! ./icons/CustomersMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/CustomersMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CustomersMinor", function() { return _icons_CustomersMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_119__["S"]; });
 
-/* harmony import */ var _icons_DeleteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ./icons/DeleteMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DeleteMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DeleteMajor", function() { return _icons_DeleteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_120__["S"]; });
+/* harmony import */ var _icons_DataVisualizationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_120__ = __webpack_require__(/*! ./icons/DataVisualizationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DataVisualizationMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DataVisualizationMajor", function() { return _icons_DataVisualizationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_120__["S"]; });
 
-/* harmony import */ var _icons_DeleteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ./icons/DeleteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DeleteMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DeleteMinor", function() { return _icons_DeleteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_121__["S"]; });
+/* harmony import */ var _icons_DeleteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_121__ = __webpack_require__(/*! ./icons/DeleteMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DeleteMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DeleteMajor", function() { return _icons_DeleteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_121__["S"]; });
 
-/* harmony import */ var _icons_DesktopMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ./icons/DesktopMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DesktopMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DesktopMajor", function() { return _icons_DesktopMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_122__["S"]; });
+/* harmony import */ var _icons_DeleteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_122__ = __webpack_require__(/*! ./icons/DeleteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DeleteMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DeleteMinor", function() { return _icons_DeleteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_122__["S"]; });
 
-/* harmony import */ var _icons_DetailedPopUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ./icons/DetailedPopUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DetailedPopUpMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DetailedPopUpMajor", function() { return _icons_DetailedPopUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_123__["S"]; });
+/* harmony import */ var _icons_DesktopMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_123__ = __webpack_require__(/*! ./icons/DesktopMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DesktopMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DesktopMajor", function() { return _icons_DesktopMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_123__["S"]; });
 
-/* harmony import */ var _icons_DiamondAlertMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ./icons/DiamondAlertMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiamondAlertMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiamondAlertMajor", function() { return _icons_DiamondAlertMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_124__["S"]; });
+/* harmony import */ var _icons_DetailedPopUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_124__ = __webpack_require__(/*! ./icons/DetailedPopUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DetailedPopUpMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DetailedPopUpMajor", function() { return _icons_DetailedPopUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_124__["S"]; });
 
-/* harmony import */ var _icons_DigitalMediaReceiverMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ./icons/DigitalMediaReceiverMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DigitalMediaReceiverMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DigitalMediaReceiverMajor", function() { return _icons_DigitalMediaReceiverMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_125__["S"]; });
+/* harmony import */ var _icons_DiamondAlertMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_125__ = __webpack_require__(/*! ./icons/DiamondAlertMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiamondAlertMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiamondAlertMajor", function() { return _icons_DiamondAlertMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_125__["S"]; });
 
-/* harmony import */ var _icons_DiscountAutomaticMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ./icons/DiscountAutomaticMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiscountAutomaticMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiscountAutomaticMajor", function() { return _icons_DiscountAutomaticMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_126__["S"]; });
+/* harmony import */ var _icons_DigitalMediaReceiverMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_126__ = __webpack_require__(/*! ./icons/DigitalMediaReceiverMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DigitalMediaReceiverMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DigitalMediaReceiverMajor", function() { return _icons_DigitalMediaReceiverMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_126__["S"]; });
 
-/* harmony import */ var _icons_DiscountCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ./icons/DiscountCodeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiscountCodeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiscountCodeMajor", function() { return _icons_DiscountCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_127__["S"]; });
+/* harmony import */ var _icons_DiscountAutomaticMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_127__ = __webpack_require__(/*! ./icons/DiscountAutomaticMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiscountAutomaticMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiscountAutomaticMajor", function() { return _icons_DiscountAutomaticMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_127__["S"]; });
 
-/* harmony import */ var _icons_DiscountsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ./icons/DiscountsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiscountsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiscountsMajor", function() { return _icons_DiscountsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_128__["S"]; });
+/* harmony import */ var _icons_DiscountCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_128__ = __webpack_require__(/*! ./icons/DiscountCodeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiscountCodeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiscountCodeMajor", function() { return _icons_DiscountCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_128__["S"]; });
 
-/* harmony import */ var _icons_DisputeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ./icons/DisputeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DisputeMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DisputeMinor", function() { return _icons_DisputeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_129__["S"]; });
+/* harmony import */ var _icons_DiscountsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_129__ = __webpack_require__(/*! ./icons/DiscountsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DiscountsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DiscountsMajor", function() { return _icons_DiscountsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_129__["S"]; });
 
-/* harmony import */ var _icons_DnsSettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ./icons/DnsSettingsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DnsSettingsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DnsSettingsMajor", function() { return _icons_DnsSettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_130__["S"]; });
+/* harmony import */ var _icons_DisputeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_130__ = __webpack_require__(/*! ./icons/DisputeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DisputeMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DisputeMinor", function() { return _icons_DisputeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_130__["S"]; });
 
-/* harmony import */ var _icons_DomainNewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ./icons/DomainNewMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DomainNewMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DomainNewMajor", function() { return _icons_DomainNewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_131__["S"]; });
+/* harmony import */ var _icons_DnsSettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_131__ = __webpack_require__(/*! ./icons/DnsSettingsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DnsSettingsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DnsSettingsMajor", function() { return _icons_DnsSettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_131__["S"]; });
 
-/* harmony import */ var _icons_DomainsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ./icons/DomainsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DomainsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DomainsMajor", function() { return _icons_DomainsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_132__["S"]; });
+/* harmony import */ var _icons_DomainNewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_132__ = __webpack_require__(/*! ./icons/DomainNewMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DomainNewMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DomainNewMajor", function() { return _icons_DomainNewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_132__["S"]; });
 
-/* harmony import */ var _icons_DraftOrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ./icons/DraftOrdersMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DraftOrdersMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DraftOrdersMajor", function() { return _icons_DraftOrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_133__["S"]; });
+/* harmony import */ var _icons_DomainsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_133__ = __webpack_require__(/*! ./icons/DomainsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DomainsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DomainsMajor", function() { return _icons_DomainsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_133__["S"]; });
 
-/* harmony import */ var _icons_DragDropMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ./icons/DragDropMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DragDropMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DragDropMajor", function() { return _icons_DragDropMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_134__["S"]; });
+/* harmony import */ var _icons_DraftOrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_134__ = __webpack_require__(/*! ./icons/DraftOrdersMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DraftOrdersMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DraftOrdersMajor", function() { return _icons_DraftOrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_134__["S"]; });
 
-/* harmony import */ var _icons_DragHandleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ./icons/DragHandleMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DragHandleMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DragHandleMinor", function() { return _icons_DragHandleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_135__["S"]; });
+/* harmony import */ var _icons_DragDropMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_135__ = __webpack_require__(/*! ./icons/DragDropMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DragDropMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DragDropMajor", function() { return _icons_DragDropMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_135__["S"]; });
 
-/* harmony import */ var _icons_DropdownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ./icons/DropdownMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DropdownMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DropdownMinor", function() { return _icons_DropdownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_136__["S"]; });
+/* harmony import */ var _icons_DragHandleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_136__ = __webpack_require__(/*! ./icons/DragHandleMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DragHandleMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DragHandleMinor", function() { return _icons_DragHandleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_136__["S"]; });
 
-/* harmony import */ var _icons_DuplicateMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ./icons/DuplicateMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DuplicateMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DuplicateMinor", function() { return _icons_DuplicateMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_137__["S"]; });
+/* harmony import */ var _icons_DropdownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_137__ = __webpack_require__(/*! ./icons/DropdownMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DropdownMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DropdownMinor", function() { return _icons_DropdownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_137__["S"]; });
 
-/* harmony import */ var _icons_EditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ./icons/EditMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EditMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EditMajor", function() { return _icons_EditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_138__["S"]; });
+/* harmony import */ var _icons_DuplicateMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_138__ = __webpack_require__(/*! ./icons/DuplicateMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/DuplicateMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DuplicateMinor", function() { return _icons_DuplicateMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_138__["S"]; });
 
-/* harmony import */ var _icons_EditMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ./icons/EditMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EditMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EditMinor", function() { return _icons_EditMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_139__["S"]; });
+/* harmony import */ var _icons_EditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_139__ = __webpack_require__(/*! ./icons/EditMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EditMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EditMajor", function() { return _icons_EditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_139__["S"]; });
 
-/* harmony import */ var _icons_EmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ./icons/EmailMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EmailMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmailMajor", function() { return _icons_EmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_140__["S"]; });
+/* harmony import */ var _icons_EditMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_140__ = __webpack_require__(/*! ./icons/EditMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EditMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EditMinor", function() { return _icons_EditMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_140__["S"]; });
 
-/* harmony import */ var _icons_EmailNewsletterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ./icons/EmailNewsletterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EmailNewsletterMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmailNewsletterMajor", function() { return _icons_EmailNewsletterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_141__["S"]; });
+/* harmony import */ var _icons_EmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_141__ = __webpack_require__(/*! ./icons/EmailMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EmailMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmailMajor", function() { return _icons_EmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_141__["S"]; });
 
-/* harmony import */ var _icons_EmbedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ./icons/EmbedMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EmbedMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmbedMinor", function() { return _icons_EmbedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_142__["S"]; });
+/* harmony import */ var _icons_EmailNewsletterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_142__ = __webpack_require__(/*! ./icons/EmailNewsletterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EmailNewsletterMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmailNewsletterMajor", function() { return _icons_EmailNewsletterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_142__["S"]; });
 
-/* harmony import */ var _icons_EnableSelectionMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ./icons/EnableSelectionMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EnableSelectionMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EnableSelectionMinor", function() { return _icons_EnableSelectionMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_143__["S"]; });
+/* harmony import */ var _icons_EmbedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_143__ = __webpack_require__(/*! ./icons/EmbedMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EmbedMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmbedMinor", function() { return _icons_EmbedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_143__["S"]; });
 
-/* harmony import */ var _icons_EnvelopeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ./icons/EnvelopeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EnvelopeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EnvelopeMajor", function() { return _icons_EnvelopeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_144__["S"]; });
+/* harmony import */ var _icons_EnableSelectionMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_144__ = __webpack_require__(/*! ./icons/EnableSelectionMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EnableSelectionMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EnableSelectionMinor", function() { return _icons_EnableSelectionMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_144__["S"]; });
 
-/* harmony import */ var _icons_ExchangeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ./icons/ExchangeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExchangeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExchangeMajor", function() { return _icons_ExchangeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_145__["S"]; });
+/* harmony import */ var _icons_EnvelopeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_145__ = __webpack_require__(/*! ./icons/EnvelopeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/EnvelopeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EnvelopeMajor", function() { return _icons_EnvelopeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_145__["S"]; });
 
-/* harmony import */ var _icons_ExistingInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ./icons/ExistingInventoryMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExistingInventoryMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExistingInventoryMajor", function() { return _icons_ExistingInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_146__["S"]; });
+/* harmony import */ var _icons_ExchangeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_146__ = __webpack_require__(/*! ./icons/ExchangeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExchangeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExchangeMajor", function() { return _icons_ExchangeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_146__["S"]; });
 
-/* harmony import */ var _icons_ExitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ./icons/ExitMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExitMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExitMajor", function() { return _icons_ExitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_147__["S"]; });
+/* harmony import */ var _icons_ExistingInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_147__ = __webpack_require__(/*! ./icons/ExistingInventoryMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExistingInventoryMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExistingInventoryMajor", function() { return _icons_ExistingInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_147__["S"]; });
 
-/* harmony import */ var _icons_ExportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ./icons/ExportMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExportMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExportMinor", function() { return _icons_ExportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_148__["S"]; });
+/* harmony import */ var _icons_ExitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_148__ = __webpack_require__(/*! ./icons/ExitMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExitMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExitMajor", function() { return _icons_ExitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_148__["S"]; });
 
-/* harmony import */ var _icons_ExternalMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ./icons/ExternalMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExternalMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExternalMinor", function() { return _icons_ExternalMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_149__["S"]; });
+/* harmony import */ var _icons_ExportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_149__ = __webpack_require__(/*! ./icons/ExportMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExportMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExportMinor", function() { return _icons_ExportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_149__["S"]; });
 
-/* harmony import */ var _icons_ExternalSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ./icons/ExternalSmallMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExternalSmallMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExternalSmallMinor", function() { return _icons_ExternalSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_150__["S"]; });
+/* harmony import */ var _icons_ExternalMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_150__ = __webpack_require__(/*! ./icons/ExternalMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExternalMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExternalMinor", function() { return _icons_ExternalMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_150__["S"]; });
 
-/* harmony import */ var _icons_FaviconMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ./icons/FaviconMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FaviconMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FaviconMajor", function() { return _icons_FaviconMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_151__["S"]; });
+/* harmony import */ var _icons_ExternalSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_151__ = __webpack_require__(/*! ./icons/ExternalSmallMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ExternalSmallMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExternalSmallMinor", function() { return _icons_ExternalSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_151__["S"]; });
 
-/* harmony import */ var _icons_FavoriteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ./icons/FavoriteMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FavoriteMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FavoriteMajor", function() { return _icons_FavoriteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_152__["S"]; });
+/* harmony import */ var _icons_FaviconMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_152__ = __webpack_require__(/*! ./icons/FaviconMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FaviconMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FaviconMajor", function() { return _icons_FaviconMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_152__["S"]; });
 
-/* harmony import */ var _icons_FeaturedCollectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ./icons/FeaturedCollectionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FeaturedCollectionMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FeaturedCollectionMajor", function() { return _icons_FeaturedCollectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_153__["S"]; });
+/* harmony import */ var _icons_FavoriteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_153__ = __webpack_require__(/*! ./icons/FavoriteMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FavoriteMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FavoriteMajor", function() { return _icons_FavoriteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_153__["S"]; });
 
-/* harmony import */ var _icons_FeaturedContentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ./icons/FeaturedContentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FeaturedContentMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FeaturedContentMajor", function() { return _icons_FeaturedContentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_154__["S"]; });
+/* harmony import */ var _icons_FeaturedCollectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_154__ = __webpack_require__(/*! ./icons/FeaturedCollectionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FeaturedCollectionMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FeaturedCollectionMajor", function() { return _icons_FeaturedCollectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_154__["S"]; });
 
-/* harmony import */ var _icons_FilterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ./icons/FilterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FilterMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FilterMajor", function() { return _icons_FilterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_155__["S"]; });
+/* harmony import */ var _icons_FeaturedContentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_155__ = __webpack_require__(/*! ./icons/FeaturedContentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FeaturedContentMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FeaturedContentMajor", function() { return _icons_FeaturedContentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_155__["S"]; });
 
-/* harmony import */ var _icons_FirstOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ./icons/FirstOrderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FirstOrderMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FirstOrderMajor", function() { return _icons_FirstOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_156__["S"]; });
+/* harmony import */ var _icons_FilterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_156__ = __webpack_require__(/*! ./icons/FilterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FilterMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FilterMajor", function() { return _icons_FilterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_156__["S"]; });
 
-/* harmony import */ var _icons_FirstVisitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ./icons/FirstVisitMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FirstVisitMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FirstVisitMajor", function() { return _icons_FirstVisitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_157__["S"]; });
+/* harmony import */ var _icons_FinancesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_157__ = __webpack_require__(/*! ./icons/FinancesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FinancesMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FinancesMajor", function() { return _icons_FinancesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_157__["S"]; });
 
-/* harmony import */ var _icons_FlagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ./icons/FlagMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FlagMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlagMajor", function() { return _icons_FlagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_158__["S"]; });
+/* harmony import */ var _icons_FirstOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_158__ = __webpack_require__(/*! ./icons/FirstOrderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FirstOrderMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FirstOrderMajor", function() { return _icons_FirstOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_158__["S"]; });
 
-/* harmony import */ var _icons_FlipCameraMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ./icons/FlipCameraMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FlipCameraMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlipCameraMajor", function() { return _icons_FlipCameraMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_159__["S"]; });
+/* harmony import */ var _icons_FirstVisitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_159__ = __webpack_require__(/*! ./icons/FirstVisitMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FirstVisitMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FirstVisitMajor", function() { return _icons_FirstVisitMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_159__["S"]; });
 
-/* harmony import */ var _icons_FolderDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ./icons/FolderDownMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderDownMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderDownMajor", function() { return _icons_FolderDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_160__["S"]; });
+/* harmony import */ var _icons_FlagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_160__ = __webpack_require__(/*! ./icons/FlagMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FlagMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlagMajor", function() { return _icons_FlagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_160__["S"]; });
 
-/* harmony import */ var _icons_FolderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ./icons/FolderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderMajor", function() { return _icons_FolderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_161__["S"]; });
+/* harmony import */ var _icons_FlipCameraMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_161__ = __webpack_require__(/*! ./icons/FlipCameraMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FlipCameraMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FlipCameraMajor", function() { return _icons_FlipCameraMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_161__["S"]; });
 
-/* harmony import */ var _icons_FolderMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ./icons/FolderMinusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderMinusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderMinusMajor", function() { return _icons_FolderMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_162__["S"]; });
+/* harmony import */ var _icons_FolderDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_162__ = __webpack_require__(/*! ./icons/FolderDownMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderDownMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderDownMajor", function() { return _icons_FolderDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_162__["S"]; });
 
-/* harmony import */ var _icons_FolderPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_163__ = __webpack_require__(/*! ./icons/FolderPlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderPlusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderPlusMajor", function() { return _icons_FolderPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_163__["S"]; });
+/* harmony import */ var _icons_FolderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_163__ = __webpack_require__(/*! ./icons/FolderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderMajor", function() { return _icons_FolderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_163__["S"]; });
 
-/* harmony import */ var _icons_FolderUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_164__ = __webpack_require__(/*! ./icons/FolderUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderUpMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderUpMajor", function() { return _icons_FolderUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_164__["S"]; });
+/* harmony import */ var _icons_FolderMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_164__ = __webpack_require__(/*! ./icons/FolderMinusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderMinusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderMinusMajor", function() { return _icons_FolderMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_164__["S"]; });
 
-/* harmony import */ var _icons_FollowUpEmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_165__ = __webpack_require__(/*! ./icons/FollowUpEmailMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FollowUpEmailMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FollowUpEmailMajor", function() { return _icons_FollowUpEmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_165__["S"]; });
+/* harmony import */ var _icons_FolderPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_165__ = __webpack_require__(/*! ./icons/FolderPlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderPlusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderPlusMajor", function() { return _icons_FolderPlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_165__["S"]; });
 
-/* harmony import */ var _icons_FoodMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_166__ = __webpack_require__(/*! ./icons/FoodMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FoodMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FoodMajor", function() { return _icons_FoodMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_166__["S"]; });
+/* harmony import */ var _icons_FolderUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_166__ = __webpack_require__(/*! ./icons/FolderUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FolderUpMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FolderUpMajor", function() { return _icons_FolderUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_166__["S"]; });
 
-/* harmony import */ var _icons_FooterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_167__ = __webpack_require__(/*! ./icons/FooterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FooterMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FooterMajor", function() { return _icons_FooterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_167__["S"]; });
+/* harmony import */ var _icons_FollowUpEmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_167__ = __webpack_require__(/*! ./icons/FollowUpEmailMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FollowUpEmailMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FollowUpEmailMajor", function() { return _icons_FollowUpEmailMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_167__["S"]; });
 
-/* harmony import */ var _icons_FormsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_168__ = __webpack_require__(/*! ./icons/FormsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FormsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FormsMajor", function() { return _icons_FormsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_168__["S"]; });
+/* harmony import */ var _icons_FoodMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_168__ = __webpack_require__(/*! ./icons/FoodMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FoodMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FoodMajor", function() { return _icons_FoodMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_168__["S"]; });
 
-/* harmony import */ var _icons_FraudProtectMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_169__ = __webpack_require__(/*! ./icons/FraudProtectMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectMajor", function() { return _icons_FraudProtectMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_169__["S"]; });
+/* harmony import */ var _icons_FooterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_169__ = __webpack_require__(/*! ./icons/FooterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FooterMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FooterMajor", function() { return _icons_FooterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_169__["S"]; });
 
-/* harmony import */ var _icons_FraudProtectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_170__ = __webpack_require__(/*! ./icons/FraudProtectMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectMinor", function() { return _icons_FraudProtectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_170__["S"]; });
+/* harmony import */ var _icons_FormsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_170__ = __webpack_require__(/*! ./icons/FormsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FormsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FormsMajor", function() { return _icons_FormsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_170__["S"]; });
 
-/* harmony import */ var _icons_FraudProtectPendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_171__ = __webpack_require__(/*! ./icons/FraudProtectPendingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectPendingMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectPendingMajor", function() { return _icons_FraudProtectPendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_171__["S"]; });
+/* harmony import */ var _icons_FraudProtectMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_171__ = __webpack_require__(/*! ./icons/FraudProtectMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectMajor", function() { return _icons_FraudProtectMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_171__["S"]; });
 
-/* harmony import */ var _icons_FraudProtectPendingMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_172__ = __webpack_require__(/*! ./icons/FraudProtectPendingMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectPendingMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectPendingMinor", function() { return _icons_FraudProtectPendingMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_172__["S"]; });
+/* harmony import */ var _icons_FraudProtectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_172__ = __webpack_require__(/*! ./icons/FraudProtectMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectMinor", function() { return _icons_FraudProtectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_172__["S"]; });
 
-/* harmony import */ var _icons_FraudProtectUnprotectedMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_173__ = __webpack_require__(/*! ./icons/FraudProtectUnprotectedMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectUnprotectedMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectUnprotectedMajor", function() { return _icons_FraudProtectUnprotectedMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_173__["S"]; });
+/* harmony import */ var _icons_FraudProtectPendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_173__ = __webpack_require__(/*! ./icons/FraudProtectPendingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectPendingMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectPendingMajor", function() { return _icons_FraudProtectPendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_173__["S"]; });
 
-/* harmony import */ var _icons_FraudProtectUnprotectedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_174__ = __webpack_require__(/*! ./icons/FraudProtectUnprotectedMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectUnprotectedMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectUnprotectedMinor", function() { return _icons_FraudProtectUnprotectedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_174__["S"]; });
+/* harmony import */ var _icons_FraudProtectPendingMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_174__ = __webpack_require__(/*! ./icons/FraudProtectPendingMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectPendingMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectPendingMinor", function() { return _icons_FraudProtectPendingMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_174__["S"]; });
 
-/* harmony import */ var _icons_GamesConsoleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_175__ = __webpack_require__(/*! ./icons/GamesConsoleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GamesConsoleMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GamesConsoleMajor", function() { return _icons_GamesConsoleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_175__["S"]; });
+/* harmony import */ var _icons_FraudProtectUnprotectedMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_175__ = __webpack_require__(/*! ./icons/FraudProtectUnprotectedMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectUnprotectedMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectUnprotectedMajor", function() { return _icons_FraudProtectUnprotectedMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_175__["S"]; });
 
-/* harmony import */ var _icons_GiftCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_176__ = __webpack_require__(/*! ./icons/GiftCardMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GiftCardMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GiftCardMajor", function() { return _icons_GiftCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_176__["S"]; });
+/* harmony import */ var _icons_FraudProtectUnprotectedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_176__ = __webpack_require__(/*! ./icons/FraudProtectUnprotectedMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/FraudProtectUnprotectedMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FraudProtectUnprotectedMinor", function() { return _icons_FraudProtectUnprotectedMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_176__["S"]; });
 
-/* harmony import */ var _icons_GiftCardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_177__ = __webpack_require__(/*! ./icons/GiftCardMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GiftCardMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GiftCardMinor", function() { return _icons_GiftCardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_177__["S"]; });
+/* harmony import */ var _icons_GamesConsoleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_177__ = __webpack_require__(/*! ./icons/GamesConsoleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GamesConsoleMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GamesConsoleMajor", function() { return _icons_GamesConsoleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_177__["S"]; });
 
-/* harmony import */ var _icons_GlobeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_178__ = __webpack_require__(/*! ./icons/GlobeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GlobeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GlobeMajor", function() { return _icons_GlobeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_178__["S"]; });
+/* harmony import */ var _icons_GiftCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_178__ = __webpack_require__(/*! ./icons/GiftCardMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GiftCardMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GiftCardMajor", function() { return _icons_GiftCardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_178__["S"]; });
 
-/* harmony import */ var _icons_GlobeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_179__ = __webpack_require__(/*! ./icons/GlobeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GlobeMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GlobeMinor", function() { return _icons_GlobeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_179__["S"]; });
+/* harmony import */ var _icons_GiftCardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_179__ = __webpack_require__(/*! ./icons/GiftCardMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GiftCardMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GiftCardMinor", function() { return _icons_GiftCardMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_179__["S"]; });
 
-/* harmony import */ var _icons_GrammarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_180__ = __webpack_require__(/*! ./icons/GrammarMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GrammarMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GrammarMajor", function() { return _icons_GrammarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_180__["S"]; });
+/* harmony import */ var _icons_GlobeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_180__ = __webpack_require__(/*! ./icons/GlobeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GlobeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GlobeMajor", function() { return _icons_GlobeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_180__["S"]; });
 
-/* harmony import */ var _icons_HashtagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_181__ = __webpack_require__(/*! ./icons/HashtagMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HashtagMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HashtagMajor", function() { return _icons_HashtagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_181__["S"]; });
+/* harmony import */ var _icons_GlobeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_181__ = __webpack_require__(/*! ./icons/GlobeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GlobeMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GlobeMinor", function() { return _icons_GlobeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_181__["S"]; });
 
-/* harmony import */ var _icons_HeaderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_182__ = __webpack_require__(/*! ./icons/HeaderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HeaderMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HeaderMajor", function() { return _icons_HeaderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_182__["S"]; });
+/* harmony import */ var _icons_GrammarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_182__ = __webpack_require__(/*! ./icons/GrammarMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/GrammarMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "GrammarMajor", function() { return _icons_GrammarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_182__["S"]; });
 
-/* harmony import */ var _icons_HeartMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_183__ = __webpack_require__(/*! ./icons/HeartMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HeartMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HeartMajor", function() { return _icons_HeartMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_183__["S"]; });
+/* harmony import */ var _icons_HashtagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_183__ = __webpack_require__(/*! ./icons/HashtagMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HashtagMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HashtagMajor", function() { return _icons_HashtagMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_183__["S"]; });
 
-/* harmony import */ var _icons_HideKeyboardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_184__ = __webpack_require__(/*! ./icons/HideKeyboardMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HideKeyboardMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HideKeyboardMajor", function() { return _icons_HideKeyboardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_184__["S"]; });
+/* harmony import */ var _icons_HeaderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_184__ = __webpack_require__(/*! ./icons/HeaderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HeaderMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HeaderMajor", function() { return _icons_HeaderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_184__["S"]; });
 
-/* harmony import */ var _icons_HideMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_185__ = __webpack_require__(/*! ./icons/HideMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HideMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HideMinor", function() { return _icons_HideMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_185__["S"]; });
+/* harmony import */ var _icons_HeartMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_185__ = __webpack_require__(/*! ./icons/HeartMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HeartMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HeartMajor", function() { return _icons_HeartMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_185__["S"]; });
 
-/* harmony import */ var _icons_HintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_186__ = __webpack_require__(/*! ./icons/HintMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HintMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HintMajor", function() { return _icons_HintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_186__["S"]; });
+/* harmony import */ var _icons_HideKeyboardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_186__ = __webpack_require__(/*! ./icons/HideKeyboardMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HideKeyboardMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HideKeyboardMajor", function() { return _icons_HideKeyboardMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_186__["S"]; });
 
-/* harmony import */ var _icons_HomeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_187__ = __webpack_require__(/*! ./icons/HomeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HomeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HomeMajor", function() { return _icons_HomeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_187__["S"]; });
+/* harmony import */ var _icons_HideMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_187__ = __webpack_require__(/*! ./icons/HideMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HideMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HideMinor", function() { return _icons_HideMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_187__["S"]; });
 
-/* harmony import */ var _icons_HorizontalDotsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_188__ = __webpack_require__(/*! ./icons/HorizontalDotsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HorizontalDotsMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HorizontalDotsMinor", function() { return _icons_HorizontalDotsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_188__["S"]; });
+/* harmony import */ var _icons_HintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_188__ = __webpack_require__(/*! ./icons/HintMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HintMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HintMajor", function() { return _icons_HintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_188__["S"]; });
 
-/* harmony import */ var _icons_IconsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_189__ = __webpack_require__(/*! ./icons/IconsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IconsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsMajor", function() { return _icons_IconsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_189__["S"]; });
+/* harmony import */ var _icons_HomeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_189__ = __webpack_require__(/*! ./icons/HomeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HomeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HomeMajor", function() { return _icons_HomeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_189__["S"]; });
 
-/* harmony import */ var _icons_IllustrationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_190__ = __webpack_require__(/*! ./icons/IllustrationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IllustrationMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IllustrationMajor", function() { return _icons_IllustrationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_190__["S"]; });
+/* harmony import */ var _icons_HorizontalDotsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_190__ = __webpack_require__(/*! ./icons/HorizontalDotsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/HorizontalDotsMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "HorizontalDotsMinor", function() { return _icons_HorizontalDotsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_190__["S"]; });
 
-/* harmony import */ var _icons_ImageAltMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_191__ = __webpack_require__(/*! ./icons/ImageAltMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageAltMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageAltMajor", function() { return _icons_ImageAltMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_191__["S"]; });
+/* harmony import */ var _icons_IconsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_191__ = __webpack_require__(/*! ./icons/IconsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IconsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IconsMajor", function() { return _icons_IconsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_191__["S"]; });
 
-/* harmony import */ var _icons_ImageAltMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_192__ = __webpack_require__(/*! ./icons/ImageAltMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageAltMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageAltMinor", function() { return _icons_ImageAltMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_192__["S"]; });
+/* harmony import */ var _icons_IllustrationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_192__ = __webpack_require__(/*! ./icons/IllustrationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IllustrationMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IllustrationMajor", function() { return _icons_IllustrationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_192__["S"]; });
 
-/* harmony import */ var _icons_ImageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_193__ = __webpack_require__(/*! ./icons/ImageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageMajor", function() { return _icons_ImageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_193__["S"]; });
+/* harmony import */ var _icons_ImageAltMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_193__ = __webpack_require__(/*! ./icons/ImageAltMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageAltMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageAltMajor", function() { return _icons_ImageAltMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_193__["S"]; });
 
-/* harmony import */ var _icons_ImagesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_194__ = __webpack_require__(/*! ./icons/ImagesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImagesMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImagesMajor", function() { return _icons_ImagesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_194__["S"]; });
+/* harmony import */ var _icons_ImageAltMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_194__ = __webpack_require__(/*! ./icons/ImageAltMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageAltMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageAltMinor", function() { return _icons_ImageAltMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_194__["S"]; });
 
-/* harmony import */ var _icons_ImageWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_195__ = __webpack_require__(/*! ./icons/ImageWithTextMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageWithTextMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageWithTextMajor", function() { return _icons_ImageWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_195__["S"]; });
+/* harmony import */ var _icons_ImageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_195__ = __webpack_require__(/*! ./icons/ImageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageMajor", function() { return _icons_ImageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_195__["S"]; });
 
-/* harmony import */ var _icons_ImageWithTextOverlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_196__ = __webpack_require__(/*! ./icons/ImageWithTextOverlayMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageWithTextOverlayMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageWithTextOverlayMajor", function() { return _icons_ImageWithTextOverlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_196__["S"]; });
+/* harmony import */ var _icons_ImagesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_196__ = __webpack_require__(/*! ./icons/ImagesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImagesMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImagesMajor", function() { return _icons_ImagesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_196__["S"]; });
 
-/* harmony import */ var _icons_ImportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_197__ = __webpack_require__(/*! ./icons/ImportMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImportMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImportMinor", function() { return _icons_ImportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_197__["S"]; });
+/* harmony import */ var _icons_ImageWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_197__ = __webpack_require__(/*! ./icons/ImageWithTextMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageWithTextMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageWithTextMajor", function() { return _icons_ImageWithTextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_197__["S"]; });
 
-/* harmony import */ var _icons_ImportStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_198__ = __webpack_require__(/*! ./icons/ImportStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImportStoreMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImportStoreMajor", function() { return _icons_ImportStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_198__["S"]; });
+/* harmony import */ var _icons_ImageWithTextOverlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_198__ = __webpack_require__(/*! ./icons/ImageWithTextOverlayMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImageWithTextOverlayMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImageWithTextOverlayMajor", function() { return _icons_ImageWithTextOverlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_198__["S"]; });
 
-/* harmony import */ var _icons_IncomingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_199__ = __webpack_require__(/*! ./icons/IncomingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IncomingMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IncomingMajor", function() { return _icons_IncomingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_199__["S"]; });
+/* harmony import */ var _icons_ImportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_199__ = __webpack_require__(/*! ./icons/ImportMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImportMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImportMinor", function() { return _icons_ImportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_199__["S"]; });
 
-/* harmony import */ var _icons_InfoMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_200__ = __webpack_require__(/*! ./icons/InfoMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InfoMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InfoMinor", function() { return _icons_InfoMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_200__["S"]; });
+/* harmony import */ var _icons_ImportStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_200__ = __webpack_require__(/*! ./icons/ImportStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ImportStoreMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ImportStoreMajor", function() { return _icons_ImportStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_200__["S"]; });
 
-/* harmony import */ var _icons_InstallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_201__ = __webpack_require__(/*! ./icons/InstallMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InstallMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InstallMinor", function() { return _icons_InstallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_201__["S"]; });
+/* harmony import */ var _icons_IncomingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_201__ = __webpack_require__(/*! ./icons/IncomingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IncomingMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IncomingMajor", function() { return _icons_IncomingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_201__["S"]; });
 
-/* harmony import */ var _icons_InventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_202__ = __webpack_require__(/*! ./icons/InventoryMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InventoryMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InventoryMajor", function() { return _icons_InventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_202__["S"]; });
+/* harmony import */ var _icons_InfoMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_202__ = __webpack_require__(/*! ./icons/InfoMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InfoMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InfoMinor", function() { return _icons_InfoMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_202__["S"]; });
 
-/* harmony import */ var _icons_InviteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_203__ = __webpack_require__(/*! ./icons/InviteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InviteMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InviteMinor", function() { return _icons_InviteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_203__["S"]; });
+/* harmony import */ var _icons_InstallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_203__ = __webpack_require__(/*! ./icons/InstallMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InstallMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InstallMinor", function() { return _icons_InstallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_203__["S"]; });
 
-/* harmony import */ var _icons_IqMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_204__ = __webpack_require__(/*! ./icons/IqMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IqMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IqMajor", function() { return _icons_IqMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_204__["S"]; });
+/* harmony import */ var _icons_InventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_204__ = __webpack_require__(/*! ./icons/InventoryMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InventoryMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InventoryMajor", function() { return _icons_InventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_204__["S"]; });
 
-/* harmony import */ var _icons_JobsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_205__ = __webpack_require__(/*! ./icons/JobsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/JobsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "JobsMajor", function() { return _icons_JobsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_205__["S"]; });
+/* harmony import */ var _icons_InviteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_205__ = __webpack_require__(/*! ./icons/InviteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/InviteMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InviteMinor", function() { return _icons_InviteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_205__["S"]; });
 
-/* harmony import */ var _icons_KeyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_206__ = __webpack_require__(/*! ./icons/KeyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/KeyMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KeyMajor", function() { return _icons_KeyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_206__["S"]; });
+/* harmony import */ var _icons_IqMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_206__ = __webpack_require__(/*! ./icons/IqMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/IqMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IqMajor", function() { return _icons_IqMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_206__["S"]; });
 
-/* harmony import */ var _icons_LabelPrinterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_207__ = __webpack_require__(/*! ./icons/LabelPrinterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LabelPrinterMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LabelPrinterMajor", function() { return _icons_LabelPrinterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_207__["S"]; });
+/* harmony import */ var _icons_JobsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_207__ = __webpack_require__(/*! ./icons/JobsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/JobsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "JobsMajor", function() { return _icons_JobsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_207__["S"]; });
 
-/* harmony import */ var _icons_LandingPageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_208__ = __webpack_require__(/*! ./icons/LandingPageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LandingPageMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LandingPageMajor", function() { return _icons_LandingPageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_208__["S"]; });
+/* harmony import */ var _icons_KeyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_208__ = __webpack_require__(/*! ./icons/KeyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/KeyMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KeyMajor", function() { return _icons_KeyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_208__["S"]; });
 
-/* harmony import */ var _icons_LanguageMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_209__ = __webpack_require__(/*! ./icons/LanguageMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LanguageMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LanguageMinor", function() { return _icons_LanguageMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_209__["S"]; });
+/* harmony import */ var _icons_LabelPrinterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_209__ = __webpack_require__(/*! ./icons/LabelPrinterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LabelPrinterMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LabelPrinterMajor", function() { return _icons_LabelPrinterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_209__["S"]; });
 
-/* harmony import */ var _icons_LegalMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_210__ = __webpack_require__(/*! ./icons/LegalMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LegalMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LegalMajor", function() { return _icons_LegalMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_210__["S"]; });
+/* harmony import */ var _icons_LandingPageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_210__ = __webpack_require__(/*! ./icons/LandingPageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LandingPageMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LandingPageMajor", function() { return _icons_LandingPageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_210__["S"]; });
 
-/* harmony import */ var _icons_LinkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_211__ = __webpack_require__(/*! ./icons/LinkMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LinkMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LinkMinor", function() { return _icons_LinkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_211__["S"]; });
+/* harmony import */ var _icons_LanguageMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_211__ = __webpack_require__(/*! ./icons/LanguageMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LanguageMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LanguageMinor", function() { return _icons_LanguageMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_211__["S"]; });
 
-/* harmony import */ var _icons_ListMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_212__ = __webpack_require__(/*! ./icons/ListMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ListMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ListMajor", function() { return _icons_ListMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_212__["S"]; });
+/* harmony import */ var _icons_LegalMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_212__ = __webpack_require__(/*! ./icons/LegalMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LegalMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LegalMajor", function() { return _icons_LegalMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_212__["S"]; });
 
-/* harmony import */ var _icons_LiveViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_213__ = __webpack_require__(/*! ./icons/LiveViewMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LiveViewMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LiveViewMajor", function() { return _icons_LiveViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_213__["S"]; });
+/* harmony import */ var _icons_LinkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_213__ = __webpack_require__(/*! ./icons/LinkMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LinkMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LinkMinor", function() { return _icons_LinkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_213__["S"]; });
 
-/* harmony import */ var _icons_LocationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_214__ = __webpack_require__(/*! ./icons/LocationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LocationMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LocationMajor", function() { return _icons_LocationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_214__["S"]; });
+/* harmony import */ var _icons_ListMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_214__ = __webpack_require__(/*! ./icons/ListMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ListMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ListMajor", function() { return _icons_ListMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_214__["S"]; });
 
-/* harmony import */ var _icons_LocationsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_215__ = __webpack_require__(/*! ./icons/LocationsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LocationsMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LocationsMinor", function() { return _icons_LocationsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_215__["S"]; });
+/* harmony import */ var _icons_LiveViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_215__ = __webpack_require__(/*! ./icons/LiveViewMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LiveViewMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LiveViewMajor", function() { return _icons_LiveViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_215__["S"]; });
 
-/* harmony import */ var _icons_LockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_216__ = __webpack_require__(/*! ./icons/LockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LockMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LockMajor", function() { return _icons_LockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_216__["S"]; });
+/* harmony import */ var _icons_LocationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_216__ = __webpack_require__(/*! ./icons/LocationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LocationMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LocationMajor", function() { return _icons_LocationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_216__["S"]; });
 
-/* harmony import */ var _icons_LockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_217__ = __webpack_require__(/*! ./icons/LockMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LockMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LockMinor", function() { return _icons_LockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_217__["S"]; });
+/* harmony import */ var _icons_LocationsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_217__ = __webpack_require__(/*! ./icons/LocationsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LocationsMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LocationsMinor", function() { return _icons_LocationsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_217__["S"]; });
 
-/* harmony import */ var _icons_LogoBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_218__ = __webpack_require__(/*! ./icons/LogoBlockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LogoBlockMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LogoBlockMajor", function() { return _icons_LogoBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_218__["S"]; });
+/* harmony import */ var _icons_LockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_218__ = __webpack_require__(/*! ./icons/LockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LockMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LockMajor", function() { return _icons_LockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_218__["S"]; });
 
-/* harmony import */ var _icons_LogOutMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_219__ = __webpack_require__(/*! ./icons/LogOutMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LogOutMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LogOutMinor", function() { return _icons_LogOutMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_219__["S"]; });
+/* harmony import */ var _icons_LockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_219__ = __webpack_require__(/*! ./icons/LockMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LockMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LockMinor", function() { return _icons_LockMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_219__["S"]; });
 
-/* harmony import */ var _icons_ManagedStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_220__ = __webpack_require__(/*! ./icons/ManagedStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ManagedStoreMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ManagedStoreMajor", function() { return _icons_ManagedStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_220__["S"]; });
+/* harmony import */ var _icons_LogoBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_220__ = __webpack_require__(/*! ./icons/LogoBlockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LogoBlockMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LogoBlockMajor", function() { return _icons_LogoBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_220__["S"]; });
 
-/* harmony import */ var _icons_MarketingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_221__ = __webpack_require__(/*! ./icons/MarketingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MarketingMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MarketingMajor", function() { return _icons_MarketingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_221__["S"]; });
+/* harmony import */ var _icons_LogOutMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_221__ = __webpack_require__(/*! ./icons/LogOutMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/LogOutMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "LogOutMinor", function() { return _icons_LogOutMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_221__["S"]; });
 
-/* harmony import */ var _icons_MarkFulfilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_222__ = __webpack_require__(/*! ./icons/MarkFulfilledMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MarkFulfilledMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MarkFulfilledMinor", function() { return _icons_MarkFulfilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_222__["S"]; });
+/* harmony import */ var _icons_ManagedStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_222__ = __webpack_require__(/*! ./icons/ManagedStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ManagedStoreMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ManagedStoreMajor", function() { return _icons_ManagedStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_222__["S"]; });
 
-/* harmony import */ var _icons_MarkPaidMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_223__ = __webpack_require__(/*! ./icons/MarkPaidMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MarkPaidMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MarkPaidMinor", function() { return _icons_MarkPaidMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_223__["S"]; });
+/* harmony import */ var _icons_MarketingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_223__ = __webpack_require__(/*! ./icons/MarketingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MarketingMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MarketingMajor", function() { return _icons_MarketingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_223__["S"]; });
 
-/* harmony import */ var _icons_MaximizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_224__ = __webpack_require__(/*! ./icons/MaximizeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MaximizeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MaximizeMajor", function() { return _icons_MaximizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_224__["S"]; });
+/* harmony import */ var _icons_MarkFulfilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_224__ = __webpack_require__(/*! ./icons/MarkFulfilledMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MarkFulfilledMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MarkFulfilledMinor", function() { return _icons_MarkFulfilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_224__["S"]; });
 
-/* harmony import */ var _icons_MaximizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_225__ = __webpack_require__(/*! ./icons/MaximizeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MaximizeMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MaximizeMinor", function() { return _icons_MaximizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_225__["S"]; });
+/* harmony import */ var _icons_MarkPaidMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_225__ = __webpack_require__(/*! ./icons/MarkPaidMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MarkPaidMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MarkPaidMinor", function() { return _icons_MarkPaidMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_225__["S"]; });
 
-/* harmony import */ var _icons_MentionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_226__ = __webpack_require__(/*! ./icons/MentionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MentionMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MentionMajor", function() { return _icons_MentionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_226__["S"]; });
+/* harmony import */ var _icons_MaximizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_226__ = __webpack_require__(/*! ./icons/MaximizeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MaximizeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MaximizeMajor", function() { return _icons_MaximizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_226__["S"]; });
 
-/* harmony import */ var _icons_MicrophoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_227__ = __webpack_require__(/*! ./icons/MicrophoneMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MicrophoneMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MicrophoneMajor", function() { return _icons_MicrophoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_227__["S"]; });
+/* harmony import */ var _icons_MaximizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_227__ = __webpack_require__(/*! ./icons/MaximizeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MaximizeMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MaximizeMinor", function() { return _icons_MaximizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_227__["S"]; });
 
-/* harmony import */ var _icons_MinimizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_228__ = __webpack_require__(/*! ./icons/MinimizeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MinimizeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MinimizeMajor", function() { return _icons_MinimizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_228__["S"]; });
+/* harmony import */ var _icons_MentionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_228__ = __webpack_require__(/*! ./icons/MentionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MentionMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MentionMajor", function() { return _icons_MentionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_228__["S"]; });
 
-/* harmony import */ var _icons_MinimizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_229__ = __webpack_require__(/*! ./icons/MinimizeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MinimizeMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MinimizeMinor", function() { return _icons_MinimizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_229__["S"]; });
+/* harmony import */ var _icons_MicrophoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_229__ = __webpack_require__(/*! ./icons/MicrophoneMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MicrophoneMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MicrophoneMajor", function() { return _icons_MicrophoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_229__["S"]; });
 
-/* harmony import */ var _icons_MinusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_230__ = __webpack_require__(/*! ./icons/MinusMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MinusMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MinusMinor", function() { return _icons_MinusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_230__["S"]; });
+/* harmony import */ var _icons_MinimizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_230__ = __webpack_require__(/*! ./icons/MinimizeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MinimizeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MinimizeMajor", function() { return _icons_MinimizeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_230__["S"]; });
 
-/* harmony import */ var _icons_MobileAcceptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_231__ = __webpack_require__(/*! ./icons/MobileAcceptMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileAcceptMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileAcceptMajor", function() { return _icons_MobileAcceptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_231__["S"]; });
+/* harmony import */ var _icons_MinimizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_231__ = __webpack_require__(/*! ./icons/MinimizeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MinimizeMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MinimizeMinor", function() { return _icons_MinimizeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_231__["S"]; });
 
-/* harmony import */ var _icons_MobileBackArrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_232__ = __webpack_require__(/*! ./icons/MobileBackArrowMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileBackArrowMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileBackArrowMajor", function() { return _icons_MobileBackArrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_232__["S"]; });
+/* harmony import */ var _icons_MinusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_232__ = __webpack_require__(/*! ./icons/MinusMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MinusMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MinusMinor", function() { return _icons_MinusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_232__["S"]; });
 
-/* harmony import */ var _icons_MobileCancelMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_233__ = __webpack_require__(/*! ./icons/MobileCancelMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileCancelMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileCancelMajor", function() { return _icons_MobileCancelMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_233__["S"]; });
+/* harmony import */ var _icons_MobileAcceptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_233__ = __webpack_require__(/*! ./icons/MobileAcceptMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileAcceptMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileAcceptMajor", function() { return _icons_MobileAcceptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_233__["S"]; });
 
-/* harmony import */ var _icons_MobileChevronMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_234__ = __webpack_require__(/*! ./icons/MobileChevronMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileChevronMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileChevronMajor", function() { return _icons_MobileChevronMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_234__["S"]; });
+/* harmony import */ var _icons_MobileBackArrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_234__ = __webpack_require__(/*! ./icons/MobileBackArrowMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileBackArrowMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileBackArrowMajor", function() { return _icons_MobileBackArrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_234__["S"]; });
 
-/* harmony import */ var _icons_MobileHamburgerMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_235__ = __webpack_require__(/*! ./icons/MobileHamburgerMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileHamburgerMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileHamburgerMajor", function() { return _icons_MobileHamburgerMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_235__["S"]; });
+/* harmony import */ var _icons_MobileCancelMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_235__ = __webpack_require__(/*! ./icons/MobileCancelMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileCancelMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileCancelMajor", function() { return _icons_MobileCancelMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_235__["S"]; });
 
-/* harmony import */ var _icons_MobileHorizontalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_236__ = __webpack_require__(/*! ./icons/MobileHorizontalDotsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileHorizontalDotsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileHorizontalDotsMajor", function() { return _icons_MobileHorizontalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_236__["S"]; });
+/* harmony import */ var _icons_MobileChevronMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_236__ = __webpack_require__(/*! ./icons/MobileChevronMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileChevronMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileChevronMajor", function() { return _icons_MobileChevronMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_236__["S"]; });
 
-/* harmony import */ var _icons_MobileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_237__ = __webpack_require__(/*! ./icons/MobileMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileMajor", function() { return _icons_MobileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_237__["S"]; });
+/* harmony import */ var _icons_MobileHamburgerMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_237__ = __webpack_require__(/*! ./icons/MobileHamburgerMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileHamburgerMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileHamburgerMajor", function() { return _icons_MobileHamburgerMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_237__["S"]; });
 
-/* harmony import */ var _icons_MobilePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_238__ = __webpack_require__(/*! ./icons/MobilePlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobilePlusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobilePlusMajor", function() { return _icons_MobilePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_238__["S"]; });
+/* harmony import */ var _icons_MobileHorizontalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_238__ = __webpack_require__(/*! ./icons/MobileHorizontalDotsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileHorizontalDotsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileHorizontalDotsMajor", function() { return _icons_MobileHorizontalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_238__["S"]; });
 
-/* harmony import */ var _icons_MobileVerticalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_239__ = __webpack_require__(/*! ./icons/MobileVerticalDotsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileVerticalDotsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileVerticalDotsMajor", function() { return _icons_MobileVerticalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_239__["S"]; });
+/* harmony import */ var _icons_MobileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_239__ = __webpack_require__(/*! ./icons/MobileMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileMajor", function() { return _icons_MobileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_239__["S"]; });
 
-/* harmony import */ var _icons_MonerisMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_240__ = __webpack_require__(/*! ./icons/MonerisMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MonerisMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MonerisMajor", function() { return _icons_MonerisMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_240__["S"]; });
+/* harmony import */ var _icons_MobilePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_240__ = __webpack_require__(/*! ./icons/MobilePlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobilePlusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobilePlusMajor", function() { return _icons_MobilePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_240__["S"]; });
 
-/* harmony import */ var _icons_NatureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_241__ = __webpack_require__(/*! ./icons/NatureMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NatureMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NatureMajor", function() { return _icons_NatureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_241__["S"]; });
+/* harmony import */ var _icons_MobileVerticalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_241__ = __webpack_require__(/*! ./icons/MobileVerticalDotsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MobileVerticalDotsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MobileVerticalDotsMajor", function() { return _icons_MobileVerticalDotsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_241__["S"]; });
 
-/* harmony import */ var _icons_NavigationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_242__ = __webpack_require__(/*! ./icons/NavigationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NavigationMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NavigationMajor", function() { return _icons_NavigationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_242__["S"]; });
+/* harmony import */ var _icons_MonerisMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_242__ = __webpack_require__(/*! ./icons/MonerisMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/MonerisMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MonerisMajor", function() { return _icons_MonerisMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_242__["S"]; });
 
-/* harmony import */ var _icons_NoteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_243__ = __webpack_require__(/*! ./icons/NoteMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NoteMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NoteMajor", function() { return _icons_NoteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_243__["S"]; });
+/* harmony import */ var _icons_NatureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_243__ = __webpack_require__(/*! ./icons/NatureMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NatureMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NatureMajor", function() { return _icons_NatureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_243__["S"]; });
 
-/* harmony import */ var _icons_NoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_244__ = __webpack_require__(/*! ./icons/NoteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NoteMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NoteMinor", function() { return _icons_NoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_244__["S"]; });
+/* harmony import */ var _icons_NavigationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_244__ = __webpack_require__(/*! ./icons/NavigationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NavigationMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NavigationMajor", function() { return _icons_NavigationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_244__["S"]; });
 
-/* harmony import */ var _icons_NotificationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_245__ = __webpack_require__(/*! ./icons/NotificationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NotificationMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NotificationMajor", function() { return _icons_NotificationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_245__["S"]; });
+/* harmony import */ var _icons_NoteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_245__ = __webpack_require__(/*! ./icons/NoteMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NoteMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NoteMajor", function() { return _icons_NoteMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_245__["S"]; });
 
-/* harmony import */ var _icons_OnlineStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_246__ = __webpack_require__(/*! ./icons/OnlineStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OnlineStoreMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OnlineStoreMajor", function() { return _icons_OnlineStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_246__["S"]; });
+/* harmony import */ var _icons_NoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_246__ = __webpack_require__(/*! ./icons/NoteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NoteMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NoteMinor", function() { return _icons_NoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_246__["S"]; });
 
-/* harmony import */ var _icons_OrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_247__ = __webpack_require__(/*! ./icons/OrdersMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OrdersMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OrdersMajor", function() { return _icons_OrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_247__["S"]; });
+/* harmony import */ var _icons_NotificationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_247__ = __webpack_require__(/*! ./icons/NotificationMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/NotificationMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "NotificationMajor", function() { return _icons_NotificationMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_247__["S"]; });
 
-/* harmony import */ var _icons_OrderStatusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_248__ = __webpack_require__(/*! ./icons/OrderStatusMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OrderStatusMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OrderStatusMinor", function() { return _icons_OrderStatusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_248__["S"]; });
+/* harmony import */ var _icons_OnlineStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_248__ = __webpack_require__(/*! ./icons/OnlineStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OnlineStoreMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OnlineStoreMajor", function() { return _icons_OnlineStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_248__["S"]; });
 
-/* harmony import */ var _icons_OutgoingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_249__ = __webpack_require__(/*! ./icons/OutgoingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OutgoingMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OutgoingMajor", function() { return _icons_OutgoingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_249__["S"]; });
+/* harmony import */ var _icons_OrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_249__ = __webpack_require__(/*! ./icons/OrdersMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OrdersMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OrdersMajor", function() { return _icons_OrdersMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_249__["S"]; });
 
-/* harmony import */ var _icons_PackageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_250__ = __webpack_require__(/*! ./icons/PackageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PackageMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PackageMajor", function() { return _icons_PackageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_250__["S"]; });
+/* harmony import */ var _icons_OrderStatusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_250__ = __webpack_require__(/*! ./icons/OrderStatusMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OrderStatusMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OrderStatusMinor", function() { return _icons_OrderStatusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_250__["S"]; });
 
-/* harmony import */ var _icons_PageDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_251__ = __webpack_require__(/*! ./icons/PageDownMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageDownMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageDownMajor", function() { return _icons_PageDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_251__["S"]; });
+/* harmony import */ var _icons_OutgoingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_251__ = __webpack_require__(/*! ./icons/OutgoingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/OutgoingMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OutgoingMajor", function() { return _icons_OutgoingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_251__["S"]; });
 
-/* harmony import */ var _icons_PageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_252__ = __webpack_require__(/*! ./icons/PageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageMajor", function() { return _icons_PageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_252__["S"]; });
+/* harmony import */ var _icons_PackageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_252__ = __webpack_require__(/*! ./icons/PackageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PackageMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PackageMajor", function() { return _icons_PackageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_252__["S"]; });
 
-/* harmony import */ var _icons_PageMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_253__ = __webpack_require__(/*! ./icons/PageMinusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageMinusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageMinusMajor", function() { return _icons_PageMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_253__["S"]; });
+/* harmony import */ var _icons_PageDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_253__ = __webpack_require__(/*! ./icons/PageDownMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageDownMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageDownMajor", function() { return _icons_PageDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_253__["S"]; });
 
-/* harmony import */ var _icons_PagePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_254__ = __webpack_require__(/*! ./icons/PagePlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PagePlusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PagePlusMajor", function() { return _icons_PagePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_254__["S"]; });
+/* harmony import */ var _icons_PageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_254__ = __webpack_require__(/*! ./icons/PageMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageMajor", function() { return _icons_PageMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_254__["S"]; });
 
-/* harmony import */ var _icons_PageUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_255__ = __webpack_require__(/*! ./icons/PageUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageUpMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageUpMajor", function() { return _icons_PageUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_255__["S"]; });
+/* harmony import */ var _icons_PageMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_255__ = __webpack_require__(/*! ./icons/PageMinusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageMinusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageMinusMajor", function() { return _icons_PageMinusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_255__["S"]; });
 
-/* harmony import */ var _icons_PaginationEndMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_256__ = __webpack_require__(/*! ./icons/PaginationEndMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaginationEndMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaginationEndMinor", function() { return _icons_PaginationEndMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_256__["S"]; });
+/* harmony import */ var _icons_PagePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_256__ = __webpack_require__(/*! ./icons/PagePlusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PagePlusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PagePlusMajor", function() { return _icons_PagePlusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_256__["S"]; });
 
-/* harmony import */ var _icons_PaginationStartMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_257__ = __webpack_require__(/*! ./icons/PaginationStartMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaginationStartMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaginationStartMinor", function() { return _icons_PaginationStartMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_257__["S"]; });
+/* harmony import */ var _icons_PageUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_257__ = __webpack_require__(/*! ./icons/PageUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PageUpMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageUpMajor", function() { return _icons_PageUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_257__["S"]; });
 
-/* harmony import */ var _icons_PaintBrushMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_258__ = __webpack_require__(/*! ./icons/PaintBrushMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaintBrushMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaintBrushMajor", function() { return _icons_PaintBrushMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_258__["S"]; });
+/* harmony import */ var _icons_PaginationEndMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_258__ = __webpack_require__(/*! ./icons/PaginationEndMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaginationEndMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaginationEndMinor", function() { return _icons_PaginationEndMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_258__["S"]; });
 
-/* harmony import */ var _icons_PauseCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_259__ = __webpack_require__(/*! ./icons/PauseCircleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PauseCircleMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PauseCircleMajor", function() { return _icons_PauseCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_259__["S"]; });
+/* harmony import */ var _icons_PaginationStartMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_259__ = __webpack_require__(/*! ./icons/PaginationStartMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaginationStartMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaginationStartMinor", function() { return _icons_PaginationStartMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_259__["S"]; });
 
-/* harmony import */ var _icons_PauseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_260__ = __webpack_require__(/*! ./icons/PauseMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PauseMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PauseMajor", function() { return _icons_PauseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_260__["S"]; });
+/* harmony import */ var _icons_PaintBrushMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_260__ = __webpack_require__(/*! ./icons/PaintBrushMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaintBrushMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaintBrushMajor", function() { return _icons_PaintBrushMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_260__["S"]; });
 
-/* harmony import */ var _icons_PauseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_261__ = __webpack_require__(/*! ./icons/PauseMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PauseMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PauseMinor", function() { return _icons_PauseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_261__["S"]; });
+/* harmony import */ var _icons_PauseCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_261__ = __webpack_require__(/*! ./icons/PauseCircleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PauseCircleMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PauseCircleMajor", function() { return _icons_PauseCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_261__["S"]; });
 
-/* harmony import */ var _icons_PaymentsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_262__ = __webpack_require__(/*! ./icons/PaymentsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaymentsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaymentsMajor", function() { return _icons_PaymentsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_262__["S"]; });
+/* harmony import */ var _icons_PauseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_262__ = __webpack_require__(/*! ./icons/PauseMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PauseMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PauseMajor", function() { return _icons_PauseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_262__["S"]; });
 
-/* harmony import */ var _icons_PhoneInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_263__ = __webpack_require__(/*! ./icons/PhoneInMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PhoneInMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhoneInMajor", function() { return _icons_PhoneInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_263__["S"]; });
+/* harmony import */ var _icons_PauseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_263__ = __webpack_require__(/*! ./icons/PauseMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PauseMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PauseMinor", function() { return _icons_PauseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_263__["S"]; });
 
-/* harmony import */ var _icons_PhoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_264__ = __webpack_require__(/*! ./icons/PhoneMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PhoneMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhoneMajor", function() { return _icons_PhoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_264__["S"]; });
+/* harmony import */ var _icons_PaymentsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_264__ = __webpack_require__(/*! ./icons/PaymentsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PaymentsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PaymentsMajor", function() { return _icons_PaymentsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_264__["S"]; });
 
-/* harmony import */ var _icons_PhoneOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_265__ = __webpack_require__(/*! ./icons/PhoneOutMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PhoneOutMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhoneOutMajor", function() { return _icons_PhoneOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_265__["S"]; });
+/* harmony import */ var _icons_PhoneInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_265__ = __webpack_require__(/*! ./icons/PhoneInMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PhoneInMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhoneInMajor", function() { return _icons_PhoneInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_265__["S"]; });
 
-/* harmony import */ var _icons_PinMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_266__ = __webpack_require__(/*! ./icons/PinMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PinMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PinMajor", function() { return _icons_PinMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_266__["S"]; });
+/* harmony import */ var _icons_PhoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_266__ = __webpack_require__(/*! ./icons/PhoneMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PhoneMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhoneMajor", function() { return _icons_PhoneMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_266__["S"]; });
 
-/* harmony import */ var _icons_PinMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_267__ = __webpack_require__(/*! ./icons/PinMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PinMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PinMinor", function() { return _icons_PinMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_267__["S"]; });
+/* harmony import */ var _icons_PhoneOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_267__ = __webpack_require__(/*! ./icons/PhoneOutMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PhoneOutMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PhoneOutMajor", function() { return _icons_PhoneOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_267__["S"]; });
 
-/* harmony import */ var _icons_PlayCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_268__ = __webpack_require__(/*! ./icons/PlayCircleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlayCircleMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlayCircleMajor", function() { return _icons_PlayCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_268__["S"]; });
+/* harmony import */ var _icons_PinMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_268__ = __webpack_require__(/*! ./icons/PinMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PinMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PinMajor", function() { return _icons_PinMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_268__["S"]; });
 
-/* harmony import */ var _icons_PlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_269__ = __webpack_require__(/*! ./icons/PlayMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlayMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlayMajor", function() { return _icons_PlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_269__["S"]; });
+/* harmony import */ var _icons_PinMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_269__ = __webpack_require__(/*! ./icons/PinMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PinMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PinMinor", function() { return _icons_PinMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_269__["S"]; });
 
-/* harmony import */ var _icons_PlayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_270__ = __webpack_require__(/*! ./icons/PlayMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlayMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlayMinor", function() { return _icons_PlayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_270__["S"]; });
+/* harmony import */ var _icons_PlayCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_270__ = __webpack_require__(/*! ./icons/PlayCircleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlayCircleMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlayCircleMajor", function() { return _icons_PlayCircleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_270__["S"]; });
 
-/* harmony import */ var _icons_PlusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_271__ = __webpack_require__(/*! ./icons/PlusMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlusMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlusMinor", function() { return _icons_PlusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_271__["S"]; });
+/* harmony import */ var _icons_PlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_271__ = __webpack_require__(/*! ./icons/PlayMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlayMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlayMajor", function() { return _icons_PlayMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_271__["S"]; });
 
-/* harmony import */ var _icons_PointOfSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_272__ = __webpack_require__(/*! ./icons/PointOfSaleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PointOfSaleMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PointOfSaleMajor", function() { return _icons_PointOfSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_272__["S"]; });
+/* harmony import */ var _icons_PlayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_272__ = __webpack_require__(/*! ./icons/PlayMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlayMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlayMinor", function() { return _icons_PlayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_272__["S"]; });
 
-/* harmony import */ var _icons_PopularMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_273__ = __webpack_require__(/*! ./icons/PopularMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PopularMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PopularMajor", function() { return _icons_PopularMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_273__["S"]; });
+/* harmony import */ var _icons_PlusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_273__ = __webpack_require__(/*! ./icons/PlusMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PlusMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PlusMinor", function() { return _icons_PlusMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_273__["S"]; });
 
-/* harmony import */ var _icons_PriceLookupMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_274__ = __webpack_require__(/*! ./icons/PriceLookupMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PriceLookupMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PriceLookupMinor", function() { return _icons_PriceLookupMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_274__["S"]; });
+/* harmony import */ var _icons_PointOfSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_274__ = __webpack_require__(/*! ./icons/PointOfSaleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PointOfSaleMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PointOfSaleMajor", function() { return _icons_PointOfSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_274__["S"]; });
 
-/* harmony import */ var _icons_PrintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_275__ = __webpack_require__(/*! ./icons/PrintMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PrintMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PrintMajor", function() { return _icons_PrintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_275__["S"]; });
+/* harmony import */ var _icons_PopularMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_275__ = __webpack_require__(/*! ./icons/PopularMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PopularMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PopularMajor", function() { return _icons_PopularMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_275__["S"]; });
 
-/* harmony import */ var _icons_PrintMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_276__ = __webpack_require__(/*! ./icons/PrintMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PrintMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PrintMinor", function() { return _icons_PrintMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_276__["S"]; });
+/* harmony import */ var _icons_PriceLookupMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_276__ = __webpack_require__(/*! ./icons/PriceLookupMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PriceLookupMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PriceLookupMinor", function() { return _icons_PriceLookupMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_276__["S"]; });
 
-/* harmony import */ var _icons_ProductReturnsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_277__ = __webpack_require__(/*! ./icons/ProductReturnsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProductReturnsMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductReturnsMinor", function() { return _icons_ProductReturnsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_277__["S"]; });
+/* harmony import */ var _icons_PrintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_277__ = __webpack_require__(/*! ./icons/PrintMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PrintMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PrintMajor", function() { return _icons_PrintMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_277__["S"]; });
 
-/* harmony import */ var _icons_ProductsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_278__ = __webpack_require__(/*! ./icons/ProductsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProductsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductsMajor", function() { return _icons_ProductsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_278__["S"]; });
+/* harmony import */ var _icons_PrintMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_278__ = __webpack_require__(/*! ./icons/PrintMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PrintMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PrintMinor", function() { return _icons_PrintMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_278__["S"]; });
 
-/* harmony import */ var _icons_ProfileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_279__ = __webpack_require__(/*! ./icons/ProfileMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProfileMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProfileMajor", function() { return _icons_ProfileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_279__["S"]; });
+/* harmony import */ var _icons_ProductReturnsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_279__ = __webpack_require__(/*! ./icons/ProductReturnsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProductReturnsMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductReturnsMinor", function() { return _icons_ProductReturnsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_279__["S"]; });
 
-/* harmony import */ var _icons_ProfileMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_280__ = __webpack_require__(/*! ./icons/ProfileMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProfileMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProfileMinor", function() { return _icons_ProfileMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_280__["S"]; });
+/* harmony import */ var _icons_ProductsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_280__ = __webpack_require__(/*! ./icons/ProductsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProductsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProductsMajor", function() { return _icons_ProductsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_280__["S"]; });
 
-/* harmony import */ var _icons_PromoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_281__ = __webpack_require__(/*! ./icons/PromoteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PromoteMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PromoteMinor", function() { return _icons_PromoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_281__["S"]; });
+/* harmony import */ var _icons_ProfileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_281__ = __webpack_require__(/*! ./icons/ProfileMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProfileMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProfileMajor", function() { return _icons_ProfileMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_281__["S"]; });
 
-/* harmony import */ var _icons_QuestionMarkInverseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_282__ = __webpack_require__(/*! ./icons/QuestionMarkInverseMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkInverseMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkInverseMajor", function() { return _icons_QuestionMarkInverseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_282__["S"]; });
+/* harmony import */ var _icons_ProfileMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_282__ = __webpack_require__(/*! ./icons/ProfileMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ProfileMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProfileMinor", function() { return _icons_ProfileMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_282__["S"]; });
 
-/* harmony import */ var _icons_QuestionMarkInverseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_283__ = __webpack_require__(/*! ./icons/QuestionMarkInverseMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkInverseMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkInverseMinor", function() { return _icons_QuestionMarkInverseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_283__["S"]; });
+/* harmony import */ var _icons_PromoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_283__ = __webpack_require__(/*! ./icons/PromoteMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/PromoteMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PromoteMinor", function() { return _icons_PromoteMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_283__["S"]; });
 
-/* harmony import */ var _icons_QuestionMarkMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_284__ = __webpack_require__(/*! ./icons/QuestionMarkMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkMajor", function() { return _icons_QuestionMarkMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_284__["S"]; });
+/* harmony import */ var _icons_QuestionMarkInverseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_284__ = __webpack_require__(/*! ./icons/QuestionMarkInverseMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkInverseMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkInverseMajor", function() { return _icons_QuestionMarkInverseMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_284__["S"]; });
 
-/* harmony import */ var _icons_QuestionMarkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_285__ = __webpack_require__(/*! ./icons/QuestionMarkMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkMinor", function() { return _icons_QuestionMarkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_285__["S"]; });
+/* harmony import */ var _icons_QuestionMarkInverseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_285__ = __webpack_require__(/*! ./icons/QuestionMarkInverseMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkInverseMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkInverseMinor", function() { return _icons_QuestionMarkInverseMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_285__["S"]; });
 
-/* harmony import */ var _icons_QuickSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_286__ = __webpack_require__(/*! ./icons/QuickSaleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuickSaleMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuickSaleMajor", function() { return _icons_QuickSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_286__["S"]; });
+/* harmony import */ var _icons_QuestionMarkMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_286__ = __webpack_require__(/*! ./icons/QuestionMarkMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkMajor", function() { return _icons_QuestionMarkMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_286__["S"]; });
 
-/* harmony import */ var _icons_ReadTimeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_287__ = __webpack_require__(/*! ./icons/ReadTimeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReadTimeMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReadTimeMinor", function() { return _icons_ReadTimeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_287__["S"]; });
+/* harmony import */ var _icons_QuestionMarkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_287__ = __webpack_require__(/*! ./icons/QuestionMarkMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuestionMarkMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuestionMarkMinor", function() { return _icons_QuestionMarkMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_287__["S"]; });
 
-/* harmony import */ var _icons_ReceiptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_288__ = __webpack_require__(/*! ./icons/ReceiptMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReceiptMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReceiptMajor", function() { return _icons_ReceiptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_288__["S"]; });
+/* harmony import */ var _icons_QuickSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_288__ = __webpack_require__(/*! ./icons/QuickSaleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/QuickSaleMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "QuickSaleMajor", function() { return _icons_QuickSaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_288__["S"]; });
 
-/* harmony import */ var _icons_RecentSearchesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_289__ = __webpack_require__(/*! ./icons/RecentSearchesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RecentSearchesMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RecentSearchesMajor", function() { return _icons_RecentSearchesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_289__["S"]; });
+/* harmony import */ var _icons_ReadTimeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_289__ = __webpack_require__(/*! ./icons/ReadTimeMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReadTimeMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReadTimeMinor", function() { return _icons_ReadTimeMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_289__["S"]; });
 
-/* harmony import */ var _icons_RedoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_290__ = __webpack_require__(/*! ./icons/RedoMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RedoMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RedoMajor", function() { return _icons_RedoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_290__["S"]; });
+/* harmony import */ var _icons_ReceiptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_290__ = __webpack_require__(/*! ./icons/ReceiptMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReceiptMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReceiptMajor", function() { return _icons_ReceiptMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_290__["S"]; });
 
-/* harmony import */ var _icons_ReferralCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_291__ = __webpack_require__(/*! ./icons/ReferralCodeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReferralCodeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReferralCodeMajor", function() { return _icons_ReferralCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_291__["S"]; });
+/* harmony import */ var _icons_RecentSearchesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_291__ = __webpack_require__(/*! ./icons/RecentSearchesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RecentSearchesMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RecentSearchesMajor", function() { return _icons_RecentSearchesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_291__["S"]; });
 
-/* harmony import */ var _icons_ReferralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_292__ = __webpack_require__(/*! ./icons/ReferralMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReferralMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReferralMajor", function() { return _icons_ReferralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_292__["S"]; });
+/* harmony import */ var _icons_RedoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_292__ = __webpack_require__(/*! ./icons/RedoMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RedoMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RedoMajor", function() { return _icons_RedoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_292__["S"]; });
 
-/* harmony import */ var _icons_RefreshMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_293__ = __webpack_require__(/*! ./icons/RefreshMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefreshMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefreshMajor", function() { return _icons_RefreshMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_293__["S"]; });
+/* harmony import */ var _icons_ReferralCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_293__ = __webpack_require__(/*! ./icons/ReferralCodeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReferralCodeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReferralCodeMajor", function() { return _icons_ReferralCodeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_293__["S"]; });
 
-/* harmony import */ var _icons_RefreshMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_294__ = __webpack_require__(/*! ./icons/RefreshMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefreshMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefreshMinor", function() { return _icons_RefreshMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_294__["S"]; });
+/* harmony import */ var _icons_ReferralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_294__ = __webpack_require__(/*! ./icons/ReferralMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReferralMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReferralMajor", function() { return _icons_ReferralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_294__["S"]; });
 
-/* harmony import */ var _icons_RefundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_295__ = __webpack_require__(/*! ./icons/RefundMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefundMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefundMajor", function() { return _icons_RefundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_295__["S"]; });
+/* harmony import */ var _icons_RefreshMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_295__ = __webpack_require__(/*! ./icons/RefreshMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefreshMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefreshMajor", function() { return _icons_RefreshMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_295__["S"]; });
 
-/* harmony import */ var _icons_RefundMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_296__ = __webpack_require__(/*! ./icons/RefundMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefundMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefundMinor", function() { return _icons_RefundMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_296__["S"]; });
+/* harmony import */ var _icons_RefreshMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_296__ = __webpack_require__(/*! ./icons/RefreshMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefreshMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefreshMinor", function() { return _icons_RefreshMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_296__["S"]; });
 
-/* harmony import */ var _icons_RemoveProductMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_297__ = __webpack_require__(/*! ./icons/RemoveProductMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RemoveProductMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RemoveProductMajor", function() { return _icons_RemoveProductMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_297__["S"]; });
+/* harmony import */ var _icons_RefundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_297__ = __webpack_require__(/*! ./icons/RefundMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefundMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefundMajor", function() { return _icons_RefundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_297__["S"]; });
 
-/* harmony import */ var _icons_RepeatOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_298__ = __webpack_require__(/*! ./icons/RepeatOrderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RepeatOrderMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RepeatOrderMajor", function() { return _icons_RepeatOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_298__["S"]; });
+/* harmony import */ var _icons_RefundMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_298__ = __webpack_require__(/*! ./icons/RefundMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RefundMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RefundMinor", function() { return _icons_RefundMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_298__["S"]; });
 
-/* harmony import */ var _icons_ReplaceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_299__ = __webpack_require__(/*! ./icons/ReplaceMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReplaceMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReplaceMajor", function() { return _icons_ReplaceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_299__["S"]; });
+/* harmony import */ var _icons_RemoveProductMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_299__ = __webpack_require__(/*! ./icons/RemoveProductMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RemoveProductMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RemoveProductMajor", function() { return _icons_RemoveProductMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_299__["S"]; });
 
-/* harmony import */ var _icons_ReplayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_300__ = __webpack_require__(/*! ./icons/ReplayMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReplayMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReplayMinor", function() { return _icons_ReplayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_300__["S"]; });
+/* harmony import */ var _icons_RepeatOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_300__ = __webpack_require__(/*! ./icons/RepeatOrderMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RepeatOrderMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RepeatOrderMajor", function() { return _icons_RepeatOrderMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_300__["S"]; });
 
-/* harmony import */ var _icons_ReportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_301__ = __webpack_require__(/*! ./icons/ReportMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReportMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReportMinor", function() { return _icons_ReportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_301__["S"]; });
+/* harmony import */ var _icons_ReplaceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_301__ = __webpack_require__(/*! ./icons/ReplaceMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReplaceMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReplaceMajor", function() { return _icons_ReplaceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_301__["S"]; });
 
-/* harmony import */ var _icons_ReportsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_302__ = __webpack_require__(/*! ./icons/ReportsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReportsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReportsMajor", function() { return _icons_ReportsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_302__["S"]; });
+/* harmony import */ var _icons_ReplayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_302__ = __webpack_require__(/*! ./icons/ReplayMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReplayMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReplayMinor", function() { return _icons_ReplayMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_302__["S"]; });
 
-/* harmony import */ var _icons_ResetMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_303__ = __webpack_require__(/*! ./icons/ResetMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ResetMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResetMinor", function() { return _icons_ResetMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_303__["S"]; });
+/* harmony import */ var _icons_ReportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_303__ = __webpack_require__(/*! ./icons/ReportMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReportMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReportMinor", function() { return _icons_ReportMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_303__["S"]; });
 
-/* harmony import */ var _icons_ResourcesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_304__ = __webpack_require__(/*! ./icons/ResourcesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ResourcesMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResourcesMajor", function() { return _icons_ResourcesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_304__["S"]; });
+/* harmony import */ var _icons_ReportsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_304__ = __webpack_require__(/*! ./icons/ReportsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReportsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReportsMajor", function() { return _icons_ReportsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_304__["S"]; });
 
-/* harmony import */ var _icons_ReturnMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_305__ = __webpack_require__(/*! ./icons/ReturnMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReturnMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReturnMinor", function() { return _icons_ReturnMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_305__["S"]; });
+/* harmony import */ var _icons_ResetMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_305__ = __webpack_require__(/*! ./icons/ResetMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ResetMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResetMinor", function() { return _icons_ResetMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_305__["S"]; });
 
-/* harmony import */ var _icons_RiskMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_306__ = __webpack_require__(/*! ./icons/RiskMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RiskMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RiskMajor", function() { return _icons_RiskMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_306__["S"]; });
+/* harmony import */ var _icons_ResourcesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_306__ = __webpack_require__(/*! ./icons/ResourcesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ResourcesMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResourcesMajor", function() { return _icons_ResourcesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_306__["S"]; });
 
-/* harmony import */ var _icons_RiskMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_307__ = __webpack_require__(/*! ./icons/RiskMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RiskMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RiskMinor", function() { return _icons_RiskMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_307__["S"]; });
+/* harmony import */ var _icons_ReturnMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_307__ = __webpack_require__(/*! ./icons/ReturnMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ReturnMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ReturnMinor", function() { return _icons_ReturnMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_307__["S"]; });
 
-/* harmony import */ var _icons_SandboxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_308__ = __webpack_require__(/*! ./icons/SandboxMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SandboxMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SandboxMajor", function() { return _icons_SandboxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_308__["S"]; });
+/* harmony import */ var _icons_RiskMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_308__ = __webpack_require__(/*! ./icons/RiskMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RiskMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RiskMajor", function() { return _icons_RiskMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_308__["S"]; });
 
-/* harmony import */ var _icons_SaveMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_309__ = __webpack_require__(/*! ./icons/SaveMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SaveMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SaveMinor", function() { return _icons_SaveMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_309__["S"]; });
+/* harmony import */ var _icons_RiskMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_309__ = __webpack_require__(/*! ./icons/RiskMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/RiskMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RiskMinor", function() { return _icons_RiskMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_309__["S"]; });
 
-/* harmony import */ var _icons_SearchMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_310__ = __webpack_require__(/*! ./icons/SearchMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SearchMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchMajor", function() { return _icons_SearchMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_310__["S"]; });
+/* harmony import */ var _icons_SandboxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_310__ = __webpack_require__(/*! ./icons/SandboxMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SandboxMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SandboxMajor", function() { return _icons_SandboxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_310__["S"]; });
 
-/* harmony import */ var _icons_SearchMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_311__ = __webpack_require__(/*! ./icons/SearchMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SearchMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchMinor", function() { return _icons_SearchMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_311__["S"]; });
+/* harmony import */ var _icons_SaveMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_311__ = __webpack_require__(/*! ./icons/SaveMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SaveMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SaveMinor", function() { return _icons_SaveMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_311__["S"]; });
 
-/* harmony import */ var _icons_SectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_312__ = __webpack_require__(/*! ./icons/SectionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SectionMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SectionMajor", function() { return _icons_SectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_312__["S"]; });
+/* harmony import */ var _icons_SearchMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_312__ = __webpack_require__(/*! ./icons/SearchMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SearchMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchMajor", function() { return _icons_SearchMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_312__["S"]; });
 
-/* harmony import */ var _icons_SecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_313__ = __webpack_require__(/*! ./icons/SecureMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SecureMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SecureMajor", function() { return _icons_SecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_313__["S"]; });
+/* harmony import */ var _icons_SearchMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_313__ = __webpack_require__(/*! ./icons/SearchMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SearchMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SearchMinor", function() { return _icons_SearchMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_313__["S"]; });
 
-/* harmony import */ var _icons_SelectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_314__ = __webpack_require__(/*! ./icons/SelectMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SelectMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SelectMinor", function() { return _icons_SelectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_314__["S"]; });
+/* harmony import */ var _icons_SectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_314__ = __webpack_require__(/*! ./icons/SectionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SectionMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SectionMajor", function() { return _icons_SectionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_314__["S"]; });
 
-/* harmony import */ var _icons_SendMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_315__ = __webpack_require__(/*! ./icons/SendMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SendMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SendMajor", function() { return _icons_SendMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_315__["S"]; });
+/* harmony import */ var _icons_SecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_315__ = __webpack_require__(/*! ./icons/SecureMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SecureMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SecureMajor", function() { return _icons_SecureMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_315__["S"]; });
 
-/* harmony import */ var _icons_SettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_316__ = __webpack_require__(/*! ./icons/SettingsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SettingsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SettingsMajor", function() { return _icons_SettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_316__["S"]; });
+/* harmony import */ var _icons_SelectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_316__ = __webpack_require__(/*! ./icons/SelectMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SelectMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SelectMinor", function() { return _icons_SelectMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_316__["S"]; });
 
-/* harmony import */ var _icons_SettingsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_317__ = __webpack_require__(/*! ./icons/SettingsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SettingsMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SettingsMinor", function() { return _icons_SettingsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_317__["S"]; });
+/* harmony import */ var _icons_SendMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_317__ = __webpack_require__(/*! ./icons/SendMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SendMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SendMajor", function() { return _icons_SendMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_317__["S"]; });
 
-/* harmony import */ var _icons_ShareIosMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_318__ = __webpack_require__(/*! ./icons/ShareIosMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShareIosMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShareIosMinor", function() { return _icons_ShareIosMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_318__["S"]; });
+/* harmony import */ var _icons_SettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_318__ = __webpack_require__(/*! ./icons/SettingsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SettingsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SettingsMajor", function() { return _icons_SettingsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_318__["S"]; });
 
-/* harmony import */ var _icons_ShareMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_319__ = __webpack_require__(/*! ./icons/ShareMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShareMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShareMinor", function() { return _icons_ShareMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_319__["S"]; });
+/* harmony import */ var _icons_SettingsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_319__ = __webpack_require__(/*! ./icons/SettingsMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SettingsMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SettingsMinor", function() { return _icons_SettingsMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_319__["S"]; });
 
-/* harmony import */ var _icons_ShipmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_320__ = __webpack_require__(/*! ./icons/ShipmentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShipmentMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShipmentMajor", function() { return _icons_ShipmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_320__["S"]; });
+/* harmony import */ var _icons_ShareIosMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_320__ = __webpack_require__(/*! ./icons/ShareIosMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShareIosMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShareIosMinor", function() { return _icons_ShareIosMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_320__["S"]; });
 
-/* harmony import */ var _icons_ShopcodesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_321__ = __webpack_require__(/*! ./icons/ShopcodesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShopcodesMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShopcodesMajor", function() { return _icons_ShopcodesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_321__["S"]; });
+/* harmony import */ var _icons_ShareMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_321__ = __webpack_require__(/*! ./icons/ShareMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShareMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShareMinor", function() { return _icons_ShareMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_321__["S"]; });
 
-/* harmony import */ var _icons_SidebarLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_322__ = __webpack_require__(/*! ./icons/SidebarLeftMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SidebarLeftMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SidebarLeftMajor", function() { return _icons_SidebarLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_322__["S"]; });
+/* harmony import */ var _icons_ShipmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_322__ = __webpack_require__(/*! ./icons/ShipmentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShipmentMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShipmentMajor", function() { return _icons_ShipmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_322__["S"]; });
 
-/* harmony import */ var _icons_SidebarRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_323__ = __webpack_require__(/*! ./icons/SidebarRightMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SidebarRightMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SidebarRightMajor", function() { return _icons_SidebarRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_323__["S"]; });
+/* harmony import */ var _icons_ShopcodesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_323__ = __webpack_require__(/*! ./icons/ShopcodesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ShopcodesMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ShopcodesMajor", function() { return _icons_ShopcodesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_323__["S"]; });
 
-/* harmony import */ var _icons_SlideshowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_324__ = __webpack_require__(/*! ./icons/SlideshowMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SlideshowMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SlideshowMajor", function() { return _icons_SlideshowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_324__["S"]; });
+/* harmony import */ var _icons_SidebarLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_324__ = __webpack_require__(/*! ./icons/SidebarLeftMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SidebarLeftMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SidebarLeftMajor", function() { return _icons_SidebarLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_324__["S"]; });
 
-/* harmony import */ var _icons_SmileyHappyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_325__ = __webpack_require__(/*! ./icons/SmileyHappyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileyHappyMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileyHappyMajor", function() { return _icons_SmileyHappyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_325__["S"]; });
+/* harmony import */ var _icons_SidebarRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_325__ = __webpack_require__(/*! ./icons/SidebarRightMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SidebarRightMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SidebarRightMajor", function() { return _icons_SidebarRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_325__["S"]; });
 
-/* harmony import */ var _icons_SmileyJoyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_326__ = __webpack_require__(/*! ./icons/SmileyJoyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileyJoyMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileyJoyMajor", function() { return _icons_SmileyJoyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_326__["S"]; });
+/* harmony import */ var _icons_SlideshowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_326__ = __webpack_require__(/*! ./icons/SlideshowMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SlideshowMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SlideshowMajor", function() { return _icons_SlideshowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_326__["S"]; });
 
-/* harmony import */ var _icons_SmileyNeutralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_327__ = __webpack_require__(/*! ./icons/SmileyNeutralMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileyNeutralMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileyNeutralMajor", function() { return _icons_SmileyNeutralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_327__["S"]; });
+/* harmony import */ var _icons_SmileyHappyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_327__ = __webpack_require__(/*! ./icons/SmileyHappyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileyHappyMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileyHappyMajor", function() { return _icons_SmileyHappyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_327__["S"]; });
 
-/* harmony import */ var _icons_SmileySadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_328__ = __webpack_require__(/*! ./icons/SmileySadMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileySadMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileySadMajor", function() { return _icons_SmileySadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_328__["S"]; });
+/* harmony import */ var _icons_SmileyJoyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_328__ = __webpack_require__(/*! ./icons/SmileyJoyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileyJoyMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileyJoyMajor", function() { return _icons_SmileyJoyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_328__["S"]; });
 
-/* harmony import */ var _icons_SocialAdMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_329__ = __webpack_require__(/*! ./icons/SocialAdMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SocialAdMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialAdMajor", function() { return _icons_SocialAdMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_329__["S"]; });
+/* harmony import */ var _icons_SmileyNeutralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_329__ = __webpack_require__(/*! ./icons/SmileyNeutralMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileyNeutralMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileyNeutralMajor", function() { return _icons_SmileyNeutralMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_329__["S"]; });
 
-/* harmony import */ var _icons_SocialPostMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_330__ = __webpack_require__(/*! ./icons/SocialPostMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SocialPostMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialPostMajor", function() { return _icons_SocialPostMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_330__["S"]; });
+/* harmony import */ var _icons_SmileySadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_330__ = __webpack_require__(/*! ./icons/SmileySadMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SmileySadMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SmileySadMajor", function() { return _icons_SmileySadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_330__["S"]; });
 
-/* harmony import */ var _icons_SoftPackMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_331__ = __webpack_require__(/*! ./icons/SoftPackMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SoftPackMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SoftPackMajor", function() { return _icons_SoftPackMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_331__["S"]; });
+/* harmony import */ var _icons_SocialAdMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_331__ = __webpack_require__(/*! ./icons/SocialAdMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SocialAdMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialAdMajor", function() { return _icons_SocialAdMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_331__["S"]; });
 
-/* harmony import */ var _icons_SortAscendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_332__ = __webpack_require__(/*! ./icons/SortAscendingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SortAscendingMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SortAscendingMajor", function() { return _icons_SortAscendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_332__["S"]; });
+/* harmony import */ var _icons_SocialPostMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_332__ = __webpack_require__(/*! ./icons/SocialPostMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SocialPostMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SocialPostMajor", function() { return _icons_SocialPostMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_332__["S"]; });
 
-/* harmony import */ var _icons_SortDescendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_333__ = __webpack_require__(/*! ./icons/SortDescendingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SortDescendingMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SortDescendingMajor", function() { return _icons_SortDescendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_333__["S"]; });
+/* harmony import */ var _icons_SoftPackMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_333__ = __webpack_require__(/*! ./icons/SoftPackMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SoftPackMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SoftPackMajor", function() { return _icons_SoftPackMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_333__["S"]; });
 
-/* harmony import */ var _icons_SortMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_334__ = __webpack_require__(/*! ./icons/SortMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SortMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SortMinor", function() { return _icons_SortMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_334__["S"]; });
+/* harmony import */ var _icons_SortAscendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_334__ = __webpack_require__(/*! ./icons/SortAscendingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SortAscendingMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SortAscendingMajor", function() { return _icons_SortAscendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_334__["S"]; });
 
-/* harmony import */ var _icons_SoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_335__ = __webpack_require__(/*! ./icons/SoundMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SoundMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SoundMajor", function() { return _icons_SoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_335__["S"]; });
+/* harmony import */ var _icons_SortDescendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_335__ = __webpack_require__(/*! ./icons/SortDescendingMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SortDescendingMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SortDescendingMajor", function() { return _icons_SortDescendingMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_335__["S"]; });
 
-/* harmony import */ var _icons_StarFilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_336__ = __webpack_require__(/*! ./icons/StarFilledMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StarFilledMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StarFilledMinor", function() { return _icons_StarFilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_336__["S"]; });
+/* harmony import */ var _icons_SortMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_336__ = __webpack_require__(/*! ./icons/SortMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SortMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SortMinor", function() { return _icons_SortMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_336__["S"]; });
 
-/* harmony import */ var _icons_StarOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_337__ = __webpack_require__(/*! ./icons/StarOutlineMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StarOutlineMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StarOutlineMinor", function() { return _icons_StarOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_337__["S"]; });
+/* harmony import */ var _icons_SoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_337__ = __webpack_require__(/*! ./icons/SoundMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/SoundMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SoundMajor", function() { return _icons_SoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_337__["S"]; });
 
-/* harmony import */ var _icons_StoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_338__ = __webpack_require__(/*! ./icons/StoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StoreMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StoreMajor", function() { return _icons_StoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_338__["S"]; });
+/* harmony import */ var _icons_StarFilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_338__ = __webpack_require__(/*! ./icons/StarFilledMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StarFilledMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StarFilledMinor", function() { return _icons_StarFilledMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_338__["S"]; });
 
-/* harmony import */ var _icons_StoreMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_339__ = __webpack_require__(/*! ./icons/StoreMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StoreMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StoreMinor", function() { return _icons_StoreMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_339__["S"]; });
+/* harmony import */ var _icons_StarOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_339__ = __webpack_require__(/*! ./icons/StarOutlineMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StarOutlineMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StarOutlineMinor", function() { return _icons_StarOutlineMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_339__["S"]; });
 
-/* harmony import */ var _icons_StoreStatusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_340__ = __webpack_require__(/*! ./icons/StoreStatusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StoreStatusMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StoreStatusMajor", function() { return _icons_StoreStatusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_340__["S"]; });
+/* harmony import */ var _icons_StoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_340__ = __webpack_require__(/*! ./icons/StoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StoreMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StoreMajor", function() { return _icons_StoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_340__["S"]; });
 
-/* harmony import */ var _icons_TabletMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_341__ = __webpack_require__(/*! ./icons/TabletMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TabletMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabletMajor", function() { return _icons_TabletMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_341__["S"]; });
+/* harmony import */ var _icons_StoreMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_341__ = __webpack_require__(/*! ./icons/StoreMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StoreMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StoreMinor", function() { return _icons_StoreMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_341__["S"]; });
 
-/* harmony import */ var _icons_TapChipMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_342__ = __webpack_require__(/*! ./icons/TapChipMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TapChipMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TapChipMajor", function() { return _icons_TapChipMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_342__["S"]; });
+/* harmony import */ var _icons_StoreStatusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_342__ = __webpack_require__(/*! ./icons/StoreStatusMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/StoreStatusMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "StoreStatusMajor", function() { return _icons_StoreStatusMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_342__["S"]; });
 
-/* harmony import */ var _icons_TaxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_343__ = __webpack_require__(/*! ./icons/TaxMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TaxMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TaxMajor", function() { return _icons_TaxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_343__["S"]; });
+/* harmony import */ var _icons_TabletMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_343__ = __webpack_require__(/*! ./icons/TabletMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TabletMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TabletMajor", function() { return _icons_TabletMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_343__["S"]; });
 
-/* harmony import */ var _icons_TeamMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_344__ = __webpack_require__(/*! ./icons/TeamMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TeamMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TeamMajor", function() { return _icons_TeamMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_344__["S"]; });
+/* harmony import */ var _icons_TapChipMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_344__ = __webpack_require__(/*! ./icons/TapChipMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TapChipMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TapChipMajor", function() { return _icons_TapChipMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_344__["S"]; });
 
-/* harmony import */ var _icons_TemplateMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_345__ = __webpack_require__(/*! ./icons/TemplateMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TemplateMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TemplateMajor", function() { return _icons_TemplateMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_345__["S"]; });
+/* harmony import */ var _icons_TaxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_345__ = __webpack_require__(/*! ./icons/TaxMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TaxMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TaxMajor", function() { return _icons_TaxMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_345__["S"]; });
 
-/* harmony import */ var _icons_TextAlignmentCenterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_346__ = __webpack_require__(/*! ./icons/TextAlignmentCenterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextAlignmentCenterMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextAlignmentCenterMajor", function() { return _icons_TextAlignmentCenterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_346__["S"]; });
+/* harmony import */ var _icons_TeamMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_346__ = __webpack_require__(/*! ./icons/TeamMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TeamMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TeamMajor", function() { return _icons_TeamMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_346__["S"]; });
 
-/* harmony import */ var _icons_TextAlignmentLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_347__ = __webpack_require__(/*! ./icons/TextAlignmentLeftMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextAlignmentLeftMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextAlignmentLeftMajor", function() { return _icons_TextAlignmentLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_347__["S"]; });
+/* harmony import */ var _icons_TemplateMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_347__ = __webpack_require__(/*! ./icons/TemplateMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TemplateMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TemplateMajor", function() { return _icons_TemplateMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_347__["S"]; });
 
-/* harmony import */ var _icons_TextAlignmentRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_348__ = __webpack_require__(/*! ./icons/TextAlignmentRightMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextAlignmentRightMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextAlignmentRightMajor", function() { return _icons_TextAlignmentRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_348__["S"]; });
+/* harmony import */ var _icons_TextAlignmentCenterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_348__ = __webpack_require__(/*! ./icons/TextAlignmentCenterMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextAlignmentCenterMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextAlignmentCenterMajor", function() { return _icons_TextAlignmentCenterMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_348__["S"]; });
 
-/* harmony import */ var _icons_TextBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_349__ = __webpack_require__(/*! ./icons/TextBlockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextBlockMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextBlockMajor", function() { return _icons_TextBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_349__["S"]; });
+/* harmony import */ var _icons_TextAlignmentLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_349__ = __webpack_require__(/*! ./icons/TextAlignmentLeftMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextAlignmentLeftMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextAlignmentLeftMajor", function() { return _icons_TextAlignmentLeftMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_349__["S"]; });
 
-/* harmony import */ var _icons_TextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_350__ = __webpack_require__(/*! ./icons/TextMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextMajor", function() { return _icons_TextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_350__["S"]; });
+/* harmony import */ var _icons_TextAlignmentRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_350__ = __webpack_require__(/*! ./icons/TextAlignmentRightMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextAlignmentRightMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextAlignmentRightMajor", function() { return _icons_TextAlignmentRightMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_350__["S"]; });
 
-/* harmony import */ var _icons_ThemeEditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_351__ = __webpack_require__(/*! ./icons/ThemeEditMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThemeEditMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeEditMajor", function() { return _icons_ThemeEditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_351__["S"]; });
+/* harmony import */ var _icons_TextBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_351__ = __webpack_require__(/*! ./icons/TextBlockMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextBlockMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextBlockMajor", function() { return _icons_TextBlockMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_351__["S"]; });
 
-/* harmony import */ var _icons_ThemesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_352__ = __webpack_require__(/*! ./icons/ThemesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThemesMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemesMajor", function() { return _icons_ThemesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_352__["S"]; });
+/* harmony import */ var _icons_TextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_352__ = __webpack_require__(/*! ./icons/TextMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TextMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextMajor", function() { return _icons_TextMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_352__["S"]; });
 
-/* harmony import */ var _icons_ThemeStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_353__ = __webpack_require__(/*! ./icons/ThemeStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThemeStoreMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeStoreMajor", function() { return _icons_ThemeStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_353__["S"]; });
+/* harmony import */ var _icons_ThemeEditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_353__ = __webpack_require__(/*! ./icons/ThemeEditMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThemeEditMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeEditMajor", function() { return _icons_ThemeEditMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_353__["S"]; });
 
-/* harmony import */ var _icons_ThumbsDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_354__ = __webpack_require__(/*! ./icons/ThumbsDownMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsDownMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsDownMajor", function() { return _icons_ThumbsDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_354__["S"]; });
+/* harmony import */ var _icons_ThemesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_354__ = __webpack_require__(/*! ./icons/ThemesMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThemesMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemesMajor", function() { return _icons_ThemesMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_354__["S"]; });
 
-/* harmony import */ var _icons_ThumbsDownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_355__ = __webpack_require__(/*! ./icons/ThumbsDownMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsDownMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsDownMinor", function() { return _icons_ThumbsDownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_355__["S"]; });
+/* harmony import */ var _icons_ThemeStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_355__ = __webpack_require__(/*! ./icons/ThemeStoreMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThemeStoreMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeStoreMajor", function() { return _icons_ThemeStoreMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_355__["S"]; });
 
-/* harmony import */ var _icons_ThumbsUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_356__ = __webpack_require__(/*! ./icons/ThumbsUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsUpMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsUpMajor", function() { return _icons_ThumbsUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_356__["S"]; });
+/* harmony import */ var _icons_ThumbsDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_356__ = __webpack_require__(/*! ./icons/ThumbsDownMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsDownMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsDownMajor", function() { return _icons_ThumbsDownMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_356__["S"]; });
 
-/* harmony import */ var _icons_ThumbsUpMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_357__ = __webpack_require__(/*! ./icons/ThumbsUpMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsUpMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsUpMinor", function() { return _icons_ThumbsUpMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_357__["S"]; });
+/* harmony import */ var _icons_ThumbsDownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_357__ = __webpack_require__(/*! ./icons/ThumbsDownMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsDownMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsDownMinor", function() { return _icons_ThumbsDownMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_357__["S"]; });
 
-/* harmony import */ var _icons_TickMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_358__ = __webpack_require__(/*! ./icons/TickMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TickMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TickMinor", function() { return _icons_TickMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_358__["S"]; });
+/* harmony import */ var _icons_ThumbsUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_358__ = __webpack_require__(/*! ./icons/ThumbsUpMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsUpMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsUpMajor", function() { return _icons_ThumbsUpMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_358__["S"]; });
 
-/* harmony import */ var _icons_TickSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_359__ = __webpack_require__(/*! ./icons/TickSmallMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TickSmallMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TickSmallMinor", function() { return _icons_TickSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_359__["S"]; });
+/* harmony import */ var _icons_ThumbsUpMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_359__ = __webpack_require__(/*! ./icons/ThumbsUpMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ThumbsUpMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThumbsUpMinor", function() { return _icons_ThumbsUpMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_359__["S"]; });
 
-/* harmony import */ var _icons_TimelineAttachmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_360__ = __webpack_require__(/*! ./icons/TimelineAttachmentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TimelineAttachmentMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TimelineAttachmentMajor", function() { return _icons_TimelineAttachmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_360__["S"]; });
+/* harmony import */ var _icons_TickMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_360__ = __webpack_require__(/*! ./icons/TickMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TickMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TickMinor", function() { return _icons_TickMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_360__["S"]; });
 
-/* harmony import */ var _icons_TipsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_361__ = __webpack_require__(/*! ./icons/TipsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TipsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TipsMajor", function() { return _icons_TipsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_361__["S"]; });
+/* harmony import */ var _icons_TickSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_361__ = __webpack_require__(/*! ./icons/TickSmallMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TickSmallMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TickSmallMinor", function() { return _icons_TickSmallMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_361__["S"]; });
 
-/* harmony import */ var _icons_TitleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_362__ = __webpack_require__(/*! ./icons/TitleMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TitleMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TitleMinor", function() { return _icons_TitleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_362__["S"]; });
+/* harmony import */ var _icons_TimelineAttachmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_362__ = __webpack_require__(/*! ./icons/TimelineAttachmentMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TimelineAttachmentMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TimelineAttachmentMajor", function() { return _icons_TimelineAttachmentMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_362__["S"]; });
 
-/* harmony import */ var _icons_ToolsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_363__ = __webpack_require__(/*! ./icons/ToolsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ToolsMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolsMajor", function() { return _icons_ToolsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_363__["S"]; });
+/* harmony import */ var _icons_TipsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_363__ = __webpack_require__(/*! ./icons/TipsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TipsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TipsMajor", function() { return _icons_TipsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_363__["S"]; });
 
-/* harmony import */ var _icons_TransactionFeeDollarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_364__ = __webpack_require__(/*! ./icons/TransactionFeeDollarMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeDollarMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeDollarMajor", function() { return _icons_TransactionFeeDollarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_364__["S"]; });
+/* harmony import */ var _icons_TitleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_364__ = __webpack_require__(/*! ./icons/TitleMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TitleMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TitleMinor", function() { return _icons_TitleMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_364__["S"]; });
 
-/* harmony import */ var _icons_TransactionFeeEuroMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_365__ = __webpack_require__(/*! ./icons/TransactionFeeEuroMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeEuroMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeEuroMajor", function() { return _icons_TransactionFeeEuroMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_365__["S"]; });
+/* harmony import */ var _icons_ToolsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_365__ = __webpack_require__(/*! ./icons/ToolsMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ToolsMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ToolsMajor", function() { return _icons_ToolsMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_365__["S"]; });
 
-/* harmony import */ var _icons_TransactionFeePoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_366__ = __webpack_require__(/*! ./icons/TransactionFeePoundMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeePoundMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeePoundMajor", function() { return _icons_TransactionFeePoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_366__["S"]; });
+/* harmony import */ var _icons_TransactionFeeDollarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_366__ = __webpack_require__(/*! ./icons/TransactionFeeDollarMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeDollarMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeDollarMajor", function() { return _icons_TransactionFeeDollarMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_366__["S"]; });
 
-/* harmony import */ var _icons_TransactionFeeRupeeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_367__ = __webpack_require__(/*! ./icons/TransactionFeeRupeeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeRupeeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeRupeeMajor", function() { return _icons_TransactionFeeRupeeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_367__["S"]; });
+/* harmony import */ var _icons_TransactionFeeEuroMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_367__ = __webpack_require__(/*! ./icons/TransactionFeeEuroMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeEuroMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeEuroMajor", function() { return _icons_TransactionFeeEuroMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_367__["S"]; });
 
-/* harmony import */ var _icons_TransactionFeeYenMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_368__ = __webpack_require__(/*! ./icons/TransactionFeeYenMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeYenMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeYenMajor", function() { return _icons_TransactionFeeYenMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_368__["S"]; });
+/* harmony import */ var _icons_TransactionFeePoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_368__ = __webpack_require__(/*! ./icons/TransactionFeePoundMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeePoundMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeePoundMajor", function() { return _icons_TransactionFeePoundMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_368__["S"]; });
 
-/* harmony import */ var _icons_TransactionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_369__ = __webpack_require__(/*! ./icons/TransactionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionMajor", function() { return _icons_TransactionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_369__["S"]; });
+/* harmony import */ var _icons_TransactionFeeRupeeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_369__ = __webpack_require__(/*! ./icons/TransactionFeeRupeeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeRupeeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeRupeeMajor", function() { return _icons_TransactionFeeRupeeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_369__["S"]; });
 
-/* harmony import */ var _icons_TransferInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_370__ = __webpack_require__(/*! ./icons/TransferInMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferInMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferInMajor", function() { return _icons_TransferInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_370__["S"]; });
+/* harmony import */ var _icons_TransactionFeeYenMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_370__ = __webpack_require__(/*! ./icons/TransactionFeeYenMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionFeeYenMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionFeeYenMajor", function() { return _icons_TransactionFeeYenMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_370__["S"]; });
 
-/* harmony import */ var _icons_TransferMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_371__ = __webpack_require__(/*! ./icons/TransferMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferMajor", function() { return _icons_TransferMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_371__["S"]; });
+/* harmony import */ var _icons_TransactionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_371__ = __webpack_require__(/*! ./icons/TransactionMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransactionMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransactionMajor", function() { return _icons_TransactionMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_371__["S"]; });
 
-/* harmony import */ var _icons_TransferOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_372__ = __webpack_require__(/*! ./icons/TransferOutMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferOutMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferOutMajor", function() { return _icons_TransferOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_372__["S"]; });
+/* harmony import */ var _icons_TransferInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_372__ = __webpack_require__(/*! ./icons/TransferInMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferInMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferInMajor", function() { return _icons_TransferInMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_372__["S"]; });
 
-/* harmony import */ var _icons_TransferWithinShopifyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_373__ = __webpack_require__(/*! ./icons/TransferWithinShopifyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferWithinShopifyMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferWithinShopifyMajor", function() { return _icons_TransferWithinShopifyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_373__["S"]; });
+/* harmony import */ var _icons_TransferMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_373__ = __webpack_require__(/*! ./icons/TransferMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferMajor", function() { return _icons_TransferMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_373__["S"]; });
 
-/* harmony import */ var _icons_TransportMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_374__ = __webpack_require__(/*! ./icons/TransportMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransportMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransportMajor", function() { return _icons_TransportMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_374__["S"]; });
+/* harmony import */ var _icons_TransferOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_374__ = __webpack_require__(/*! ./icons/TransferOutMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferOutMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferOutMajor", function() { return _icons_TransferOutMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_374__["S"]; });
 
-/* harmony import */ var _icons_TroubleshootMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_375__ = __webpack_require__(/*! ./icons/TroubleshootMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TroubleshootMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TroubleshootMajor", function() { return _icons_TroubleshootMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_375__["S"]; });
+/* harmony import */ var _icons_TransferWithinShopifyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_375__ = __webpack_require__(/*! ./icons/TransferWithinShopifyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransferWithinShopifyMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransferWithinShopifyMajor", function() { return _icons_TransferWithinShopifyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_375__["S"]; });
 
-/* harmony import */ var _icons_TypeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_376__ = __webpack_require__(/*! ./icons/TypeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TypeMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TypeMajor", function() { return _icons_TypeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_376__["S"]; });
+/* harmony import */ var _icons_TransportMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_376__ = __webpack_require__(/*! ./icons/TransportMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TransportMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TransportMajor", function() { return _icons_TransportMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_376__["S"]; });
 
-/* harmony import */ var _icons_UndoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_377__ = __webpack_require__(/*! ./icons/UndoMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UndoMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UndoMajor", function() { return _icons_UndoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_377__["S"]; });
+/* harmony import */ var _icons_TroubleshootMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_377__ = __webpack_require__(/*! ./icons/TroubleshootMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TroubleshootMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TroubleshootMajor", function() { return _icons_TroubleshootMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_377__["S"]; });
 
-/* harmony import */ var _icons_UnfulfilledMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_378__ = __webpack_require__(/*! ./icons/UnfulfilledMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UnfulfilledMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnfulfilledMajor", function() { return _icons_UnfulfilledMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_378__["S"]; });
+/* harmony import */ var _icons_TypeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_378__ = __webpack_require__(/*! ./icons/TypeMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/TypeMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TypeMajor", function() { return _icons_TypeMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_378__["S"]; });
 
-/* harmony import */ var _icons_UnknownDeviceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_379__ = __webpack_require__(/*! ./icons/UnknownDeviceMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UnknownDeviceMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnknownDeviceMajor", function() { return _icons_UnknownDeviceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_379__["S"]; });
+/* harmony import */ var _icons_UndoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_379__ = __webpack_require__(/*! ./icons/UndoMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UndoMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UndoMajor", function() { return _icons_UndoMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_379__["S"]; });
 
-/* harmony import */ var _icons_UpdateInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_380__ = __webpack_require__(/*! ./icons/UpdateInventoryMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UpdateInventoryMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UpdateInventoryMajor", function() { return _icons_UpdateInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_380__["S"]; });
+/* harmony import */ var _icons_UnfulfilledMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_380__ = __webpack_require__(/*! ./icons/UnfulfilledMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UnfulfilledMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnfulfilledMajor", function() { return _icons_UnfulfilledMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_380__["S"]; });
 
-/* harmony import */ var _icons_UploadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_381__ = __webpack_require__(/*! ./icons/UploadMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UploadMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UploadMajor", function() { return _icons_UploadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_381__["S"]; });
+/* harmony import */ var _icons_UnknownDeviceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_381__ = __webpack_require__(/*! ./icons/UnknownDeviceMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UnknownDeviceMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnknownDeviceMajor", function() { return _icons_UnknownDeviceMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_381__["S"]; });
 
-/* harmony import */ var _icons_VariantMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_382__ = __webpack_require__(/*! ./icons/VariantMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/VariantMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VariantMajor", function() { return _icons_VariantMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_382__["S"]; });
+/* harmony import */ var _icons_UpdateInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_382__ = __webpack_require__(/*! ./icons/UpdateInventoryMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UpdateInventoryMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UpdateInventoryMajor", function() { return _icons_UpdateInventoryMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_382__["S"]; });
 
-/* harmony import */ var _icons_ViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_383__ = __webpack_require__(/*! ./icons/ViewMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewMajor", function() { return _icons_ViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_383__["S"]; });
+/* harmony import */ var _icons_UploadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_383__ = __webpack_require__(/*! ./icons/UploadMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/UploadMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UploadMajor", function() { return _icons_UploadMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_383__["S"]; });
 
-/* harmony import */ var _icons_ViewMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_384__ = __webpack_require__(/*! ./icons/ViewMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewMinor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewMinor", function() { return _icons_ViewMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_384__["S"]; });
+/* harmony import */ var _icons_VariantMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_384__ = __webpack_require__(/*! ./icons/VariantMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/VariantMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VariantMajor", function() { return _icons_VariantMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_384__["S"]; });
 
-/* harmony import */ var _icons_ViewportNarrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_385__ = __webpack_require__(/*! ./icons/ViewportNarrowMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewportNarrowMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewportNarrowMajor", function() { return _icons_ViewportNarrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_385__["S"]; });
+/* harmony import */ var _icons_ViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_385__ = __webpack_require__(/*! ./icons/ViewMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewMajor", function() { return _icons_ViewMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_385__["S"]; });
 
-/* harmony import */ var _icons_ViewportWideMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_386__ = __webpack_require__(/*! ./icons/ViewportWideMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewportWideMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewportWideMajor", function() { return _icons_ViewportWideMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_386__["S"]; });
+/* harmony import */ var _icons_ViewMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_386__ = __webpack_require__(/*! ./icons/ViewMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewMinor", function() { return _icons_ViewMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_386__["S"]; });
 
-/* harmony import */ var _icons_VocabularyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_387__ = __webpack_require__(/*! ./icons/VocabularyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/VocabularyMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VocabularyMajor", function() { return _icons_VocabularyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_387__["S"]; });
+/* harmony import */ var _icons_ViewportNarrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_387__ = __webpack_require__(/*! ./icons/ViewportNarrowMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewportNarrowMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewportNarrowMajor", function() { return _icons_ViewportNarrowMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_387__["S"]; });
 
-/* harmony import */ var _icons_WandMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_388__ = __webpack_require__(/*! ./icons/WandMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WandMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WandMajor", function() { return _icons_WandMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_388__["S"]; });
+/* harmony import */ var _icons_ViewportWideMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_388__ = __webpack_require__(/*! ./icons/ViewportWideMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/ViewportWideMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ViewportWideMajor", function() { return _icons_ViewportWideMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_388__["S"]; });
 
-/* harmony import */ var _icons_WearableMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_389__ = __webpack_require__(/*! ./icons/WearableMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WearableMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WearableMajor", function() { return _icons_WearableMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_389__["S"]; });
+/* harmony import */ var _icons_VocabularyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_389__ = __webpack_require__(/*! ./icons/VocabularyMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/VocabularyMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VocabularyMajor", function() { return _icons_VocabularyMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_389__["S"]; });
 
-/* harmony import */ var _icons_WholesaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_390__ = __webpack_require__(/*! ./icons/WholesaleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WholesaleMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WholesaleMajor", function() { return _icons_WholesaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_390__["S"]; });
+/* harmony import */ var _icons_WandMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_390__ = __webpack_require__(/*! ./icons/WandMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WandMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WandMajor", function() { return _icons_WandMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_390__["S"]; });
 
-/* harmony import */ var _icons_WifiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_391__ = __webpack_require__(/*! ./icons/WifiMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WifiMajor.svg.mjs");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WifiMajor", function() { return _icons_WifiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_391__["S"]; });
+/* harmony import */ var _icons_WandMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_391__ = __webpack_require__(/*! ./icons/WandMinor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WandMinor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WandMinor", function() { return _icons_WandMinor_svg_mjs__WEBPACK_IMPORTED_MODULE_391__["S"]; });
 
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_392__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _icons_WearableMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_392__ = __webpack_require__(/*! ./icons/WearableMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WearableMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WearableMajor", function() { return _icons_WearableMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_392__["S"]; });
+
+/* harmony import */ var _icons_WholesaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_393__ = __webpack_require__(/*! ./icons/WholesaleMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WholesaleMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WholesaleMajor", function() { return _icons_WholesaleMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_393__["S"]; });
+
+/* harmony import */ var _icons_WifiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_394__ = __webpack_require__(/*! ./icons/WifiMajor.svg.mjs */ "./node_modules/@shopify/polaris-icons/dist/icons/WifiMajor.svg.mjs");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "WifiMajor", function() { return _icons_WifiMajor_svg_mjs__WEBPACK_IMPORTED_MODULE_394__["S"]; });
+
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_395__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+
+
+
 
 
 
@@ -15847,6 +15948,7 @@ class AppProvider extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
   render() {
     const {
       theme = {},
+      features = {},
       children
     } = this.props;
     const {
@@ -15854,7 +15956,7 @@ class AppProvider extends react__WEBPACK_IMPORTED_MODULE_0__["Component"] {
       link
     } = this.state;
     return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utilities_features_context_js__WEBPACK_IMPORTED_MODULE_7__["FeaturesContext"].Provider, {
-      value: this.props.features || {}
+      value: features
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utilities_i18n_context_js__WEBPACK_IMPORTED_MODULE_8__["I18nContext"].Provider, {
       value: intl
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utilities_scroll_lock_manager_context_js__WEBPACK_IMPORTED_MODULE_9__["ScrollLockManagerContext"].Provider, {
@@ -15942,8 +16044,9 @@ const Autocomplete = function Autocomplete({
 }) {
   const i18n = Object(_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_6__["useI18n"])();
   const buildMappedOptionFromOption = Object(react__WEBPACK_IMPORTED_MODULE_0__["useCallback"])(options => {
-    return options.map(option => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MappedOption_MappedOption_js__WEBPACK_IMPORTED_MODULE_3__["MappedOption"], Object.assign({}, option, {
-      key: option.id || option.value,
+    return options.map(option => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_MappedOption_MappedOption_js__WEBPACK_IMPORTED_MODULE_3__["MappedOption"], Object.assign({
+      key: option.id || option.value
+    }, option, {
       selected: selected.includes(option.value),
       singleSelection: !allowMultiple
     })));
@@ -16567,9 +16670,13 @@ function Badge({
       break;
 
     case STATUS_LABELS.attention:
-      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.attention'); // eslint-disable-next-line no-console
+      statusLabel = i18n.translate('Polaris.Badge.STATUS_LABELS.attention');
 
-      console.warn('Deprecation: The `attention` `status` on Badge is deprecated and will be removed in the next major version. Use the `warning` `status` instead.');
+      if (true) {
+        // eslint-disable-next-line no-console
+        console.warn('Deprecation: The `attention` `status` on Badge is deprecated and will be removed in the next major version. Use the `warning` `status` instead.');
+      }
+
       break;
 
     case STATUS_LABELS.new:
@@ -17286,7 +17393,7 @@ class BulkActionsInner extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent
     } = this.props;
     const actionSections = this.actionSections();
 
-    if (promotedActions && promotedActions.length > MAX_PROMOTED_ACTIONS) {
+    if (promotedActions && promotedActions.length > MAX_PROMOTED_ACTIONS && "development" === 'development') {
       // eslint-disable-next-line no-console
       console.warn(i18n.translate('Polaris.ResourceList.BulkActions.warningMessage', {
         maxPromotedActions: MAX_PROMOTED_ACTIONS
@@ -17342,9 +17449,9 @@ class BulkActionsInner extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent
       }
 
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_BulkActionButton_BulkActionButton_js__WEBPACK_IMPORTED_MODULE_12__["BulkActionButton"], Object.assign({
+        key: index,
         disabled: disabled
       }, action, {
-        key: index,
         handleMeasurement: this.handleMeasurement
       }));
     }) : null;
@@ -24050,13 +24157,14 @@ class FrameInner extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       in: showMobileNavigation,
       timeout: _shopify_polaris_tokens__WEBPACK_IMPORTED_MODULE_2__["durationSlow"],
       classNames: navTransitionClasses
-    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object.assign({}, mobileNavAttributes, {
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", Object.assign({
+      key: "NavContent"
+    }, mobileNavAttributes, {
       "aria-label": i18n.translate('Polaris.Frame.navigationLabel'),
       ref: this.navigationNode,
       className: navClassName,
       onKeyDown: this.handleNavKeydown,
       id: APP_FRAME_NAV,
-      key: "NavContent",
       hidden: mobileNavHidden
     }), navigation, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("button", {
       type: "button",
@@ -24104,7 +24212,9 @@ class FrameInner extends react__WEBPACK_IMPORTED_MODULE_0__["PureComponent"] {
       belowNavigation: true,
       onClick: this.handleNavigationDismiss,
       onTouchStart: this.handleNavigationDismiss
-    }) : null;
+    }) : null; // This is probably a legit error but I don't have the time to refactor this
+    // eslint-disable-next-line react/jsx-no-constructed-context-values
+
     const context = {
       showToast: this.showToast,
       hideToast: this.hideToast,
@@ -24870,12 +24980,12 @@ function Icon({
     sourceType = 'external';
   }
 
-  if (color && sourceType === 'external') {
+  if (color && sourceType === 'external' && "development" === 'development') {
     // eslint-disable-next-line no-console
     console.warn('Recoloring external SVGs is not supported. Set the intended color on your SVG instead.');
   }
 
-  if (backdrop && color && !COLORS_WITH_BACKDROPS.includes(color)) {
+  if (backdrop && color && !COLORS_WITH_BACKDROPS.includes(color) && "development" === 'development') {
     // eslint-disable-next-line no-console
     console.warn(`The ${color} variant does not have a supported backdrop color`);
   }
@@ -27914,10 +28024,11 @@ const MediaQueryProvider = function MediaQueryProvider({
   Object(react__WEBPACK_IMPORTED_MODULE_0__["useEffect"])(() => {
     setIsNavigationCollapsed(Object(_utilities_breakpoints_js__WEBPACK_IMPORTED_MODULE_2__["navigationBarCollapsed"])().matches);
   }, []);
+  const context = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(() => ({
+    isNavigationCollapsed
+  }), [isNavigationCollapsed]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utilities_media_query_context_js__WEBPACK_IMPORTED_MODULE_3__["MediaQueryContext"].Provider, {
-    value: {
-      isNavigationCollapsed
-    }
+    value: context
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_4__["EventListener"], {
     event: "resize",
     handler: handleResize
@@ -28617,10 +28728,10 @@ const Navigation = function Navigation({
   const mediaMarkup = contextControl ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: _Navigation_scss_js__WEBPACK_IMPORTED_MODULE_4__["default"].ContextControl
   }, contextControl) : logoMarkup;
-  const context = {
+  const context = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(() => ({
     location,
     onNavigationDismiss: onDismiss
-  };
+  }), [location, onDismiss]);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_context_js__WEBPACK_IMPORTED_MODULE_3__["NavigationContext"].Provider, {
     value: context
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_utilities_within_content_context_js__WEBPACK_IMPORTED_MODULE_1__["WithinContentContext"].Provider, {
@@ -28899,8 +29010,9 @@ function Item({
         }
       };
 
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Item, Object.assign({}, rest, {
-        key: label,
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Item, Object.assign({
+        key: label
+      }, rest, {
         label: label,
         matches: item === longestMatch,
         onClick: onClick
@@ -29150,8 +29262,9 @@ function Section({
       ...rest
     } = item;
     const hasSubNavItems = subNavigationItems != null && subNavigationItems.length > 0;
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Item_Item_js__WEBPACK_IMPORTED_MODULE_6__["Item"], Object.assign({}, rest, {
-      key: label,
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Item_Item_js__WEBPACK_IMPORTED_MODULE_6__["Item"], Object.assign({
+      key: label
+    }, rest, {
       label: label,
       subNavigationItems: subNavigationItems,
       onClick: handleClick(onClick, hasSubNavItems)
@@ -29295,8 +29408,9 @@ function OptionList({
     const optionsMarkup = options && options.map((option, optionIndex) => {
       const isSelected = selected.includes(option.value);
       const optionId = option.id || `${id}-${sectionIndex}-${optionIndex}`;
-      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Option_Option_js__WEBPACK_IMPORTED_MODULE_5__["Option"], Object.assign({}, option, {
-        key: optionId,
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Option_Option_js__WEBPACK_IMPORTED_MODULE_5__["Option"], Object.assign({
+        key: optionId
+      }, option, {
         id: optionId,
         section: sectionIndex,
         index: optionIndex,
@@ -30010,6 +30124,11 @@ function Title({
   thumbnail,
   compactTitle
 }) {
+  if ( true && thumbnail != null) {
+    // eslint-disable-next-line no-console
+    console.warn('The thumbnail prop from Page has been deprecated');
+  }
+
   const titleMarkup = title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: _Title_scss_js__WEBPACK_IMPORTED_MODULE_2__["default"].Title
   }, title) : null;
@@ -30319,10 +30438,10 @@ function PolarisTestProvider({
   frame
 }) {
   const Wrapper = strict ? react__WEBPACK_IMPORTED_MODULE_0__["StrictMode"] : react__WEBPACK_IMPORTED_MODULE_0__["Fragment"];
-  const intl = new _utilities_i18n_I18n_js__WEBPACK_IMPORTED_MODULE_3__["I18n"](i18n || {});
-  const scrollLockManager = new _utilities_scroll_lock_manager_scroll_lock_manager_js__WEBPACK_IMPORTED_MODULE_4__["ScrollLockManager"]();
-  const stickyManager = new _utilities_sticky_manager_sticky_manager_js__WEBPACK_IMPORTED_MODULE_5__["StickyManager"]();
-  const uniqueIdFactory = new _utilities_unique_id_unique_id_factory_js__WEBPACK_IMPORTED_MODULE_6__["UniqueIdFactory"](_utilities_unique_id_unique_id_factory_js__WEBPACK_IMPORTED_MODULE_6__["globalIdGeneratorFactory"]);
+  const intl = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(() => new _utilities_i18n_I18n_js__WEBPACK_IMPORTED_MODULE_3__["I18n"](i18n || {}), [i18n]);
+  const scrollLockManager = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(() => new _utilities_scroll_lock_manager_scroll_lock_manager_js__WEBPACK_IMPORTED_MODULE_4__["ScrollLockManager"](), []);
+  const stickyManager = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(() => new _utilities_sticky_manager_sticky_manager_js__WEBPACK_IMPORTED_MODULE_5__["StickyManager"](), []);
+  const uniqueIdFactory = Object(react__WEBPACK_IMPORTED_MODULE_0__["useMemo"])(() => new _utilities_unique_id_unique_id_factory_js__WEBPACK_IMPORTED_MODULE_6__["UniqueIdFactory"](_utilities_unique_id_unique_id_factory_js__WEBPACK_IMPORTED_MODULE_6__["globalIdGeneratorFactory"]), []);
   const processedThemeConfig = { ...theme,
     colorScheme: 'light'
   };
@@ -31526,6 +31645,8 @@ function ProgressBar({
     progress
   });
   const parsedProgress = parseProgress(progress, warningMessage);
+  /* eslint-disable @shopify/jsx-no-hardcoded-content */
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: className
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("progress", {
@@ -31539,7 +31660,9 @@ function ProgressBar({
     }
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
     className: _ProgressBar_scss_js__WEBPACK_IMPORTED_MODULE_2__["default"].Label
-  }, parsedProgress, "%")));
+  }, parsedProgress, "%")))
+  /* eslint-enable @shopify/jsx-no-hardcoded-content */
+  ;
 }
 
 function parseProgress(progress, warningMessage) {
@@ -32444,6 +32567,8 @@ function SingleThumb(props) {
     className: _SingleThumb_scss_js__WEBPACK_IMPORTED_MODULE_4__["default"].Suffix
   }, suffix);
   const className = Object(_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__["classNames"])(_SingleThumb_scss_js__WEBPACK_IMPORTED_MODULE_4__["default"].SingleThumb, error && _SingleThumb_scss_js__WEBPACK_IMPORTED_MODULE_4__["default"].error, disabled && _SingleThumb_scss_js__WEBPACK_IMPORTED_MODULE_4__["default"].disabled);
+  /* eslint-disable @shopify/react-require-autocomplete */
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Labelled_Labelled_js__WEBPACK_IMPORTED_MODULE_6__["Labelled"], {
     id: id,
     label: label,
@@ -32475,6 +32600,7 @@ function SingleThumb(props) {
     "aria-invalid": Boolean(error),
     "aria-describedby": ariaDescribedBy
   }), outputMarkup), suffixMarkup));
+  /* eslint-enable @shopify/react-require-autocomplete */
 
   function handleChange(event) {
     const {
@@ -33481,7 +33607,9 @@ const ResourceList = function ResourceList({
     ref: listRef,
     "aria-live": "polite",
     "aria-busy": loading
-  }, loadingOverlay, react__WEBPACK_IMPORTED_MODULE_0__["Children"].toArray(items.map(renderItemWithId))) : null;
+  }, loadingOverlay, react__WEBPACK_IMPORTED_MODULE_0__["Children"].toArray(items.map(renderItemWithId))) : null; // This is probably a legit error but I don't have the time to refactor this
+  // eslint-disable-next-line react/jsx-no-constructed-context-values
+
   const context = {
     selectable: isSelectable,
     selectedItems,
@@ -33596,8 +33724,11 @@ function FilterControl({
   onSearchChange,
   onFiltersChange
 }) {
-  // eslint-disable-next-line no-console
-  console.warn('Deprecation: <FilterControl /> is deprecated. This is a private component, do not use it. This component might be removed in a minor version update. Use <Filters /> instead.');
+  if (true) {
+    // eslint-disable-next-line no-console
+    console.warn('Deprecation: <FilterControl /> is deprecated. This is a private component, do not use it. This component might be removed in a minor version update. Use <Filters /> instead.');
+  }
+
   const i18n = Object(_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_5__["useI18n"])();
   const {
     selectMode,
@@ -34404,6 +34535,7 @@ function buildOperatorOptions(operatorText) {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "FilterType", function() { return FilterType; });
+/* eslint-disable @typescript-eslint/consistent-indexed-object-style */
 let FilterType;
 
 (function (FilterType) {
@@ -35345,9 +35477,7 @@ function SkeletonBodyText({
     }));
   }
 
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _SkeletonBodyText_scss_js__WEBPACK_IMPORTED_MODULE_1__["default"].SkeletonBodyTextContainer
-  }, bodyTextLines);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, bodyTextLines);
 }
 
 
@@ -35366,7 +35496,6 @@ function SkeletonBodyText({
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return styles; });
 var styles = {
-  "SkeletonBodyTextContainer": "Polaris-SkeletonBodyText__SkeletonBodyTextContainer",
   "SkeletonBodyText": "Polaris-SkeletonBodyText"
 };
 
@@ -35464,6 +35593,12 @@ function SkeletonPage({
   breadcrumbs
 }) {
   const i18n = Object(_utilities_i18n_hooks_js__WEBPACK_IMPORTED_MODULE_5__["useI18n"])();
+
+  if ( true && secondaryActions != null) {
+    // eslint-disable-next-line no-console
+    console.warn('The secondaryActions prop from SkeletonPage has been deprecated');
+  }
+
   const className = Object(_utilities_css_js__WEBPACK_IMPORTED_MODULE_1__["classNames"])(_SkeletonPage_scss_js__WEBPACK_IMPORTED_MODULE_2__["default"].Page, fullWidth && _SkeletonPage_scss_js__WEBPACK_IMPORTED_MODULE_2__["default"].fullWidth, narrowWidth && _SkeletonPage_scss_js__WEBPACK_IMPORTED_MODULE_2__["default"].narrowWidth);
   const titleContent = title ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
     className: _SkeletonPage_scss_js__WEBPACK_IMPORTED_MODULE_2__["default"].Title
@@ -36504,8 +36639,9 @@ function List({
     content,
     ...tabProps
   }, index) => {
-    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Item_Item_js__WEBPACK_IMPORTED_MODULE_2__["Item"], Object.assign({}, tabProps, {
-      key: id,
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Item_Item_js__WEBPACK_IMPORTED_MODULE_2__["Item"], Object.assign({
+      key: id
+    }, tabProps, {
       id: id,
       focused: index === focusIndex,
       onClick: onClick.bind(null, id)
@@ -39179,6 +39315,8 @@ function VideoThumbnail({
   if (showVideoProgress) {
     const progressValue = calculateProgress(videoLength, videoProgress);
     const progressValuePercents = Math.round(progressValue * 100);
+    /* eslint-disable @shopify/jsx-no-hardcoded-content */
+
     progressMarkup = /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
       className: _VideoThumbnail_scss_js__WEBPACK_IMPORTED_MODULE_3__["default"].Progress
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("progress", {
@@ -39193,6 +39331,7 @@ function VideoThumbnail({
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
       className: _VideoThumbnail_scss_js__WEBPACK_IMPORTED_MODULE_3__["default"].Label
     }, progressValuePercents, "%")));
+    /* eslint-enable @shopify/jsx-no-hardcoded-content */
   }
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -39404,7 +39543,7 @@ const DATA_ATTRIBUTE = {
 
 if (typeof window !== 'undefined') {
   window.Polaris = window.Polaris || {};
-  window.Polaris.VERSION = '7.4.1';
+  window.Polaris.VERSION = '7.5.0';
 }
 
 
@@ -39414,7 +39553,7 @@ if (typeof window !== 'undefined') {
 /*!**********************************************************!*\
   !*** ./node_modules/@shopify/polaris/build/esm/index.js ***!
   \**********************************************************/
-/*! exports provided: Key, hsbToHex, hsbToRgb, hslToRgb, rgbString, rgbToHex, rgbToHsb, rgbToHsl, rgbaString, _SECRET_INTERNAL_WITHIN_CONTENT_CONTEXT, useIndexResourceState, _SECRET_INTERNAL_SCROLL_LOCK_MANAGER_CONTEXT, useIndexTableContainerScroll, useIndexTableRowHovered, useIndexTableRowSelected, UNSTABLE_toCssCustomPropertySyntax, UNSTABLE_Tokens, AppProvider, AccountConnection, ActionList, ActionMenu, Autocomplete, Avatar, Backdrop, Badge, Banner, Breadcrumbs, UnstableBulkActions, Button, buttonFrom, buttonsFrom, ButtonGroup, CalloutCard, Caption, Card, Checkbox, ChoiceList, Collapsible, ColorPicker, Combobox, Connected, ContextualSaveBar, DataTable, DatePicker, DescriptionList, DisplayText, DropZone, EmptySearchResult, EmptyState, EventListener, ExceptionList, Filters, Focus, FooterHelp, Form, FormLayout, Frame, DEFAULT_TOAST_DURATION, DEFAULT_TOAST_DURATION_WITH_ACTION, Heading, Icon, Image, IndexTable, Indicator, InlineError, errorTextID, KeyboardKey, KeypressListener, KonamiCode, Label, labelID, Labelled, Layout, Link, List, Listbox, Loading, MediaCard, Modal, Navigation, isNavigationItemActive, OptionList, Page, PageActions, Pagination, PolarisTestProvider, Popover, PopoverCloseSource, Portal, PortalsManager, PositionedOverlay, ProgressBar, RadioButton, RangeSlider, ResourceItem, ResourceList, _SECRET_INTERNAL_FilterControl, Scrollable, ScrollLock, Select, SettingToggle, DATA_ATTRIBUTE, Sheet, SkeletonBodyText, SkeletonDisplayText, SkeletonPage, SkeletonThumbnail, Spinner, Stack, Sticky, Subheading, Tabs, Tag, TextContainer, TextField, TextStyle, ThemeProvider, Thumbnail, Toast, Tooltip, TopBar, TrapFocus, Truncate, UnstyledButton, unstyledButtonFrom, UnstyledLink, VideoThumbnail, VisuallyHidden */
+/*! exports provided: Key, DATA_ATTRIBUTE, hsbToHex, hsbToRgb, hslToRgb, rgbString, rgbToHex, rgbToHsb, rgbToHsl, rgbaString, _SECRET_INTERNAL_WITHIN_CONTENT_CONTEXT, useIndexResourceState, AppProvider, AccountConnection, ActionList, ActionMenu, Autocomplete, Avatar, Backdrop, Badge, Banner, Breadcrumbs, UnstableBulkActions, Button, buttonFrom, buttonsFrom, ButtonGroup, CalloutCard, Caption, Card, Checkbox, ChoiceList, Collapsible, ColorPicker, Combobox, Connected, ContextualSaveBar, DataTable, DatePicker, DescriptionList, DisplayText, DropZone, EmptySearchResult, EmptyState, EventListener, ExceptionList, Filters, Focus, FooterHelp, Form, FormLayout, Frame, DEFAULT_TOAST_DURATION, DEFAULT_TOAST_DURATION_WITH_ACTION, Heading, Icon, Image, IndexTable, Indicator, InlineError, errorTextID, KeyboardKey, KeypressListener, KonamiCode, Label, labelID, Labelled, Layout, Link, List, Listbox, Loading, MediaCard, Modal, Navigation, isNavigationItemActive, OptionList, Page, PageActions, Pagination, PolarisTestProvider, Popover, PopoverCloseSource, Portal, PortalsManager, PositionedOverlay, ProgressBar, RadioButton, RangeSlider, ResourceItem, ResourceList, _SECRET_INTERNAL_FilterControl, Scrollable, ScrollLock, Select, SettingToggle, Sheet, SkeletonBodyText, SkeletonDisplayText, SkeletonPage, SkeletonThumbnail, Spinner, Stack, Sticky, Subheading, Tabs, Tag, TextContainer, TextField, TextStyle, ThemeProvider, Thumbnail, Toast, Tooltip, TopBar, TrapFocus, Truncate, UnstyledButton, unstyledButtonFrom, UnstyledLink, VideoThumbnail, VisuallyHidden, _SECRET_INTERNAL_SCROLL_LOCK_MANAGER_CONTEXT, useIndexTableContainerScroll, useIndexTableRowHovered, useIndexTableRowSelected, UNSTABLE_toCssCustomPropertySyntax, UNSTABLE_Tokens */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -39424,373 +39563,373 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _types_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./types.js */ "./node_modules/@shopify/polaris/build/esm/types.js");
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Key", function() { return _types_js__WEBPACK_IMPORTED_MODULE_1__["Key"]; });
 
-/* harmony import */ var _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./utilities/color-transformers.js */ "./node_modules/@shopify/polaris/build/esm/utilities/color-transformers.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "hsbToHex", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["hsbToHex"]; });
+/* harmony import */ var _components_shared_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/shared.js */ "./node_modules/@shopify/polaris/build/esm/components/shared.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DATA_ATTRIBUTE", function() { return _components_shared_js__WEBPACK_IMPORTED_MODULE_2__["DATA_ATTRIBUTE"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "hsbToRgb", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["hsbToRgb"]; });
+/* harmony import */ var _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utilities/color-transformers.js */ "./node_modules/@shopify/polaris/build/esm/utilities/color-transformers.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "hsbToHex", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["hsbToHex"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "hslToRgb", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["hslToRgb"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "hsbToRgb", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["hsbToRgb"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbString", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["rgbString"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "hslToRgb", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["hslToRgb"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbToHex", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["rgbToHex"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbString", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["rgbString"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbToHsb", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["rgbToHsb"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbToHex", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["rgbToHex"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbToHsl", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["rgbToHsl"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbToHsb", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["rgbToHsb"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbaString", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_2__["rgbaString"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbToHsl", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["rgbToHsl"]; });
 
-/* harmony import */ var _utilities_within_content_context_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./utilities/within-content-context.js */ "./node_modules/@shopify/polaris/build/esm/utilities/within-content-context.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "_SECRET_INTERNAL_WITHIN_CONTENT_CONTEXT", function() { return _utilities_within_content_context_js__WEBPACK_IMPORTED_MODULE_3__["WithinContentContext"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "rgbaString", function() { return _utilities_color_transformers_js__WEBPACK_IMPORTED_MODULE_3__["rgbaString"]; });
 
-/* harmony import */ var _utilities_use_index_resource_state_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utilities/use-index-resource-state.js */ "./node_modules/@shopify/polaris/build/esm/utilities/use-index-resource-state.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexResourceState", function() { return _utilities_use_index_resource_state_js__WEBPACK_IMPORTED_MODULE_4__["useIndexResourceState"]; });
+/* harmony import */ var _utilities_within_content_context_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./utilities/within-content-context.js */ "./node_modules/@shopify/polaris/build/esm/utilities/within-content-context.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "_SECRET_INTERNAL_WITHIN_CONTENT_CONTEXT", function() { return _utilities_within_content_context_js__WEBPACK_IMPORTED_MODULE_4__["WithinContentContext"]; });
 
-/* harmony import */ var _utilities_scroll_lock_manager_context_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utilities/scroll-lock-manager/context.js */ "./node_modules/@shopify/polaris/build/esm/utilities/scroll-lock-manager/context.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "_SECRET_INTERNAL_SCROLL_LOCK_MANAGER_CONTEXT", function() { return _utilities_scroll_lock_manager_context_js__WEBPACK_IMPORTED_MODULE_5__["ScrollLockManagerContext"]; });
+/* harmony import */ var _utilities_use_index_resource_state_js__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./utilities/use-index-resource-state.js */ "./node_modules/@shopify/polaris/build/esm/utilities/use-index-resource-state.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexResourceState", function() { return _utilities_use_index_resource_state_js__WEBPACK_IMPORTED_MODULE_5__["useIndexResourceState"]; });
 
-/* harmony import */ var _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./utilities/index-table/hooks.js */ "./node_modules/@shopify/polaris/build/esm/utilities/index-table/hooks.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexTableContainerScroll", function() { return _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_6__["useContainerScroll"]; });
+/* harmony import */ var _components_AppProvider_AppProvider_js__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./components/AppProvider/AppProvider.js */ "./node_modules/@shopify/polaris/build/esm/components/AppProvider/AppProvider.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AppProvider", function() { return _components_AppProvider_AppProvider_js__WEBPACK_IMPORTED_MODULE_6__["AppProvider"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexTableRowHovered", function() { return _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_6__["useRowHovered"]; });
+/* harmony import */ var _components_AccountConnection_AccountConnection_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./components/AccountConnection/AccountConnection.js */ "./node_modules/@shopify/polaris/build/esm/components/AccountConnection/AccountConnection.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AccountConnection", function() { return _components_AccountConnection_AccountConnection_js__WEBPACK_IMPORTED_MODULE_7__["AccountConnection"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexTableRowSelected", function() { return _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_6__["useRowSelected"]; });
+/* harmony import */ var _components_ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/ActionList/ActionList.js */ "./node_modules/@shopify/polaris/build/esm/components/ActionList/ActionList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ActionList", function() { return _components_ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_8__["ActionList"]; });
 
-/* harmony import */ var _utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./utilities/theme/utils.js */ "./node_modules/@shopify/polaris/build/esm/utilities/theme/utils.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UNSTABLE_toCssCustomPropertySyntax", function() { return _utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_7__["toCssCustomPropertySyntax"]; });
+/* harmony import */ var _components_ActionMenu_ActionMenu_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/ActionMenu/ActionMenu.js */ "./node_modules/@shopify/polaris/build/esm/components/ActionMenu/ActionMenu.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ActionMenu", function() { return _components_ActionMenu_ActionMenu_js__WEBPACK_IMPORTED_MODULE_9__["ActionMenu"]; });
 
-/* harmony import */ var _utilities_theme_tokens_js__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./utilities/theme/tokens.js */ "./node_modules/@shopify/polaris/build/esm/utilities/theme/tokens.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UNSTABLE_Tokens", function() { return _utilities_theme_tokens_js__WEBPACK_IMPORTED_MODULE_8__["Tokens"]; });
+/* harmony import */ var _components_Autocomplete_Autocomplete_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/Autocomplete/Autocomplete.js */ "./node_modules/@shopify/polaris/build/esm/components/Autocomplete/Autocomplete.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Autocomplete", function() { return _components_Autocomplete_Autocomplete_js__WEBPACK_IMPORTED_MODULE_10__["Autocomplete"]; });
 
-/* harmony import */ var _components_AppProvider_AppProvider_js__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/AppProvider/AppProvider.js */ "./node_modules/@shopify/polaris/build/esm/components/AppProvider/AppProvider.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AppProvider", function() { return _components_AppProvider_AppProvider_js__WEBPACK_IMPORTED_MODULE_9__["AppProvider"]; });
+/* harmony import */ var _components_Avatar_Avatar_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/Avatar/Avatar.js */ "./node_modules/@shopify/polaris/build/esm/components/Avatar/Avatar.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Avatar", function() { return _components_Avatar_Avatar_js__WEBPACK_IMPORTED_MODULE_11__["Avatar"]; });
 
-/* harmony import */ var _components_AccountConnection_AccountConnection_js__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/AccountConnection/AccountConnection.js */ "./node_modules/@shopify/polaris/build/esm/components/AccountConnection/AccountConnection.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "AccountConnection", function() { return _components_AccountConnection_AccountConnection_js__WEBPACK_IMPORTED_MODULE_10__["AccountConnection"]; });
+/* harmony import */ var _components_Backdrop_Backdrop_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/Backdrop/Backdrop.js */ "./node_modules/@shopify/polaris/build/esm/components/Backdrop/Backdrop.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Backdrop", function() { return _components_Backdrop_Backdrop_js__WEBPACK_IMPORTED_MODULE_12__["Backdrop"]; });
 
-/* harmony import */ var _components_ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/ActionList/ActionList.js */ "./node_modules/@shopify/polaris/build/esm/components/ActionList/ActionList.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ActionList", function() { return _components_ActionList_ActionList_js__WEBPACK_IMPORTED_MODULE_11__["ActionList"]; });
+/* harmony import */ var _components_Badge_Badge_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/Badge/Badge.js */ "./node_modules/@shopify/polaris/build/esm/components/Badge/Badge.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return _components_Badge_Badge_js__WEBPACK_IMPORTED_MODULE_13__["Badge"]; });
 
-/* harmony import */ var _components_ActionMenu_ActionMenu_js__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/ActionMenu/ActionMenu.js */ "./node_modules/@shopify/polaris/build/esm/components/ActionMenu/ActionMenu.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ActionMenu", function() { return _components_ActionMenu_ActionMenu_js__WEBPACK_IMPORTED_MODULE_12__["ActionMenu"]; });
+/* harmony import */ var _components_Banner_Banner_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/Banner/Banner.js */ "./node_modules/@shopify/polaris/build/esm/components/Banner/Banner.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Banner", function() { return _components_Banner_Banner_js__WEBPACK_IMPORTED_MODULE_14__["Banner"]; });
 
-/* harmony import */ var _components_Autocomplete_Autocomplete_js__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/Autocomplete/Autocomplete.js */ "./node_modules/@shopify/polaris/build/esm/components/Autocomplete/Autocomplete.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Autocomplete", function() { return _components_Autocomplete_Autocomplete_js__WEBPACK_IMPORTED_MODULE_13__["Autocomplete"]; });
+/* harmony import */ var _components_Breadcrumbs_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/Breadcrumbs/Breadcrumbs.js */ "./node_modules/@shopify/polaris/build/esm/components/Breadcrumbs/Breadcrumbs.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Breadcrumbs", function() { return _components_Breadcrumbs_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_15__["Breadcrumbs"]; });
 
-/* harmony import */ var _components_Avatar_Avatar_js__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/Avatar/Avatar.js */ "./node_modules/@shopify/polaris/build/esm/components/Avatar/Avatar.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Avatar", function() { return _components_Avatar_Avatar_js__WEBPACK_IMPORTED_MODULE_14__["Avatar"]; });
+/* harmony import */ var _components_BulkActions_BulkActions_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/BulkActions/BulkActions.js */ "./node_modules/@shopify/polaris/build/esm/components/BulkActions/BulkActions.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnstableBulkActions", function() { return _components_BulkActions_BulkActions_js__WEBPACK_IMPORTED_MODULE_16__["BulkActions"]; });
 
-/* harmony import */ var _components_Backdrop_Backdrop_js__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/Backdrop/Backdrop.js */ "./node_modules/@shopify/polaris/build/esm/components/Backdrop/Backdrop.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Backdrop", function() { return _components_Backdrop_Backdrop_js__WEBPACK_IMPORTED_MODULE_15__["Backdrop"]; });
+/* harmony import */ var _components_Button_Button_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/Button/Button.js */ "./node_modules/@shopify/polaris/build/esm/components/Button/Button.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return _components_Button_Button_js__WEBPACK_IMPORTED_MODULE_17__["Button"]; });
 
-/* harmony import */ var _components_Badge_Badge_js__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/Badge/Badge.js */ "./node_modules/@shopify/polaris/build/esm/components/Badge/Badge.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Badge", function() { return _components_Badge_Badge_js__WEBPACK_IMPORTED_MODULE_16__["Badge"]; });
+/* harmony import */ var _components_Button_utils_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/Button/utils.js */ "./node_modules/@shopify/polaris/build/esm/components/Button/utils.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "buttonFrom", function() { return _components_Button_utils_js__WEBPACK_IMPORTED_MODULE_18__["buttonFrom"]; });
 
-/* harmony import */ var _components_Banner_Banner_js__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/Banner/Banner.js */ "./node_modules/@shopify/polaris/build/esm/components/Banner/Banner.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Banner", function() { return _components_Banner_Banner_js__WEBPACK_IMPORTED_MODULE_17__["Banner"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "buttonsFrom", function() { return _components_Button_utils_js__WEBPACK_IMPORTED_MODULE_18__["buttonsFrom"]; });
 
-/* harmony import */ var _components_Breadcrumbs_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/Breadcrumbs/Breadcrumbs.js */ "./node_modules/@shopify/polaris/build/esm/components/Breadcrumbs/Breadcrumbs.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Breadcrumbs", function() { return _components_Breadcrumbs_Breadcrumbs_js__WEBPACK_IMPORTED_MODULE_18__["Breadcrumbs"]; });
+/* harmony import */ var _components_ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/ButtonGroup/ButtonGroup.js */ "./node_modules/@shopify/polaris/build/esm/components/ButtonGroup/ButtonGroup.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return _components_ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_19__["ButtonGroup"]; });
 
-/* harmony import */ var _components_BulkActions_BulkActions_js__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/BulkActions/BulkActions.js */ "./node_modules/@shopify/polaris/build/esm/components/BulkActions/BulkActions.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnstableBulkActions", function() { return _components_BulkActions_BulkActions_js__WEBPACK_IMPORTED_MODULE_19__["BulkActions"]; });
+/* harmony import */ var _components_CalloutCard_CalloutCard_js__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/CalloutCard/CalloutCard.js */ "./node_modules/@shopify/polaris/build/esm/components/CalloutCard/CalloutCard.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CalloutCard", function() { return _components_CalloutCard_CalloutCard_js__WEBPACK_IMPORTED_MODULE_20__["CalloutCard"]; });
 
-/* harmony import */ var _components_Button_Button_js__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/Button/Button.js */ "./node_modules/@shopify/polaris/build/esm/components/Button/Button.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Button", function() { return _components_Button_Button_js__WEBPACK_IMPORTED_MODULE_20__["Button"]; });
+/* harmony import */ var _components_Caption_Caption_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/Caption/Caption.js */ "./node_modules/@shopify/polaris/build/esm/components/Caption/Caption.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Caption", function() { return _components_Caption_Caption_js__WEBPACK_IMPORTED_MODULE_21__["Caption"]; });
 
-/* harmony import */ var _components_Button_utils_js__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./components/Button/utils.js */ "./node_modules/@shopify/polaris/build/esm/components/Button/utils.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "buttonFrom", function() { return _components_Button_utils_js__WEBPACK_IMPORTED_MODULE_21__["buttonFrom"]; });
+/* harmony import */ var _components_Card_Card_js__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/Card/Card.js */ "./node_modules/@shopify/polaris/build/esm/components/Card/Card.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Card", function() { return _components_Card_Card_js__WEBPACK_IMPORTED_MODULE_22__["Card"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "buttonsFrom", function() { return _components_Button_utils_js__WEBPACK_IMPORTED_MODULE_21__["buttonsFrom"]; });
+/* harmony import */ var _components_Checkbox_Checkbox_js__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/Checkbox/Checkbox.js */ "./node_modules/@shopify/polaris/build/esm/components/Checkbox/Checkbox.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return _components_Checkbox_Checkbox_js__WEBPACK_IMPORTED_MODULE_23__["Checkbox"]; });
 
-/* harmony import */ var _components_ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./components/ButtonGroup/ButtonGroup.js */ "./node_modules/@shopify/polaris/build/esm/components/ButtonGroup/ButtonGroup.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ButtonGroup", function() { return _components_ButtonGroup_ButtonGroup_js__WEBPACK_IMPORTED_MODULE_22__["ButtonGroup"]; });
+/* harmony import */ var _components_ChoiceList_ChoiceList_js__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/ChoiceList/ChoiceList.js */ "./node_modules/@shopify/polaris/build/esm/components/ChoiceList/ChoiceList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChoiceList", function() { return _components_ChoiceList_ChoiceList_js__WEBPACK_IMPORTED_MODULE_24__["ChoiceList"]; });
 
-/* harmony import */ var _components_CalloutCard_CalloutCard_js__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! ./components/CalloutCard/CalloutCard.js */ "./node_modules/@shopify/polaris/build/esm/components/CalloutCard/CalloutCard.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "CalloutCard", function() { return _components_CalloutCard_CalloutCard_js__WEBPACK_IMPORTED_MODULE_23__["CalloutCard"]; });
+/* harmony import */ var _components_Collapsible_Collapsible_js__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/Collapsible/Collapsible.js */ "./node_modules/@shopify/polaris/build/esm/components/Collapsible/Collapsible.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Collapsible", function() { return _components_Collapsible_Collapsible_js__WEBPACK_IMPORTED_MODULE_25__["Collapsible"]; });
 
-/* harmony import */ var _components_Caption_Caption_js__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! ./components/Caption/Caption.js */ "./node_modules/@shopify/polaris/build/esm/components/Caption/Caption.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Caption", function() { return _components_Caption_Caption_js__WEBPACK_IMPORTED_MODULE_24__["Caption"]; });
+/* harmony import */ var _components_ColorPicker_ColorPicker_js__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/ColorPicker/ColorPicker.js */ "./node_modules/@shopify/polaris/build/esm/components/ColorPicker/ColorPicker.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColorPicker", function() { return _components_ColorPicker_ColorPicker_js__WEBPACK_IMPORTED_MODULE_26__["ColorPicker"]; });
 
-/* harmony import */ var _components_Card_Card_js__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./components/Card/Card.js */ "./node_modules/@shopify/polaris/build/esm/components/Card/Card.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Card", function() { return _components_Card_Card_js__WEBPACK_IMPORTED_MODULE_25__["Card"]; });
+/* harmony import */ var _components_Combobox_Combobox_js__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/Combobox/Combobox.js */ "./node_modules/@shopify/polaris/build/esm/components/Combobox/Combobox.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Combobox", function() { return _components_Combobox_Combobox_js__WEBPACK_IMPORTED_MODULE_27__["Combobox"]; });
 
-/* harmony import */ var _components_Checkbox_Checkbox_js__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./components/Checkbox/Checkbox.js */ "./node_modules/@shopify/polaris/build/esm/components/Checkbox/Checkbox.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Checkbox", function() { return _components_Checkbox_Checkbox_js__WEBPACK_IMPORTED_MODULE_26__["Checkbox"]; });
+/* harmony import */ var _components_Connected_Connected_js__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/Connected/Connected.js */ "./node_modules/@shopify/polaris/build/esm/components/Connected/Connected.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Connected", function() { return _components_Connected_Connected_js__WEBPACK_IMPORTED_MODULE_28__["Connected"]; });
 
-/* harmony import */ var _components_ChoiceList_ChoiceList_js__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./components/ChoiceList/ChoiceList.js */ "./node_modules/@shopify/polaris/build/esm/components/ChoiceList/ChoiceList.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ChoiceList", function() { return _components_ChoiceList_ChoiceList_js__WEBPACK_IMPORTED_MODULE_27__["ChoiceList"]; });
+/* harmony import */ var _components_ContextualSaveBar_ContextualSaveBar_js__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/ContextualSaveBar/ContextualSaveBar.js */ "./node_modules/@shopify/polaris/build/esm/components/ContextualSaveBar/ContextualSaveBar.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ContextualSaveBar", function() { return _components_ContextualSaveBar_ContextualSaveBar_js__WEBPACK_IMPORTED_MODULE_29__["ContextualSaveBar"]; });
 
-/* harmony import */ var _components_Collapsible_Collapsible_js__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./components/Collapsible/Collapsible.js */ "./node_modules/@shopify/polaris/build/esm/components/Collapsible/Collapsible.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Collapsible", function() { return _components_Collapsible_Collapsible_js__WEBPACK_IMPORTED_MODULE_28__["Collapsible"]; });
+/* harmony import */ var _components_DataTable_DataTable_js__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/DataTable/DataTable.js */ "./node_modules/@shopify/polaris/build/esm/components/DataTable/DataTable.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DataTable", function() { return _components_DataTable_DataTable_js__WEBPACK_IMPORTED_MODULE_30__["DataTable"]; });
 
-/* harmony import */ var _components_ColorPicker_ColorPicker_js__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./components/ColorPicker/ColorPicker.js */ "./node_modules/@shopify/polaris/build/esm/components/ColorPicker/ColorPicker.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ColorPicker", function() { return _components_ColorPicker_ColorPicker_js__WEBPACK_IMPORTED_MODULE_29__["ColorPicker"]; });
+/* harmony import */ var _components_DatePicker_DatePicker_js__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./components/DatePicker/DatePicker.js */ "./node_modules/@shopify/polaris/build/esm/components/DatePicker/DatePicker.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DatePicker", function() { return _components_DatePicker_DatePicker_js__WEBPACK_IMPORTED_MODULE_31__["DatePicker"]; });
 
-/* harmony import */ var _components_Combobox_Combobox_js__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./components/Combobox/Combobox.js */ "./node_modules/@shopify/polaris/build/esm/components/Combobox/Combobox.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Combobox", function() { return _components_Combobox_Combobox_js__WEBPACK_IMPORTED_MODULE_30__["Combobox"]; });
+/* harmony import */ var _components_DescriptionList_DescriptionList_js__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./components/DescriptionList/DescriptionList.js */ "./node_modules/@shopify/polaris/build/esm/components/DescriptionList/DescriptionList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DescriptionList", function() { return _components_DescriptionList_DescriptionList_js__WEBPACK_IMPORTED_MODULE_32__["DescriptionList"]; });
 
-/* harmony import */ var _components_Connected_Connected_js__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ./components/Connected/Connected.js */ "./node_modules/@shopify/polaris/build/esm/components/Connected/Connected.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Connected", function() { return _components_Connected_Connected_js__WEBPACK_IMPORTED_MODULE_31__["Connected"]; });
+/* harmony import */ var _components_DisplayText_DisplayText_js__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./components/DisplayText/DisplayText.js */ "./node_modules/@shopify/polaris/build/esm/components/DisplayText/DisplayText.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DisplayText", function() { return _components_DisplayText_DisplayText_js__WEBPACK_IMPORTED_MODULE_33__["DisplayText"]; });
 
-/* harmony import */ var _components_ContextualSaveBar_ContextualSaveBar_js__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ./components/ContextualSaveBar/ContextualSaveBar.js */ "./node_modules/@shopify/polaris/build/esm/components/ContextualSaveBar/ContextualSaveBar.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ContextualSaveBar", function() { return _components_ContextualSaveBar_ContextualSaveBar_js__WEBPACK_IMPORTED_MODULE_32__["ContextualSaveBar"]; });
+/* harmony import */ var _components_DropZone_DropZone_js__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./components/DropZone/DropZone.js */ "./node_modules/@shopify/polaris/build/esm/components/DropZone/DropZone.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DropZone", function() { return _components_DropZone_DropZone_js__WEBPACK_IMPORTED_MODULE_34__["DropZone"]; });
 
-/* harmony import */ var _components_DataTable_DataTable_js__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ./components/DataTable/DataTable.js */ "./node_modules/@shopify/polaris/build/esm/components/DataTable/DataTable.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DataTable", function() { return _components_DataTable_DataTable_js__WEBPACK_IMPORTED_MODULE_33__["DataTable"]; });
+/* harmony import */ var _components_EmptySearchResult_EmptySearchResult_js__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./components/EmptySearchResult/EmptySearchResult.js */ "./node_modules/@shopify/polaris/build/esm/components/EmptySearchResult/EmptySearchResult.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmptySearchResult", function() { return _components_EmptySearchResult_EmptySearchResult_js__WEBPACK_IMPORTED_MODULE_35__["EmptySearchResult"]; });
 
-/* harmony import */ var _components_DatePicker_DatePicker_js__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./components/DatePicker/DatePicker.js */ "./node_modules/@shopify/polaris/build/esm/components/DatePicker/DatePicker.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DatePicker", function() { return _components_DatePicker_DatePicker_js__WEBPACK_IMPORTED_MODULE_34__["DatePicker"]; });
+/* harmony import */ var _components_EmptyState_EmptyState_js__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./components/EmptyState/EmptyState.js */ "./node_modules/@shopify/polaris/build/esm/components/EmptyState/EmptyState.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmptyState", function() { return _components_EmptyState_EmptyState_js__WEBPACK_IMPORTED_MODULE_36__["EmptyState"]; });
 
-/* harmony import */ var _components_DescriptionList_DescriptionList_js__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./components/DescriptionList/DescriptionList.js */ "./node_modules/@shopify/polaris/build/esm/components/DescriptionList/DescriptionList.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DescriptionList", function() { return _components_DescriptionList_DescriptionList_js__WEBPACK_IMPORTED_MODULE_35__["DescriptionList"]; });
+/* harmony import */ var _components_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./components/EventListener/EventListener.js */ "./node_modules/@shopify/polaris/build/esm/components/EventListener/EventListener.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EventListener", function() { return _components_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_37__["EventListener"]; });
 
-/* harmony import */ var _components_DisplayText_DisplayText_js__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./components/DisplayText/DisplayText.js */ "./node_modules/@shopify/polaris/build/esm/components/DisplayText/DisplayText.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DisplayText", function() { return _components_DisplayText_DisplayText_js__WEBPACK_IMPORTED_MODULE_36__["DisplayText"]; });
+/* harmony import */ var _components_ExceptionList_ExceptionList_js__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./components/ExceptionList/ExceptionList.js */ "./node_modules/@shopify/polaris/build/esm/components/ExceptionList/ExceptionList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExceptionList", function() { return _components_ExceptionList_ExceptionList_js__WEBPACK_IMPORTED_MODULE_38__["ExceptionList"]; });
 
-/* harmony import */ var _components_DropZone_DropZone_js__WEBPACK_IMPORTED_MODULE_37__ = __webpack_require__(/*! ./components/DropZone/DropZone.js */ "./node_modules/@shopify/polaris/build/esm/components/DropZone/DropZone.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DropZone", function() { return _components_DropZone_DropZone_js__WEBPACK_IMPORTED_MODULE_37__["DropZone"]; });
+/* harmony import */ var _components_Filters_Filters_js__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./components/Filters/Filters.js */ "./node_modules/@shopify/polaris/build/esm/components/Filters/Filters.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Filters", function() { return _components_Filters_Filters_js__WEBPACK_IMPORTED_MODULE_39__["Filters"]; });
 
-/* harmony import */ var _components_EmptySearchResult_EmptySearchResult_js__WEBPACK_IMPORTED_MODULE_38__ = __webpack_require__(/*! ./components/EmptySearchResult/EmptySearchResult.js */ "./node_modules/@shopify/polaris/build/esm/components/EmptySearchResult/EmptySearchResult.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmptySearchResult", function() { return _components_EmptySearchResult_EmptySearchResult_js__WEBPACK_IMPORTED_MODULE_38__["EmptySearchResult"]; });
+/* harmony import */ var _components_Focus_Focus_js__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./components/Focus/Focus.js */ "./node_modules/@shopify/polaris/build/esm/components/Focus/Focus.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Focus", function() { return _components_Focus_Focus_js__WEBPACK_IMPORTED_MODULE_40__["Focus"]; });
 
-/* harmony import */ var _components_EmptyState_EmptyState_js__WEBPACK_IMPORTED_MODULE_39__ = __webpack_require__(/*! ./components/EmptyState/EmptyState.js */ "./node_modules/@shopify/polaris/build/esm/components/EmptyState/EmptyState.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EmptyState", function() { return _components_EmptyState_EmptyState_js__WEBPACK_IMPORTED_MODULE_39__["EmptyState"]; });
+/* harmony import */ var _components_FooterHelp_FooterHelp_js__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./components/FooterHelp/FooterHelp.js */ "./node_modules/@shopify/polaris/build/esm/components/FooterHelp/FooterHelp.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FooterHelp", function() { return _components_FooterHelp_FooterHelp_js__WEBPACK_IMPORTED_MODULE_41__["FooterHelp"]; });
 
-/* harmony import */ var _components_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_40__ = __webpack_require__(/*! ./components/EventListener/EventListener.js */ "./node_modules/@shopify/polaris/build/esm/components/EventListener/EventListener.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "EventListener", function() { return _components_EventListener_EventListener_js__WEBPACK_IMPORTED_MODULE_40__["EventListener"]; });
+/* harmony import */ var _components_Form_Form_js__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./components/Form/Form.js */ "./node_modules/@shopify/polaris/build/esm/components/Form/Form.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return _components_Form_Form_js__WEBPACK_IMPORTED_MODULE_42__["Form"]; });
 
-/* harmony import */ var _components_ExceptionList_ExceptionList_js__WEBPACK_IMPORTED_MODULE_41__ = __webpack_require__(/*! ./components/ExceptionList/ExceptionList.js */ "./node_modules/@shopify/polaris/build/esm/components/ExceptionList/ExceptionList.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ExceptionList", function() { return _components_ExceptionList_ExceptionList_js__WEBPACK_IMPORTED_MODULE_41__["ExceptionList"]; });
+/* harmony import */ var _components_FormLayout_FormLayout_js__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./components/FormLayout/FormLayout.js */ "./node_modules/@shopify/polaris/build/esm/components/FormLayout/FormLayout.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FormLayout", function() { return _components_FormLayout_FormLayout_js__WEBPACK_IMPORTED_MODULE_43__["FormLayout"]; });
 
-/* harmony import */ var _components_Filters_Filters_js__WEBPACK_IMPORTED_MODULE_42__ = __webpack_require__(/*! ./components/Filters/Filters.js */ "./node_modules/@shopify/polaris/build/esm/components/Filters/Filters.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Filters", function() { return _components_Filters_Filters_js__WEBPACK_IMPORTED_MODULE_42__["Filters"]; });
+/* harmony import */ var _components_Frame_Frame_js__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./components/Frame/Frame.js */ "./node_modules/@shopify/polaris/build/esm/components/Frame/Frame.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Frame", function() { return _components_Frame_Frame_js__WEBPACK_IMPORTED_MODULE_44__["Frame"]; });
 
-/* harmony import */ var _components_Focus_Focus_js__WEBPACK_IMPORTED_MODULE_43__ = __webpack_require__(/*! ./components/Focus/Focus.js */ "./node_modules/@shopify/polaris/build/esm/components/Focus/Focus.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Focus", function() { return _components_Focus_Focus_js__WEBPACK_IMPORTED_MODULE_43__["Focus"]; });
+/* harmony import */ var _components_Frame_components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./components/Frame/components/Toast/Toast.js */ "./node_modules/@shopify/polaris/build/esm/components/Frame/components/Toast/Toast.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DEFAULT_TOAST_DURATION", function() { return _components_Frame_components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_45__["DEFAULT_TOAST_DURATION"]; });
 
-/* harmony import */ var _components_FooterHelp_FooterHelp_js__WEBPACK_IMPORTED_MODULE_44__ = __webpack_require__(/*! ./components/FooterHelp/FooterHelp.js */ "./node_modules/@shopify/polaris/build/esm/components/FooterHelp/FooterHelp.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FooterHelp", function() { return _components_FooterHelp_FooterHelp_js__WEBPACK_IMPORTED_MODULE_44__["FooterHelp"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DEFAULT_TOAST_DURATION_WITH_ACTION", function() { return _components_Frame_components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_45__["DEFAULT_TOAST_DURATION_WITH_ACTION"]; });
 
-/* harmony import */ var _components_Form_Form_js__WEBPACK_IMPORTED_MODULE_45__ = __webpack_require__(/*! ./components/Form/Form.js */ "./node_modules/@shopify/polaris/build/esm/components/Form/Form.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Form", function() { return _components_Form_Form_js__WEBPACK_IMPORTED_MODULE_45__["Form"]; });
+/* harmony import */ var _components_Heading_Heading_js__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./components/Heading/Heading.js */ "./node_modules/@shopify/polaris/build/esm/components/Heading/Heading.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Heading", function() { return _components_Heading_Heading_js__WEBPACK_IMPORTED_MODULE_46__["Heading"]; });
 
-/* harmony import */ var _components_FormLayout_FormLayout_js__WEBPACK_IMPORTED_MODULE_46__ = __webpack_require__(/*! ./components/FormLayout/FormLayout.js */ "./node_modules/@shopify/polaris/build/esm/components/FormLayout/FormLayout.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "FormLayout", function() { return _components_FormLayout_FormLayout_js__WEBPACK_IMPORTED_MODULE_46__["FormLayout"]; });
+/* harmony import */ var _components_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./components/Icon/Icon.js */ "./node_modules/@shopify/polaris/build/esm/components/Icon/Icon.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Icon", function() { return _components_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_47__["Icon"]; });
 
-/* harmony import */ var _components_Frame_Frame_js__WEBPACK_IMPORTED_MODULE_47__ = __webpack_require__(/*! ./components/Frame/Frame.js */ "./node_modules/@shopify/polaris/build/esm/components/Frame/Frame.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Frame", function() { return _components_Frame_Frame_js__WEBPACK_IMPORTED_MODULE_47__["Frame"]; });
+/* harmony import */ var _components_Image_Image_js__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./components/Image/Image.js */ "./node_modules/@shopify/polaris/build/esm/components/Image/Image.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Image", function() { return _components_Image_Image_js__WEBPACK_IMPORTED_MODULE_48__["Image"]; });
 
-/* harmony import */ var _components_Frame_components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_48__ = __webpack_require__(/*! ./components/Frame/components/Toast/Toast.js */ "./node_modules/@shopify/polaris/build/esm/components/Frame/components/Toast/Toast.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DEFAULT_TOAST_DURATION", function() { return _components_Frame_components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_48__["DEFAULT_TOAST_DURATION"]; });
+/* harmony import */ var _components_IndexTable_IndexTable_js__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./components/IndexTable/IndexTable.js */ "./node_modules/@shopify/polaris/build/esm/components/IndexTable/IndexTable.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IndexTable", function() { return _components_IndexTable_IndexTable_js__WEBPACK_IMPORTED_MODULE_49__["IndexTable"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DEFAULT_TOAST_DURATION_WITH_ACTION", function() { return _components_Frame_components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_48__["DEFAULT_TOAST_DURATION_WITH_ACTION"]; });
+/* harmony import */ var _components_Indicator_Indicator_js__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./components/Indicator/Indicator.js */ "./node_modules/@shopify/polaris/build/esm/components/Indicator/Indicator.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Indicator", function() { return _components_Indicator_Indicator_js__WEBPACK_IMPORTED_MODULE_50__["Indicator"]; });
 
-/* harmony import */ var _components_Heading_Heading_js__WEBPACK_IMPORTED_MODULE_49__ = __webpack_require__(/*! ./components/Heading/Heading.js */ "./node_modules/@shopify/polaris/build/esm/components/Heading/Heading.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Heading", function() { return _components_Heading_Heading_js__WEBPACK_IMPORTED_MODULE_49__["Heading"]; });
+/* harmony import */ var _components_InlineError_InlineError_js__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./components/InlineError/InlineError.js */ "./node_modules/@shopify/polaris/build/esm/components/InlineError/InlineError.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InlineError", function() { return _components_InlineError_InlineError_js__WEBPACK_IMPORTED_MODULE_51__["InlineError"]; });
 
-/* harmony import */ var _components_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_50__ = __webpack_require__(/*! ./components/Icon/Icon.js */ "./node_modules/@shopify/polaris/build/esm/components/Icon/Icon.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Icon", function() { return _components_Icon_Icon_js__WEBPACK_IMPORTED_MODULE_50__["Icon"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "errorTextID", function() { return _components_InlineError_InlineError_js__WEBPACK_IMPORTED_MODULE_51__["errorTextID"]; });
 
-/* harmony import */ var _components_Image_Image_js__WEBPACK_IMPORTED_MODULE_51__ = __webpack_require__(/*! ./components/Image/Image.js */ "./node_modules/@shopify/polaris/build/esm/components/Image/Image.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Image", function() { return _components_Image_Image_js__WEBPACK_IMPORTED_MODULE_51__["Image"]; });
+/* harmony import */ var _components_KeyboardKey_KeyboardKey_js__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./components/KeyboardKey/KeyboardKey.js */ "./node_modules/@shopify/polaris/build/esm/components/KeyboardKey/KeyboardKey.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KeyboardKey", function() { return _components_KeyboardKey_KeyboardKey_js__WEBPACK_IMPORTED_MODULE_52__["KeyboardKey"]; });
 
-/* harmony import */ var _components_IndexTable_IndexTable_js__WEBPACK_IMPORTED_MODULE_52__ = __webpack_require__(/*! ./components/IndexTable/IndexTable.js */ "./node_modules/@shopify/polaris/build/esm/components/IndexTable/IndexTable.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "IndexTable", function() { return _components_IndexTable_IndexTable_js__WEBPACK_IMPORTED_MODULE_52__["IndexTable"]; });
+/* harmony import */ var _components_KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./components/KeypressListener/KeypressListener.js */ "./node_modules/@shopify/polaris/build/esm/components/KeypressListener/KeypressListener.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KeypressListener", function() { return _components_KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_53__["KeypressListener"]; });
 
-/* harmony import */ var _components_Indicator_Indicator_js__WEBPACK_IMPORTED_MODULE_53__ = __webpack_require__(/*! ./components/Indicator/Indicator.js */ "./node_modules/@shopify/polaris/build/esm/components/Indicator/Indicator.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Indicator", function() { return _components_Indicator_Indicator_js__WEBPACK_IMPORTED_MODULE_53__["Indicator"]; });
+/* harmony import */ var _components_KonamiCode_KonamiCode_js__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./components/KonamiCode/KonamiCode.js */ "./node_modules/@shopify/polaris/build/esm/components/KonamiCode/KonamiCode.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KonamiCode", function() { return _components_KonamiCode_KonamiCode_js__WEBPACK_IMPORTED_MODULE_54__["KonamiCode"]; });
 
-/* harmony import */ var _components_InlineError_InlineError_js__WEBPACK_IMPORTED_MODULE_54__ = __webpack_require__(/*! ./components/InlineError/InlineError.js */ "./node_modules/@shopify/polaris/build/esm/components/InlineError/InlineError.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "InlineError", function() { return _components_InlineError_InlineError_js__WEBPACK_IMPORTED_MODULE_54__["InlineError"]; });
+/* harmony import */ var _components_Label_Label_js__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./components/Label/Label.js */ "./node_modules/@shopify/polaris/build/esm/components/Label/Label.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return _components_Label_Label_js__WEBPACK_IMPORTED_MODULE_55__["Label"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "errorTextID", function() { return _components_InlineError_InlineError_js__WEBPACK_IMPORTED_MODULE_54__["errorTextID"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "labelID", function() { return _components_Label_Label_js__WEBPACK_IMPORTED_MODULE_55__["labelID"]; });
 
-/* harmony import */ var _components_KeyboardKey_KeyboardKey_js__WEBPACK_IMPORTED_MODULE_55__ = __webpack_require__(/*! ./components/KeyboardKey/KeyboardKey.js */ "./node_modules/@shopify/polaris/build/esm/components/KeyboardKey/KeyboardKey.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KeyboardKey", function() { return _components_KeyboardKey_KeyboardKey_js__WEBPACK_IMPORTED_MODULE_55__["KeyboardKey"]; });
+/* harmony import */ var _components_Labelled_Labelled_js__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./components/Labelled/Labelled.js */ "./node_modules/@shopify/polaris/build/esm/components/Labelled/Labelled.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Labelled", function() { return _components_Labelled_Labelled_js__WEBPACK_IMPORTED_MODULE_56__["Labelled"]; });
 
-/* harmony import */ var _components_KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_56__ = __webpack_require__(/*! ./components/KeypressListener/KeypressListener.js */ "./node_modules/@shopify/polaris/build/esm/components/KeypressListener/KeypressListener.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KeypressListener", function() { return _components_KeypressListener_KeypressListener_js__WEBPACK_IMPORTED_MODULE_56__["KeypressListener"]; });
+/* harmony import */ var _components_Layout_Layout_js__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./components/Layout/Layout.js */ "./node_modules/@shopify/polaris/build/esm/components/Layout/Layout.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Layout", function() { return _components_Layout_Layout_js__WEBPACK_IMPORTED_MODULE_57__["Layout"]; });
 
-/* harmony import */ var _components_KonamiCode_KonamiCode_js__WEBPACK_IMPORTED_MODULE_57__ = __webpack_require__(/*! ./components/KonamiCode/KonamiCode.js */ "./node_modules/@shopify/polaris/build/esm/components/KonamiCode/KonamiCode.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "KonamiCode", function() { return _components_KonamiCode_KonamiCode_js__WEBPACK_IMPORTED_MODULE_57__["KonamiCode"]; });
+/* harmony import */ var _components_Link_Link_js__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./components/Link/Link.js */ "./node_modules/@shopify/polaris/build/esm/components/Link/Link.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return _components_Link_Link_js__WEBPACK_IMPORTED_MODULE_58__["Link"]; });
 
-/* harmony import */ var _components_Label_Label_js__WEBPACK_IMPORTED_MODULE_58__ = __webpack_require__(/*! ./components/Label/Label.js */ "./node_modules/@shopify/polaris/build/esm/components/Label/Label.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Label", function() { return _components_Label_Label_js__WEBPACK_IMPORTED_MODULE_58__["Label"]; });
+/* harmony import */ var _components_List_List_js__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./components/List/List.js */ "./node_modules/@shopify/polaris/build/esm/components/List/List.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "List", function() { return _components_List_List_js__WEBPACK_IMPORTED_MODULE_59__["List"]; });
 
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "labelID", function() { return _components_Label_Label_js__WEBPACK_IMPORTED_MODULE_58__["labelID"]; });
+/* harmony import */ var _components_Listbox_Listbox_js__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./components/Listbox/Listbox.js */ "./node_modules/@shopify/polaris/build/esm/components/Listbox/Listbox.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Listbox", function() { return _components_Listbox_Listbox_js__WEBPACK_IMPORTED_MODULE_60__["Listbox"]; });
 
-/* harmony import */ var _components_Labelled_Labelled_js__WEBPACK_IMPORTED_MODULE_59__ = __webpack_require__(/*! ./components/Labelled/Labelled.js */ "./node_modules/@shopify/polaris/build/esm/components/Labelled/Labelled.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Labelled", function() { return _components_Labelled_Labelled_js__WEBPACK_IMPORTED_MODULE_59__["Labelled"]; });
+/* harmony import */ var _components_Loading_Loading_js__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./components/Loading/Loading.js */ "./node_modules/@shopify/polaris/build/esm/components/Loading/Loading.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Loading", function() { return _components_Loading_Loading_js__WEBPACK_IMPORTED_MODULE_61__["Loading"]; });
 
-/* harmony import */ var _components_Layout_Layout_js__WEBPACK_IMPORTED_MODULE_60__ = __webpack_require__(/*! ./components/Layout/Layout.js */ "./node_modules/@shopify/polaris/build/esm/components/Layout/Layout.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Layout", function() { return _components_Layout_Layout_js__WEBPACK_IMPORTED_MODULE_60__["Layout"]; });
+/* harmony import */ var _components_MediaCard_MediaCard_js__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./components/MediaCard/MediaCard.js */ "./node_modules/@shopify/polaris/build/esm/components/MediaCard/MediaCard.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MediaCard", function() { return _components_MediaCard_MediaCard_js__WEBPACK_IMPORTED_MODULE_62__["MediaCard"]; });
 
-/* harmony import */ var _components_Link_Link_js__WEBPACK_IMPORTED_MODULE_61__ = __webpack_require__(/*! ./components/Link/Link.js */ "./node_modules/@shopify/polaris/build/esm/components/Link/Link.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return _components_Link_Link_js__WEBPACK_IMPORTED_MODULE_61__["Link"]; });
+/* harmony import */ var _components_Modal_Modal_js__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./components/Modal/Modal.js */ "./node_modules/@shopify/polaris/build/esm/components/Modal/Modal.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return _components_Modal_Modal_js__WEBPACK_IMPORTED_MODULE_63__["Modal"]; });
 
-/* harmony import */ var _components_List_List_js__WEBPACK_IMPORTED_MODULE_62__ = __webpack_require__(/*! ./components/List/List.js */ "./node_modules/@shopify/polaris/build/esm/components/List/List.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "List", function() { return _components_List_List_js__WEBPACK_IMPORTED_MODULE_62__["List"]; });
+/* harmony import */ var _components_Navigation_Navigation_js__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./components/Navigation/Navigation.js */ "./node_modules/@shopify/polaris/build/esm/components/Navigation/Navigation.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Navigation", function() { return _components_Navigation_Navigation_js__WEBPACK_IMPORTED_MODULE_64__["Navigation"]; });
 
-/* harmony import */ var _components_Listbox_Listbox_js__WEBPACK_IMPORTED_MODULE_63__ = __webpack_require__(/*! ./components/Listbox/Listbox.js */ "./node_modules/@shopify/polaris/build/esm/components/Listbox/Listbox.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Listbox", function() { return _components_Listbox_Listbox_js__WEBPACK_IMPORTED_MODULE_63__["Listbox"]; });
+/* harmony import */ var _components_Navigation_components_Item_Item_js__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./components/Navigation/components/Item/Item.js */ "./node_modules/@shopify/polaris/build/esm/components/Navigation/components/Item/Item.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isNavigationItemActive", function() { return _components_Navigation_components_Item_Item_js__WEBPACK_IMPORTED_MODULE_65__["isNavigationItemActive"]; });
 
-/* harmony import */ var _components_Loading_Loading_js__WEBPACK_IMPORTED_MODULE_64__ = __webpack_require__(/*! ./components/Loading/Loading.js */ "./node_modules/@shopify/polaris/build/esm/components/Loading/Loading.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Loading", function() { return _components_Loading_Loading_js__WEBPACK_IMPORTED_MODULE_64__["Loading"]; });
+/* harmony import */ var _components_OptionList_OptionList_js__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./components/OptionList/OptionList.js */ "./node_modules/@shopify/polaris/build/esm/components/OptionList/OptionList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OptionList", function() { return _components_OptionList_OptionList_js__WEBPACK_IMPORTED_MODULE_66__["OptionList"]; });
 
-/* harmony import */ var _components_MediaCard_MediaCard_js__WEBPACK_IMPORTED_MODULE_65__ = __webpack_require__(/*! ./components/MediaCard/MediaCard.js */ "./node_modules/@shopify/polaris/build/esm/components/MediaCard/MediaCard.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "MediaCard", function() { return _components_MediaCard_MediaCard_js__WEBPACK_IMPORTED_MODULE_65__["MediaCard"]; });
+/* harmony import */ var _components_Page_Page_js__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./components/Page/Page.js */ "./node_modules/@shopify/polaris/build/esm/components/Page/Page.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Page", function() { return _components_Page_Page_js__WEBPACK_IMPORTED_MODULE_67__["Page"]; });
 
-/* harmony import */ var _components_Modal_Modal_js__WEBPACK_IMPORTED_MODULE_66__ = __webpack_require__(/*! ./components/Modal/Modal.js */ "./node_modules/@shopify/polaris/build/esm/components/Modal/Modal.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Modal", function() { return _components_Modal_Modal_js__WEBPACK_IMPORTED_MODULE_66__["Modal"]; });
+/* harmony import */ var _components_PageActions_PageActions_js__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./components/PageActions/PageActions.js */ "./node_modules/@shopify/polaris/build/esm/components/PageActions/PageActions.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageActions", function() { return _components_PageActions_PageActions_js__WEBPACK_IMPORTED_MODULE_68__["PageActions"]; });
 
-/* harmony import */ var _components_Navigation_Navigation_js__WEBPACK_IMPORTED_MODULE_67__ = __webpack_require__(/*! ./components/Navigation/Navigation.js */ "./node_modules/@shopify/polaris/build/esm/components/Navigation/Navigation.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Navigation", function() { return _components_Navigation_Navigation_js__WEBPACK_IMPORTED_MODULE_67__["Navigation"]; });
+/* harmony import */ var _components_Pagination_Pagination_js__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./components/Pagination/Pagination.js */ "./node_modules/@shopify/polaris/build/esm/components/Pagination/Pagination.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Pagination", function() { return _components_Pagination_Pagination_js__WEBPACK_IMPORTED_MODULE_69__["Pagination"]; });
 
-/* harmony import */ var _components_Navigation_components_Item_Item_js__WEBPACK_IMPORTED_MODULE_68__ = __webpack_require__(/*! ./components/Navigation/components/Item/Item.js */ "./node_modules/@shopify/polaris/build/esm/components/Navigation/components/Item/Item.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "isNavigationItemActive", function() { return _components_Navigation_components_Item_Item_js__WEBPACK_IMPORTED_MODULE_68__["isNavigationItemActive"]; });
+/* harmony import */ var _components_PolarisTestProvider_PolarisTestProvider_js__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./components/PolarisTestProvider/PolarisTestProvider.js */ "./node_modules/@shopify/polaris/build/esm/components/PolarisTestProvider/PolarisTestProvider.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PolarisTestProvider", function() { return _components_PolarisTestProvider_PolarisTestProvider_js__WEBPACK_IMPORTED_MODULE_70__["PolarisTestProvider"]; });
 
-/* harmony import */ var _components_OptionList_OptionList_js__WEBPACK_IMPORTED_MODULE_69__ = __webpack_require__(/*! ./components/OptionList/OptionList.js */ "./node_modules/@shopify/polaris/build/esm/components/OptionList/OptionList.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "OptionList", function() { return _components_OptionList_OptionList_js__WEBPACK_IMPORTED_MODULE_69__["OptionList"]; });
+/* harmony import */ var _components_Popover_Popover_js__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! ./components/Popover/Popover.js */ "./node_modules/@shopify/polaris/build/esm/components/Popover/Popover.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return _components_Popover_Popover_js__WEBPACK_IMPORTED_MODULE_71__["Popover"]; });
 
-/* harmony import */ var _components_Page_Page_js__WEBPACK_IMPORTED_MODULE_70__ = __webpack_require__(/*! ./components/Page/Page.js */ "./node_modules/@shopify/polaris/build/esm/components/Page/Page.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Page", function() { return _components_Page_Page_js__WEBPACK_IMPORTED_MODULE_70__["Page"]; });
+/* harmony import */ var _components_Popover_components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! ./components/Popover/components/PopoverOverlay/PopoverOverlay.js */ "./node_modules/@shopify/polaris/build/esm/components/Popover/components/PopoverOverlay/PopoverOverlay.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PopoverCloseSource", function() { return _components_Popover_components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_72__["PopoverCloseSource"]; });
 
-/* harmony import */ var _components_PageActions_PageActions_js__WEBPACK_IMPORTED_MODULE_71__ = __webpack_require__(/*! ./components/PageActions/PageActions.js */ "./node_modules/@shopify/polaris/build/esm/components/PageActions/PageActions.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PageActions", function() { return _components_PageActions_PageActions_js__WEBPACK_IMPORTED_MODULE_71__["PageActions"]; });
+/* harmony import */ var _components_Portal_Portal_js__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ./components/Portal/Portal.js */ "./node_modules/@shopify/polaris/build/esm/components/Portal/Portal.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Portal", function() { return _components_Portal_Portal_js__WEBPACK_IMPORTED_MODULE_73__["Portal"]; });
 
-/* harmony import */ var _components_Pagination_Pagination_js__WEBPACK_IMPORTED_MODULE_72__ = __webpack_require__(/*! ./components/Pagination/Pagination.js */ "./node_modules/@shopify/polaris/build/esm/components/Pagination/Pagination.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Pagination", function() { return _components_Pagination_Pagination_js__WEBPACK_IMPORTED_MODULE_72__["Pagination"]; });
+/* harmony import */ var _components_PortalsManager_PortalsManager_js__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ./components/PortalsManager/PortalsManager.js */ "./node_modules/@shopify/polaris/build/esm/components/PortalsManager/PortalsManager.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PortalsManager", function() { return _components_PortalsManager_PortalsManager_js__WEBPACK_IMPORTED_MODULE_74__["PortalsManager"]; });
 
-/* harmony import */ var _components_PolarisTestProvider_PolarisTestProvider_js__WEBPACK_IMPORTED_MODULE_73__ = __webpack_require__(/*! ./components/PolarisTestProvider/PolarisTestProvider.js */ "./node_modules/@shopify/polaris/build/esm/components/PolarisTestProvider/PolarisTestProvider.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PolarisTestProvider", function() { return _components_PolarisTestProvider_PolarisTestProvider_js__WEBPACK_IMPORTED_MODULE_73__["PolarisTestProvider"]; });
+/* harmony import */ var _components_PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ./components/PositionedOverlay/PositionedOverlay.js */ "./node_modules/@shopify/polaris/build/esm/components/PositionedOverlay/PositionedOverlay.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PositionedOverlay", function() { return _components_PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_75__["PositionedOverlay"]; });
 
-/* harmony import */ var _components_Popover_Popover_js__WEBPACK_IMPORTED_MODULE_74__ = __webpack_require__(/*! ./components/Popover/Popover.js */ "./node_modules/@shopify/polaris/build/esm/components/Popover/Popover.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Popover", function() { return _components_Popover_Popover_js__WEBPACK_IMPORTED_MODULE_74__["Popover"]; });
+/* harmony import */ var _components_ProgressBar_ProgressBar_js__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./components/ProgressBar/ProgressBar.js */ "./node_modules/@shopify/polaris/build/esm/components/ProgressBar/ProgressBar.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return _components_ProgressBar_ProgressBar_js__WEBPACK_IMPORTED_MODULE_76__["ProgressBar"]; });
 
-/* harmony import */ var _components_Popover_components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_75__ = __webpack_require__(/*! ./components/Popover/components/PopoverOverlay/PopoverOverlay.js */ "./node_modules/@shopify/polaris/build/esm/components/Popover/components/PopoverOverlay/PopoverOverlay.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PopoverCloseSource", function() { return _components_Popover_components_PopoverOverlay_PopoverOverlay_js__WEBPACK_IMPORTED_MODULE_75__["PopoverCloseSource"]; });
+/* harmony import */ var _components_RadioButton_RadioButton_js__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ./components/RadioButton/RadioButton.js */ "./node_modules/@shopify/polaris/build/esm/components/RadioButton/RadioButton.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RadioButton", function() { return _components_RadioButton_RadioButton_js__WEBPACK_IMPORTED_MODULE_77__["RadioButton"]; });
 
-/* harmony import */ var _components_Portal_Portal_js__WEBPACK_IMPORTED_MODULE_76__ = __webpack_require__(/*! ./components/Portal/Portal.js */ "./node_modules/@shopify/polaris/build/esm/components/Portal/Portal.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Portal", function() { return _components_Portal_Portal_js__WEBPACK_IMPORTED_MODULE_76__["Portal"]; });
+/* harmony import */ var _components_RangeSlider_RangeSlider_js__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ./components/RangeSlider/RangeSlider.js */ "./node_modules/@shopify/polaris/build/esm/components/RangeSlider/RangeSlider.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RangeSlider", function() { return _components_RangeSlider_RangeSlider_js__WEBPACK_IMPORTED_MODULE_78__["RangeSlider"]; });
 
-/* harmony import */ var _components_PortalsManager_PortalsManager_js__WEBPACK_IMPORTED_MODULE_77__ = __webpack_require__(/*! ./components/PortalsManager/PortalsManager.js */ "./node_modules/@shopify/polaris/build/esm/components/PortalsManager/PortalsManager.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PortalsManager", function() { return _components_PortalsManager_PortalsManager_js__WEBPACK_IMPORTED_MODULE_77__["PortalsManager"]; });
+/* harmony import */ var _components_ResourceItem_ResourceItem_js__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ./components/ResourceItem/ResourceItem.js */ "./node_modules/@shopify/polaris/build/esm/components/ResourceItem/ResourceItem.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResourceItem", function() { return _components_ResourceItem_ResourceItem_js__WEBPACK_IMPORTED_MODULE_79__["ResourceItem"]; });
 
-/* harmony import */ var _components_PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_78__ = __webpack_require__(/*! ./components/PositionedOverlay/PositionedOverlay.js */ "./node_modules/@shopify/polaris/build/esm/components/PositionedOverlay/PositionedOverlay.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "PositionedOverlay", function() { return _components_PositionedOverlay_PositionedOverlay_js__WEBPACK_IMPORTED_MODULE_78__["PositionedOverlay"]; });
+/* harmony import */ var _components_ResourceList_ResourceList_js__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ./components/ResourceList/ResourceList.js */ "./node_modules/@shopify/polaris/build/esm/components/ResourceList/ResourceList.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResourceList", function() { return _components_ResourceList_ResourceList_js__WEBPACK_IMPORTED_MODULE_80__["ResourceList"]; });
 
-/* harmony import */ var _components_ProgressBar_ProgressBar_js__WEBPACK_IMPORTED_MODULE_79__ = __webpack_require__(/*! ./components/ProgressBar/ProgressBar.js */ "./node_modules/@shopify/polaris/build/esm/components/ProgressBar/ProgressBar.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ProgressBar", function() { return _components_ProgressBar_ProgressBar_js__WEBPACK_IMPORTED_MODULE_79__["ProgressBar"]; });
+/* harmony import */ var _components_ResourceList_components_FilterControl_FilterControl_js__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ./components/ResourceList/components/FilterControl/FilterControl.js */ "./node_modules/@shopify/polaris/build/esm/components/ResourceList/components/FilterControl/FilterControl.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "_SECRET_INTERNAL_FilterControl", function() { return _components_ResourceList_components_FilterControl_FilterControl_js__WEBPACK_IMPORTED_MODULE_81__["FilterControl"]; });
 
-/* harmony import */ var _components_RadioButton_RadioButton_js__WEBPACK_IMPORTED_MODULE_80__ = __webpack_require__(/*! ./components/RadioButton/RadioButton.js */ "./node_modules/@shopify/polaris/build/esm/components/RadioButton/RadioButton.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RadioButton", function() { return _components_RadioButton_RadioButton_js__WEBPACK_IMPORTED_MODULE_80__["RadioButton"]; });
+/* harmony import */ var _components_Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! ./components/Scrollable/Scrollable.js */ "./node_modules/@shopify/polaris/build/esm/components/Scrollable/Scrollable.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Scrollable", function() { return _components_Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_82__["Scrollable"]; });
 
-/* harmony import */ var _components_RangeSlider_RangeSlider_js__WEBPACK_IMPORTED_MODULE_81__ = __webpack_require__(/*! ./components/RangeSlider/RangeSlider.js */ "./node_modules/@shopify/polaris/build/esm/components/RangeSlider/RangeSlider.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "RangeSlider", function() { return _components_RangeSlider_RangeSlider_js__WEBPACK_IMPORTED_MODULE_81__["RangeSlider"]; });
+/* harmony import */ var _components_ScrollLock_ScrollLock_js__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! ./components/ScrollLock/ScrollLock.js */ "./node_modules/@shopify/polaris/build/esm/components/ScrollLock/ScrollLock.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ScrollLock", function() { return _components_ScrollLock_ScrollLock_js__WEBPACK_IMPORTED_MODULE_83__["ScrollLock"]; });
 
-/* harmony import */ var _components_ResourceItem_ResourceItem_js__WEBPACK_IMPORTED_MODULE_82__ = __webpack_require__(/*! ./components/ResourceItem/ResourceItem.js */ "./node_modules/@shopify/polaris/build/esm/components/ResourceItem/ResourceItem.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResourceItem", function() { return _components_ResourceItem_ResourceItem_js__WEBPACK_IMPORTED_MODULE_82__["ResourceItem"]; });
+/* harmony import */ var _components_Select_Select_js__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ./components/Select/Select.js */ "./node_modules/@shopify/polaris/build/esm/components/Select/Select.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Select", function() { return _components_Select_Select_js__WEBPACK_IMPORTED_MODULE_84__["Select"]; });
 
-/* harmony import */ var _components_ResourceList_ResourceList_js__WEBPACK_IMPORTED_MODULE_83__ = __webpack_require__(/*! ./components/ResourceList/ResourceList.js */ "./node_modules/@shopify/polaris/build/esm/components/ResourceList/ResourceList.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ResourceList", function() { return _components_ResourceList_ResourceList_js__WEBPACK_IMPORTED_MODULE_83__["ResourceList"]; });
+/* harmony import */ var _components_SettingToggle_SettingToggle_js__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ./components/SettingToggle/SettingToggle.js */ "./node_modules/@shopify/polaris/build/esm/components/SettingToggle/SettingToggle.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SettingToggle", function() { return _components_SettingToggle_SettingToggle_js__WEBPACK_IMPORTED_MODULE_85__["SettingToggle"]; });
 
-/* harmony import */ var _components_ResourceList_components_FilterControl_FilterControl_js__WEBPACK_IMPORTED_MODULE_84__ = __webpack_require__(/*! ./components/ResourceList/components/FilterControl/FilterControl.js */ "./node_modules/@shopify/polaris/build/esm/components/ResourceList/components/FilterControl/FilterControl.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "_SECRET_INTERNAL_FilterControl", function() { return _components_ResourceList_components_FilterControl_FilterControl_js__WEBPACK_IMPORTED_MODULE_84__["FilterControl"]; });
+/* harmony import */ var _components_Sheet_Sheet_js__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ./components/Sheet/Sheet.js */ "./node_modules/@shopify/polaris/build/esm/components/Sheet/Sheet.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sheet", function() { return _components_Sheet_Sheet_js__WEBPACK_IMPORTED_MODULE_86__["Sheet"]; });
 
-/* harmony import */ var _components_Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_85__ = __webpack_require__(/*! ./components/Scrollable/Scrollable.js */ "./node_modules/@shopify/polaris/build/esm/components/Scrollable/Scrollable.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Scrollable", function() { return _components_Scrollable_Scrollable_js__WEBPACK_IMPORTED_MODULE_85__["Scrollable"]; });
+/* harmony import */ var _components_SkeletonBodyText_SkeletonBodyText_js__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ./components/SkeletonBodyText/SkeletonBodyText.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonBodyText/SkeletonBodyText.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonBodyText", function() { return _components_SkeletonBodyText_SkeletonBodyText_js__WEBPACK_IMPORTED_MODULE_87__["SkeletonBodyText"]; });
 
-/* harmony import */ var _components_ScrollLock_ScrollLock_js__WEBPACK_IMPORTED_MODULE_86__ = __webpack_require__(/*! ./components/ScrollLock/ScrollLock.js */ "./node_modules/@shopify/polaris/build/esm/components/ScrollLock/ScrollLock.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ScrollLock", function() { return _components_ScrollLock_ScrollLock_js__WEBPACK_IMPORTED_MODULE_86__["ScrollLock"]; });
+/* harmony import */ var _components_SkeletonDisplayText_SkeletonDisplayText_js__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ./components/SkeletonDisplayText/SkeletonDisplayText.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonDisplayText/SkeletonDisplayText.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonDisplayText", function() { return _components_SkeletonDisplayText_SkeletonDisplayText_js__WEBPACK_IMPORTED_MODULE_88__["SkeletonDisplayText"]; });
 
-/* harmony import */ var _components_Select_Select_js__WEBPACK_IMPORTED_MODULE_87__ = __webpack_require__(/*! ./components/Select/Select.js */ "./node_modules/@shopify/polaris/build/esm/components/Select/Select.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Select", function() { return _components_Select_Select_js__WEBPACK_IMPORTED_MODULE_87__["Select"]; });
+/* harmony import */ var _components_SkeletonPage_SkeletonPage_js__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ./components/SkeletonPage/SkeletonPage.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonPage/SkeletonPage.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonPage", function() { return _components_SkeletonPage_SkeletonPage_js__WEBPACK_IMPORTED_MODULE_89__["SkeletonPage"]; });
 
-/* harmony import */ var _components_SettingToggle_SettingToggle_js__WEBPACK_IMPORTED_MODULE_88__ = __webpack_require__(/*! ./components/SettingToggle/SettingToggle.js */ "./node_modules/@shopify/polaris/build/esm/components/SettingToggle/SettingToggle.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SettingToggle", function() { return _components_SettingToggle_SettingToggle_js__WEBPACK_IMPORTED_MODULE_88__["SettingToggle"]; });
+/* harmony import */ var _components_SkeletonThumbnail_SkeletonThumbnail_js__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ./components/SkeletonThumbnail/SkeletonThumbnail.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonThumbnail/SkeletonThumbnail.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonThumbnail", function() { return _components_SkeletonThumbnail_SkeletonThumbnail_js__WEBPACK_IMPORTED_MODULE_90__["SkeletonThumbnail"]; });
 
-/* harmony import */ var _components_shared_js__WEBPACK_IMPORTED_MODULE_89__ = __webpack_require__(/*! ./components/shared.js */ "./node_modules/@shopify/polaris/build/esm/components/shared.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "DATA_ATTRIBUTE", function() { return _components_shared_js__WEBPACK_IMPORTED_MODULE_89__["DATA_ATTRIBUTE"]; });
+/* harmony import */ var _components_Spinner_Spinner_js__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ./components/Spinner/Spinner.js */ "./node_modules/@shopify/polaris/build/esm/components/Spinner/Spinner.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Spinner", function() { return _components_Spinner_Spinner_js__WEBPACK_IMPORTED_MODULE_91__["Spinner"]; });
 
-/* harmony import */ var _components_Sheet_Sheet_js__WEBPACK_IMPORTED_MODULE_90__ = __webpack_require__(/*! ./components/Sheet/Sheet.js */ "./node_modules/@shopify/polaris/build/esm/components/Sheet/Sheet.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sheet", function() { return _components_Sheet_Sheet_js__WEBPACK_IMPORTED_MODULE_90__["Sheet"]; });
+/* harmony import */ var _components_Stack_Stack_js__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ./components/Stack/Stack.js */ "./node_modules/@shopify/polaris/build/esm/components/Stack/Stack.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Stack", function() { return _components_Stack_Stack_js__WEBPACK_IMPORTED_MODULE_92__["Stack"]; });
 
-/* harmony import */ var _components_SkeletonBodyText_SkeletonBodyText_js__WEBPACK_IMPORTED_MODULE_91__ = __webpack_require__(/*! ./components/SkeletonBodyText/SkeletonBodyText.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonBodyText/SkeletonBodyText.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonBodyText", function() { return _components_SkeletonBodyText_SkeletonBodyText_js__WEBPACK_IMPORTED_MODULE_91__["SkeletonBodyText"]; });
+/* harmony import */ var _components_Sticky_Sticky_js__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ./components/Sticky/Sticky.js */ "./node_modules/@shopify/polaris/build/esm/components/Sticky/Sticky.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sticky", function() { return _components_Sticky_Sticky_js__WEBPACK_IMPORTED_MODULE_93__["Sticky"]; });
 
-/* harmony import */ var _components_SkeletonDisplayText_SkeletonDisplayText_js__WEBPACK_IMPORTED_MODULE_92__ = __webpack_require__(/*! ./components/SkeletonDisplayText/SkeletonDisplayText.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonDisplayText/SkeletonDisplayText.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonDisplayText", function() { return _components_SkeletonDisplayText_SkeletonDisplayText_js__WEBPACK_IMPORTED_MODULE_92__["SkeletonDisplayText"]; });
+/* harmony import */ var _components_Subheading_Subheading_js__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ./components/Subheading/Subheading.js */ "./node_modules/@shopify/polaris/build/esm/components/Subheading/Subheading.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Subheading", function() { return _components_Subheading_Subheading_js__WEBPACK_IMPORTED_MODULE_94__["Subheading"]; });
 
-/* harmony import */ var _components_SkeletonPage_SkeletonPage_js__WEBPACK_IMPORTED_MODULE_93__ = __webpack_require__(/*! ./components/SkeletonPage/SkeletonPage.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonPage/SkeletonPage.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonPage", function() { return _components_SkeletonPage_SkeletonPage_js__WEBPACK_IMPORTED_MODULE_93__["SkeletonPage"]; });
+/* harmony import */ var _components_Tabs_Tabs_js__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ./components/Tabs/Tabs.js */ "./node_modules/@shopify/polaris/build/esm/components/Tabs/Tabs.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return _components_Tabs_Tabs_js__WEBPACK_IMPORTED_MODULE_95__["Tabs"]; });
 
-/* harmony import */ var _components_SkeletonThumbnail_SkeletonThumbnail_js__WEBPACK_IMPORTED_MODULE_94__ = __webpack_require__(/*! ./components/SkeletonThumbnail/SkeletonThumbnail.js */ "./node_modules/@shopify/polaris/build/esm/components/SkeletonThumbnail/SkeletonThumbnail.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "SkeletonThumbnail", function() { return _components_SkeletonThumbnail_SkeletonThumbnail_js__WEBPACK_IMPORTED_MODULE_94__["SkeletonThumbnail"]; });
+/* harmony import */ var _components_Tag_Tag_js__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ./components/Tag/Tag.js */ "./node_modules/@shopify/polaris/build/esm/components/Tag/Tag.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Tag", function() { return _components_Tag_Tag_js__WEBPACK_IMPORTED_MODULE_96__["Tag"]; });
 
-/* harmony import */ var _components_Spinner_Spinner_js__WEBPACK_IMPORTED_MODULE_95__ = __webpack_require__(/*! ./components/Spinner/Spinner.js */ "./node_modules/@shopify/polaris/build/esm/components/Spinner/Spinner.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Spinner", function() { return _components_Spinner_Spinner_js__WEBPACK_IMPORTED_MODULE_95__["Spinner"]; });
+/* harmony import */ var _components_TextContainer_TextContainer_js__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ./components/TextContainer/TextContainer.js */ "./node_modules/@shopify/polaris/build/esm/components/TextContainer/TextContainer.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextContainer", function() { return _components_TextContainer_TextContainer_js__WEBPACK_IMPORTED_MODULE_97__["TextContainer"]; });
 
-/* harmony import */ var _components_Stack_Stack_js__WEBPACK_IMPORTED_MODULE_96__ = __webpack_require__(/*! ./components/Stack/Stack.js */ "./node_modules/@shopify/polaris/build/esm/components/Stack/Stack.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Stack", function() { return _components_Stack_Stack_js__WEBPACK_IMPORTED_MODULE_96__["Stack"]; });
+/* harmony import */ var _components_TextField_TextField_js__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ./components/TextField/TextField.js */ "./node_modules/@shopify/polaris/build/esm/components/TextField/TextField.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextField", function() { return _components_TextField_TextField_js__WEBPACK_IMPORTED_MODULE_98__["TextField"]; });
 
-/* harmony import */ var _components_Sticky_Sticky_js__WEBPACK_IMPORTED_MODULE_97__ = __webpack_require__(/*! ./components/Sticky/Sticky.js */ "./node_modules/@shopify/polaris/build/esm/components/Sticky/Sticky.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Sticky", function() { return _components_Sticky_Sticky_js__WEBPACK_IMPORTED_MODULE_97__["Sticky"]; });
+/* harmony import */ var _components_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ./components/TextStyle/TextStyle.js */ "./node_modules/@shopify/polaris/build/esm/components/TextStyle/TextStyle.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextStyle", function() { return _components_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_99__["TextStyle"]; });
 
-/* harmony import */ var _components_Subheading_Subheading_js__WEBPACK_IMPORTED_MODULE_98__ = __webpack_require__(/*! ./components/Subheading/Subheading.js */ "./node_modules/@shopify/polaris/build/esm/components/Subheading/Subheading.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Subheading", function() { return _components_Subheading_Subheading_js__WEBPACK_IMPORTED_MODULE_98__["Subheading"]; });
+/* harmony import */ var _components_ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ./components/ThemeProvider/ThemeProvider.js */ "./node_modules/@shopify/polaris/build/esm/components/ThemeProvider/ThemeProvider.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeProvider", function() { return _components_ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_100__["ThemeProvider"]; });
 
-/* harmony import */ var _components_Tabs_Tabs_js__WEBPACK_IMPORTED_MODULE_99__ = __webpack_require__(/*! ./components/Tabs/Tabs.js */ "./node_modules/@shopify/polaris/build/esm/components/Tabs/Tabs.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Tabs", function() { return _components_Tabs_Tabs_js__WEBPACK_IMPORTED_MODULE_99__["Tabs"]; });
+/* harmony import */ var _components_Thumbnail_Thumbnail_js__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ./components/Thumbnail/Thumbnail.js */ "./node_modules/@shopify/polaris/build/esm/components/Thumbnail/Thumbnail.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Thumbnail", function() { return _components_Thumbnail_Thumbnail_js__WEBPACK_IMPORTED_MODULE_101__["Thumbnail"]; });
 
-/* harmony import */ var _components_Tag_Tag_js__WEBPACK_IMPORTED_MODULE_100__ = __webpack_require__(/*! ./components/Tag/Tag.js */ "./node_modules/@shopify/polaris/build/esm/components/Tag/Tag.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Tag", function() { return _components_Tag_Tag_js__WEBPACK_IMPORTED_MODULE_100__["Tag"]; });
+/* harmony import */ var _components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ./components/Toast/Toast.js */ "./node_modules/@shopify/polaris/build/esm/components/Toast/Toast.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Toast", function() { return _components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_102__["Toast"]; });
 
-/* harmony import */ var _components_TextContainer_TextContainer_js__WEBPACK_IMPORTED_MODULE_101__ = __webpack_require__(/*! ./components/TextContainer/TextContainer.js */ "./node_modules/@shopify/polaris/build/esm/components/TextContainer/TextContainer.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextContainer", function() { return _components_TextContainer_TextContainer_js__WEBPACK_IMPORTED_MODULE_101__["TextContainer"]; });
+/* harmony import */ var _components_Tooltip_Tooltip_js__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ./components/Tooltip/Tooltip.js */ "./node_modules/@shopify/polaris/build/esm/components/Tooltip/Tooltip.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return _components_Tooltip_Tooltip_js__WEBPACK_IMPORTED_MODULE_103__["Tooltip"]; });
 
-/* harmony import */ var _components_TextField_TextField_js__WEBPACK_IMPORTED_MODULE_102__ = __webpack_require__(/*! ./components/TextField/TextField.js */ "./node_modules/@shopify/polaris/build/esm/components/TextField/TextField.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextField", function() { return _components_TextField_TextField_js__WEBPACK_IMPORTED_MODULE_102__["TextField"]; });
+/* harmony import */ var _components_TopBar_TopBar_js__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ./components/TopBar/TopBar.js */ "./node_modules/@shopify/polaris/build/esm/components/TopBar/TopBar.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TopBar", function() { return _components_TopBar_TopBar_js__WEBPACK_IMPORTED_MODULE_104__["TopBar"]; });
 
-/* harmony import */ var _components_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_103__ = __webpack_require__(/*! ./components/TextStyle/TextStyle.js */ "./node_modules/@shopify/polaris/build/esm/components/TextStyle/TextStyle.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TextStyle", function() { return _components_TextStyle_TextStyle_js__WEBPACK_IMPORTED_MODULE_103__["TextStyle"]; });
+/* harmony import */ var _components_TrapFocus_TrapFocus_js__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ./components/TrapFocus/TrapFocus.js */ "./node_modules/@shopify/polaris/build/esm/components/TrapFocus/TrapFocus.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TrapFocus", function() { return _components_TrapFocus_TrapFocus_js__WEBPACK_IMPORTED_MODULE_105__["TrapFocus"]; });
 
-/* harmony import */ var _components_ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_104__ = __webpack_require__(/*! ./components/ThemeProvider/ThemeProvider.js */ "./node_modules/@shopify/polaris/build/esm/components/ThemeProvider/ThemeProvider.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "ThemeProvider", function() { return _components_ThemeProvider_ThemeProvider_js__WEBPACK_IMPORTED_MODULE_104__["ThemeProvider"]; });
+/* harmony import */ var _components_Truncate_Truncate_js__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ./components/Truncate/Truncate.js */ "./node_modules/@shopify/polaris/build/esm/components/Truncate/Truncate.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Truncate", function() { return _components_Truncate_Truncate_js__WEBPACK_IMPORTED_MODULE_106__["Truncate"]; });
 
-/* harmony import */ var _components_Thumbnail_Thumbnail_js__WEBPACK_IMPORTED_MODULE_105__ = __webpack_require__(/*! ./components/Thumbnail/Thumbnail.js */ "./node_modules/@shopify/polaris/build/esm/components/Thumbnail/Thumbnail.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Thumbnail", function() { return _components_Thumbnail_Thumbnail_js__WEBPACK_IMPORTED_MODULE_105__["Thumbnail"]; });
+/* harmony import */ var _components_UnstyledButton_UnstyledButton_js__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ./components/UnstyledButton/UnstyledButton.js */ "./node_modules/@shopify/polaris/build/esm/components/UnstyledButton/UnstyledButton.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnstyledButton", function() { return _components_UnstyledButton_UnstyledButton_js__WEBPACK_IMPORTED_MODULE_107__["UnstyledButton"]; });
 
-/* harmony import */ var _components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_106__ = __webpack_require__(/*! ./components/Toast/Toast.js */ "./node_modules/@shopify/polaris/build/esm/components/Toast/Toast.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Toast", function() { return _components_Toast_Toast_js__WEBPACK_IMPORTED_MODULE_106__["Toast"]; });
+/* harmony import */ var _components_UnstyledButton_utils_js__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ./components/UnstyledButton/utils.js */ "./node_modules/@shopify/polaris/build/esm/components/UnstyledButton/utils.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unstyledButtonFrom", function() { return _components_UnstyledButton_utils_js__WEBPACK_IMPORTED_MODULE_108__["unstyledButtonFrom"]; });
 
-/* harmony import */ var _components_Tooltip_Tooltip_js__WEBPACK_IMPORTED_MODULE_107__ = __webpack_require__(/*! ./components/Tooltip/Tooltip.js */ "./node_modules/@shopify/polaris/build/esm/components/Tooltip/Tooltip.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Tooltip", function() { return _components_Tooltip_Tooltip_js__WEBPACK_IMPORTED_MODULE_107__["Tooltip"]; });
+/* harmony import */ var _components_UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ./components/UnstyledLink/UnstyledLink.js */ "./node_modules/@shopify/polaris/build/esm/components/UnstyledLink/UnstyledLink.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnstyledLink", function() { return _components_UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_109__["UnstyledLink"]; });
 
-/* harmony import */ var _components_TopBar_TopBar_js__WEBPACK_IMPORTED_MODULE_108__ = __webpack_require__(/*! ./components/TopBar/TopBar.js */ "./node_modules/@shopify/polaris/build/esm/components/TopBar/TopBar.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TopBar", function() { return _components_TopBar_TopBar_js__WEBPACK_IMPORTED_MODULE_108__["TopBar"]; });
+/* harmony import */ var _components_VideoThumbnail_VideoThumbnail_js__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ./components/VideoThumbnail/VideoThumbnail.js */ "./node_modules/@shopify/polaris/build/esm/components/VideoThumbnail/VideoThumbnail.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VideoThumbnail", function() { return _components_VideoThumbnail_VideoThumbnail_js__WEBPACK_IMPORTED_MODULE_110__["VideoThumbnail"]; });
 
-/* harmony import */ var _components_TrapFocus_TrapFocus_js__WEBPACK_IMPORTED_MODULE_109__ = __webpack_require__(/*! ./components/TrapFocus/TrapFocus.js */ "./node_modules/@shopify/polaris/build/esm/components/TrapFocus/TrapFocus.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "TrapFocus", function() { return _components_TrapFocus_TrapFocus_js__WEBPACK_IMPORTED_MODULE_109__["TrapFocus"]; });
+/* harmony import */ var _components_VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ./components/VisuallyHidden/VisuallyHidden.js */ "./node_modules/@shopify/polaris/build/esm/components/VisuallyHidden/VisuallyHidden.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VisuallyHidden", function() { return _components_VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_111__["VisuallyHidden"]; });
 
-/* harmony import */ var _components_Truncate_Truncate_js__WEBPACK_IMPORTED_MODULE_110__ = __webpack_require__(/*! ./components/Truncate/Truncate.js */ "./node_modules/@shopify/polaris/build/esm/components/Truncate/Truncate.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "Truncate", function() { return _components_Truncate_Truncate_js__WEBPACK_IMPORTED_MODULE_110__["Truncate"]; });
+/* harmony import */ var _utilities_scroll_lock_manager_context_js__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ./utilities/scroll-lock-manager/context.js */ "./node_modules/@shopify/polaris/build/esm/utilities/scroll-lock-manager/context.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "_SECRET_INTERNAL_SCROLL_LOCK_MANAGER_CONTEXT", function() { return _utilities_scroll_lock_manager_context_js__WEBPACK_IMPORTED_MODULE_112__["ScrollLockManagerContext"]; });
 
-/* harmony import */ var _components_UnstyledButton_UnstyledButton_js__WEBPACK_IMPORTED_MODULE_111__ = __webpack_require__(/*! ./components/UnstyledButton/UnstyledButton.js */ "./node_modules/@shopify/polaris/build/esm/components/UnstyledButton/UnstyledButton.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnstyledButton", function() { return _components_UnstyledButton_UnstyledButton_js__WEBPACK_IMPORTED_MODULE_111__["UnstyledButton"]; });
+/* harmony import */ var _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ./utilities/index-table/hooks.js */ "./node_modules/@shopify/polaris/build/esm/utilities/index-table/hooks.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexTableContainerScroll", function() { return _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_113__["useContainerScroll"]; });
 
-/* harmony import */ var _components_UnstyledButton_utils_js__WEBPACK_IMPORTED_MODULE_112__ = __webpack_require__(/*! ./components/UnstyledButton/utils.js */ "./node_modules/@shopify/polaris/build/esm/components/UnstyledButton/utils.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "unstyledButtonFrom", function() { return _components_UnstyledButton_utils_js__WEBPACK_IMPORTED_MODULE_112__["unstyledButtonFrom"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexTableRowHovered", function() { return _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_113__["useRowHovered"]; });
 
-/* harmony import */ var _components_UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_113__ = __webpack_require__(/*! ./components/UnstyledLink/UnstyledLink.js */ "./node_modules/@shopify/polaris/build/esm/components/UnstyledLink/UnstyledLink.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UnstyledLink", function() { return _components_UnstyledLink_UnstyledLink_js__WEBPACK_IMPORTED_MODULE_113__["UnstyledLink"]; });
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "useIndexTableRowSelected", function() { return _utilities_index_table_hooks_js__WEBPACK_IMPORTED_MODULE_113__["useRowSelected"]; });
 
-/* harmony import */ var _components_VideoThumbnail_VideoThumbnail_js__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ./components/VideoThumbnail/VideoThumbnail.js */ "./node_modules/@shopify/polaris/build/esm/components/VideoThumbnail/VideoThumbnail.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VideoThumbnail", function() { return _components_VideoThumbnail_VideoThumbnail_js__WEBPACK_IMPORTED_MODULE_114__["VideoThumbnail"]; });
+/* harmony import */ var _utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_114__ = __webpack_require__(/*! ./utilities/theme/utils.js */ "./node_modules/@shopify/polaris/build/esm/utilities/theme/utils.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UNSTABLE_toCssCustomPropertySyntax", function() { return _utilities_theme_utils_js__WEBPACK_IMPORTED_MODULE_114__["toCssCustomPropertySyntax"]; });
 
-/* harmony import */ var _components_VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ./components/VisuallyHidden/VisuallyHidden.js */ "./node_modules/@shopify/polaris/build/esm/components/VisuallyHidden/VisuallyHidden.js");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "VisuallyHidden", function() { return _components_VisuallyHidden_VisuallyHidden_js__WEBPACK_IMPORTED_MODULE_115__["VisuallyHidden"]; });
+/* harmony import */ var _utilities_theme_tokens_js__WEBPACK_IMPORTED_MODULE_115__ = __webpack_require__(/*! ./utilities/theme/tokens.js */ "./node_modules/@shopify/polaris/build/esm/utilities/theme/tokens.js");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "UNSTABLE_Tokens", function() { return _utilities_theme_tokens_js__WEBPACK_IMPORTED_MODULE_115__["Tokens"]; });
 
 
 
@@ -39922,6 +40061,9 @@ __webpack_require__.r(__webpack_exports__);
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Key", function() { return Key; });
+// eslint-disable-next-line @shopify/strict-component-boundaries
+// eslint-disable-next-line @shopify/strict-component-boundaries
+// eslint-disable-next-line @shopify/strict-component-boundaries
 let Key;
 
 (function (Key) {
@@ -42705,9 +42847,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Tokens", function() { return Tokens; });
 const Tokens = {
   // Border Radiuses
-  borderRadiusSlim: rem('2px'),
-  borderRadiusBase: rem('4px'),
-  borderRadiusWide: rem('8px'),
+  borderRadiusSlim: '0.2rem',
+  borderRadiusBase: '0.4rem',
+  borderRadiusWide: '0.8rem',
   borderRadiusFull: '50%',
   // Shadows
   cardShadow: '0px 0px 5px var(--p-shadow-from-ambient-light), 0px 1px 2px var(--p-shadow-from-direct-light)',
@@ -42726,38 +42868,33 @@ const Tokens = {
   overrideLoadingZIndex: '514',
   buttonFontWeight: '500',
   nonNullContent: "''",
-  choiceSize: rem('20px'),
-  iconSize: rem('10px'),
-  choiceMargin: rem('1px'),
-  controlBorderWidth: rem('2px'),
+  choiceSize: '2rem',
+  iconSize: '1rem',
+  choiceMargin: '0.1rem',
+  controlBorderWidth: '0.2rem',
   bannerBorderDefault: buildBannerBorder('--p-border-neutral-subdued'),
   bannerBorderSuccess: buildBannerBorder('--p-border-success-subdued'),
   bannerBorderHighlight: buildBannerBorder('--p-border-highlight-subdued'),
   bannerBorderWarning: buildBannerBorder('--p-border-warning-subdued'),
   bannerBorderCritical: buildBannerBorder('--p-border-critical-subdued'),
   badgeMixBlendMode: 'luminosity',
-  thinBorderSubdued: `${rem('1px')} solid var(--p-border-subdued)`,
-  textFieldSpinnerOffset: rem('2px'),
-  textFieldFocusRingOffset: rem('-4px'),
-  textFieldFocusRingBorderRadius: rem('7px'),
-  buttonGroupItemSpacing: rem('-1px'),
+  thinBorderSubdued: '0.1rem solid var(--p-border-subdued)',
+  textFieldSpinnerOffset: '0.2rem',
+  textFieldFocusRingOffset: '-0.4rem',
+  textFieldFocusRingBorderRadius: '0.7rem',
+  buttonGroupItemSpacing: '-0.1rem',
   duration100: '100ms',
   duration150: '150ms',
   easeIn: 'cubic-bezier(0.5, 0.1, 1, 1)',
   ease: 'cubic-bezier(0.4, 0.22, 0.28, 1)',
-  rangeSliderThumbSizeBase: rem('16px'),
-  rangeSliderThumbSizeActive: rem('24px'),
+  rangeSliderThumbSizeBase: '1.6rem',
+  rangeSliderThumbSizeActive: '2.4rem',
   rangeSliderThumbScale: '1.5',
   badgeFontWeight: '400'
 };
 
-function rem(px) {
-  const baseFontSize = 10;
-  return `${parseInt(px, 10) / baseFontSize}rem`;
-}
-
 function buildBannerBorder(cssVar) {
-  return `inset 0 ${rem('1px')} 0 0 var(${cssVar}), inset 0 0 0 ${rem('1px')} var(${cssVar})`;
+  return `inset 0 0.1rem 0 0 var(${cssVar}), inset 0 0 0 0.1rem var(${cssVar})`;
 }
 
 
@@ -82437,9 +82574,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _axios__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../axios */ "./resources/js/axios.js");
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) { symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); } keys.push.apply(keys, symbols); } return keys; }
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); enumerableOnly && (symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; })), keys.push.apply(keys, symbols); } return keys; }
 
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = null != arguments[i] ? arguments[i] : {}; i % 2 ? ownKeys(Object(source), !0).forEach(function (key) { _defineProperty(target, key, source[key]); }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)) : ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } return target; }
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 

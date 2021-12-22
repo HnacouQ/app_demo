@@ -12,3 +12,102 @@ a.QA_btn{
     cursor: pointer;
 
 }
+
+.QA_WhistList_btn{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background: #9f25cf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.QA_WhistList_btn:hover{
+    opacity:0.8;
+}
+
+span.number{
+    position: absolute;
+    top: -12px;
+    right: 0;
+    background: red;
+    padding: 4px;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 11px;
+}
+
+.QA_WhistList_modal{
+    position: fixed; 
+    width: 800px;
+    height: 400px;
+    background: #fff;
+    overflow: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.4s all;
+}
+
+.QA_WhistList_modal.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.QA_WhistList_modal .main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.QA_WhistList_modal .main .QA-wl-product{
+    flex: 0 0 33%;
+    text-align: center;
+}
+
+
+.QA_WhistList_modal img{
+    height:200px;
+}
+
+.QA_WhistList_overlay{
+    position: fixed; 
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background:rgba(0,0,0,0.8);
+    z-index: 998;
+    transition: 0.4s all;
+    opacity: 0;
+    visibility: hidden;
+    display: block !important;
+}
+
+.QA_WhistList_overlay.active{
+    opacity: 1;
+    visibility: visible;
+}
+
+.QA_WhistList_modal .header{
+    display: flex;
+    justify-content:space-between;
+    height:70px;
+    border-bottom: 1px solid #ccc;
+    padding: 0 25px;
+    margin-bottom: 15px;
+}
+
