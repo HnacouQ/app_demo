@@ -56,6 +56,109 @@
 }
 
 .Polaris-Frame__Content{
-    background-image: url(https://wallpaperaccess.com/full/21534.jpg);
+    background: #ccc;
     background-size: cover;
 }
+
+.Settings{
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ccc;
+    display: flex;
+}
+
+.Settings .Settings__main{
+    flex: 0 0 30%;
+    height: 100%;
+}
+
+.Settings .Settings__preview{
+    flex: 1;
+}
+
+.Settings__main-header,
+.Settings__preview-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    
+    
+}
+
+.Settings__main-header > span,
+.Settings__preview-header > span{
+   height:40px;
+   display: flex;
+    align-items: center;
+}
+
+.Settings__preview-icon{
+    display: flex;
+    align-items: center;
+}
+
+.Settings__preview-icon ul{
+    display: flex;
+    align-items: center;
+    height:100%;
+    padding:0;
+}
+
+.Settings__preview-icon ul li{
+    list-style: none;
+    height:100%;
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.Settings__preview-icon ul li.active{
+    border-bottom: 3px solid red;
+}
+
+
+.Settings__preview-icon span.Polaris-Icon{
+    height:auto !important;   
+    cursor: pointer; 
+}
+
+.Settings__main{
+    border-right: 1px solid #ccc;
+}
+
+.Settings__main-content{
+    height:100%;
+    display: flex;
+}
+
+.Settings__preview-content .Settings__preview-col-5{
+    width: 50%;
+}
+
+.Settings__preview-content .Settings__preview-col-5 .Polaris-SkeletonThumbnail.Polaris-SkeletonThumbnail--sizeLarge{
+    width: 100%;
+    height: 250px;
+}
+
+.Settings__preview-content .Settings__preview-col-5:nth-child(2){
+    margin-left: 10px;
+}
+
+.Settings__preview-content .Settings__preview-col-5 .Polaris-SkeletonDisplayText__DisplayText.Polaris-SkeletonDisplayText--sizeMedium{
+    margin-bottom: 15px;
+}
+
+.Settings__preview-content .Settings__preview-col-5 .Polaris-SkeletonBodyText__SkeletonBodyTextContainer{
+    margin-bottom: 15px;
+}
+
+.Settings__preview-content .Settings__preview-col-5 button{
+    margin-bottom: 15px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+

@@ -43,9 +43,8 @@ function Top(props) {
     },
   ];
 
-  console.log(selected);
   return (
-    <Page title="Example app">
+    <Page title="WhishList App of HnacouQ">
       <Card>
         <Tabs
           tabs={tabs}

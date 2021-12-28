@@ -1,8 +1,7 @@
 
 const QA_App = (()=>{
-    const btnWhishList = document.querySelector('.QA_btn');          
-    const productID = btnWhishList.dataset.id;
-    const customerID = btnWhishList.dataset.id ?? 'anonymous';
+    
+    
     const createStorage = (key) => {
       const store = JSON.parse(localStorage.getItem(key)) ?? {}
       const save = () => {
@@ -24,6 +23,9 @@ const QA_App = (()=>{
     }
     return {
       addWhistList(){
+        const btnWhishList = document.querySelector('.QA_btn');   
+        const productID = btnWhishList.dataset.id ?? null;
+        const customerID = btnWhishList.dataset.customer == "" ? 'anonymous' : btnWhishList.dataset.customer;
         btnWhishList.classList.add('active');
         btnWhishList.innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
         const data = { shop: Shopify.shop, id: productID, customer:customerID };
@@ -55,7 +57,9 @@ const QA_App = (()=>{
         });
       },
       removeWhistList(){
-        let btnWhishList = document.querySelector('.QA_btn');
+        const btnWhishList = document.querySelector('.QA_btn');   
+        const productID = btnWhishList.dataset.id ?? null;
+        const customerID = btnWhishList.dataset.customer == "" ? 'anonymous' : btnWhishList.dataset.customer;
         btnWhishList.classList.remove('active');
         btnWhishList.innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
         const data = { shop: Shopify.shop, id: productID, customer:customerID };
@@ -87,13 +91,20 @@ const QA_App = (()=>{
         });
       },
       checkWhistList(){
+
+        const btnWhishList = document.querySelector('.QA_btn');   
+
         let WhishListStorage = createStorage('WhishListStorage');
         let WL = WhishListStorage.get('products') ?? [];
-        let NWL = WL.filter(item => item.id == parseInt(btnWhishList.dataset.id));
-        if(NWL.length){
-          btnWhishList.classList.add('active');
-          btnWhishList.innerHTML = 'Remove to whishlist';
+        if(btnWhishList != null){
+          let NWL = WL.filter(item => item.id == parseInt(btnWhishList.dataset.id));
+          if(NWL.length){
+            btnWhishList.classList.add('active');
+            btnWhishList.innerHTML = 'Remove to whishlist';
+          }
         }
+        
+        
       },
       ModalWhistlist(){
         let WhishListStorage = createStorage('WhishListStorage');
@@ -153,11 +164,13 @@ const QA_App = (()=>{
       },
       initApp(){
         console.log('init.....');
+        const btnWhishList = document.querySelector('.QA_btn');  
         QA_App.createBtnListWhishList();
         QA_App.checkWhistList();
         QA_App.ModalWhistlist();
         QA_App.handleToggleWhishList();
-        
+         
+    
         if(btnWhishList){
           btnWhishList.addEventListener('click',function(){
             if(!this.classList.contains('active')){
