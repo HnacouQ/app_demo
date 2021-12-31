@@ -3,18 +3,10 @@ import reactCSS from 'reactcss'
 import { SketchPicker } from 'react-color'
 import { useState } from 'react';
 
-function ColorPker(props) {
+function ColorPker({color,handleChangeColor,title,index}) {
 
-    const [color,setColor] = useState(
-        
-           {
-            r: '241',
-            g: '112',
-            b: '19',
-            a: '1',
-            },
-    )
     const [displayColorPicker,SetDisplayColorPicker] = useState(false)
+    
 
     const handleClick = () => {
         SetDisplayColorPicker(!displayColorPicker);
@@ -25,27 +17,25 @@ function ColorPker(props) {
         SetDisplayColorPicker(false);
         
     };
-    
-    const handleChange = (color) => {
-        
-        setColor(color.rgb);
-    };
 
     const styles = reactCSS({
         'default': {
           color: {
             width: '36px',
-            height: '14px',
+            height: '25px',
+            border:'1px solid #ccc',
             borderRadius: '2px',
             background: `rgba(${ color.r }, ${ color.g }, ${ color.b }, ${ color.a })`,
+            marginRight:'10px'
           },
           swatch: {
-            padding: '5px',
+            padding: '10px',
             background: '#fff',
             borderRadius: '1px',
             boxShadow: '0 0 0 1px rgba(0,0,0,.1)',
-            display: 'inline-block',
+            display: 'flex',
             cursor: 'pointer',
+            alignItems:'center',
           },
           popover: {
             position: 'absolute',
@@ -60,16 +50,15 @@ function ColorPker(props) {
           },
         },
       });
-
-      console.log(color);
     return (
         <div>
             <div style={ styles.swatch } onClick={handleClick}>
-            <div style={ styles.color } />
+                <div style={ styles.color } />
+                <div><span>{title}</span></div>
             </div>
             {displayColorPicker ? <div style={ styles.popover }>
-            <div style={ styles.cover } onClick={ handleClose }/>
-            <SketchPicker color={color } onChange={ handleChange }/>
+                <div style={ styles.cover } onClick={ handleClose }/>
+                <SketchPicker color={color } onChange={ (color) => {handleChangeColor(color,index);} } />
             </div> : null }
 
       </div>
