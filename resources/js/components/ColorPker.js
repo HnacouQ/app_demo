@@ -32,7 +32,6 @@ function ColorPker({color,handleChangeColor,title,index}) {
             padding: '10px',
             background: '#fff',
             borderRadius: '1px',
-            boxShadow: '0 0 0 1px rgba(0,0,0,.1)',
             display: 'flex',
             cursor: 'pointer',
             alignItems:'center',

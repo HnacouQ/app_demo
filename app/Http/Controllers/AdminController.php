@@ -206,11 +206,12 @@ class AdminController extends Controller
 
         
 
-        // $webhooks = [
-        //     'products/update'   => secure_url('hooks/products/update')
-        // ];
+        $webhooks = [
+            'products/update'   => secure_url('hooks/products/update')
+        ];
         
-        // $this->registerWebhooks($shopify,$webhooks);
+        $this->registerWebhooks($shopify,$webhooks);
+        
 
         $hooks = $shopify->Webhook()->get();
 
