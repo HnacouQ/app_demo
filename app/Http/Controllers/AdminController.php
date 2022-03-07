@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use Session;
 use App\Shop;
 use App\WhishList;
+use App\Category;
+use App\Product;
 use File;
 use Log;
 
@@ -216,6 +218,25 @@ class AdminController extends Controller
         $hooks = $shopify->Webhook()->get();
 
         dd($hooks);
+    }
+
+    public function test2(){
+
+      // $test = Category::where('id',1)->get();
+
+      $test = Product::where('id',3)->get();
+      $arr = [];
+
+      // foreach($test as $t){
+      //   foreach($t->product as $t2){
+      //     array_push($arr,$t2->name);
+      //   }
+        
+      // }
+
+      return view('admin.test',compact('test'));
+
+      
     }
 
     public function registerWebhooks($shopify, $webhooks){

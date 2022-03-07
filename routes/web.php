@@ -28,5 +28,6 @@ Route::post('/uninstall','AdminController@uninstall');
 Route::post('/add-whishlist','AdminController@addWhishList');
 Route::post('/remove-whishlist','AdminController@removeWhishList');
 Route::get('/test','AdminController@test');
+Route::get('/test2','AdminController@test2');
 Route::any('hooks/products/update','HookController@productUpdates');
 Route::any('hooks/cart/update','HookController@cartUpdate');
